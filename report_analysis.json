@@ -1,0 +1,53 @@
+{
+  "document": {
+    "name": "Vérification générale périodique des équipements mécaniques",
+    "number": 1002437790011,
+    "date": "2024-03-07",
+    "pages_number": 11
+  },
+  "intervention_control": {
+    "name": "Vérification générale périodique",
+    "start_date": "2024-03-07",
+    "end_date": "2024-03-07",
+    "inspector_company": "Apave",
+    "inspector_agency": "Agence de Compiègne",
+    "inspector_name": "Mr COVAREL STEPHANE",
+    "customer_company": "BASF FRANCE SAS",
+    "customer_adress": "ZI DE BREUIL LE SEC, RUE ANDRE POMMERY, 60840 BREUIL LE SEC",
+    "customer_factory": "BASF FRANCE SAS",
+    "elements_number": 3,
+    "tasks_number": 3
+  },
+  "elements": [
+    {
+      "number": 1,
+      "page": 2,
+      "inspector": "Mr COVAREL STEPHANE",
+      "name": "Ascenseur",
+      "n_internal": 113745,
+      "factory": "JOUGLET/OTIS",
+      "building": "Labos - Bâtiment D 341 - HZ568",
+      "regulation": null
+    },
+    {
+      "number": 2,
+      "page": 2,
+      "inspector": "Mr COVAREL STEPHANE",
+      "name": "Ascenseur",
+      "n_internal": 11138,
+      "factory": "JOUGLET",
+      "building": "Labos D341 - HZ569",
+      "regulation": null
+    },
+    {
+      "number": 3,
+      "page": 2,
+      "inspector": "Mr COVAREL STEPHANE",
+      "name": "Monte charge",
+      "n_internal": null,
+      "factory": "ALSACE MANUTENTION",
+      "building": "Labos - Bâtiment B 215 - HZ581",
+      "regulation": null
+    }
+  ]
+}
