@@ -1,7 +1,7 @@
 {
   "document": {
     "name": "Vérification générale périodique des équipements mécaniques",
-    "number": 1002437790011,
+    "number": 100243779,
     "date": "2024-03-07",
     "pages_number": 11
   },
@@ -27,7 +27,8 @@
       "n_internal": 113745,
       "factory": "JOUGLET/OTIS",
       "building": "Labos - Bâtiment D 341 - HZ568",
-      "regulation": null
+      "regulation": "ascenseurs_et_monte_charges",
+      "element_type": "ascenseur"
     },
     {
       "number": 2,
@@ -37,7 +38,8 @@
       "n_internal": 11138,
       "factory": "JOUGLET",
       "building": "Labos D341 - HZ569",
-      "regulation": null
+      "regulation": "ascenseurs_et_monte_charges",
+      "element_type": "ascenseur"
     },
     {
       "number": 3,
@@ -47,7 +49,8 @@
       "n_internal": null,
       "factory": "ALSACE MANUTENTION",
       "building": "Labos - Bâtiment B 215 - HZ581",
-      "regulation": null
+      "regulation": "ascenseurs_et_monte_charges",
+      "element_type": "monte_charge"
     }
   ]
 }

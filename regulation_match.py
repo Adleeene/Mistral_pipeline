@@ -2,7 +2,7 @@ import requests
 import json
 from prompt.regulation_prompt import make_regulation_prompt
 
-def query_ollama(prompt, model="llama3.2:latest"):
+def query_ollama(prompt, model="mistral:latest"):
     """
     Envoie une requête au modèle Ollama et retourne sa réponse
     """
