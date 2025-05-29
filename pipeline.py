@@ -1,7 +1,7 @@
 import json
 from Mistral_OCR import PDFProcessor
-from enrich_report_with_regulations import enrich_report_with_regulations
-from enrich_report_with_type_element import enrich_report_with_type_element
+from helper_function.enrich_report_with_regulations import enrich_report_with_regulations
+from helper_function.enrich_report_with_type_element import enrich_report_with_type_element
 
 def main():
     """Main execution function."""
@@ -16,9 +16,16 @@ def main():
         # Process PDF with OCR
         ocr_response = processor.process_ocr(pdf_path)
         print("✓ OCR processing completed")
+        # print(ocr_response)
         
+
         # Analyze report
         report_data = processor.analyze_report(ocr_response)
+
+        # Afficher le résultat de manière formatée
+        print("\nRésultat formaté :")
+        print(json.dumps(report_data, indent=2, ensure_ascii=False, sort_keys=False))
+    
 
         # Enrich report with regulations
         report_data = enrich_report_with_regulations(report_data)
@@ -26,11 +33,6 @@ def main():
         # Enrich report with element type
         report_data = enrich_report_with_type_element(report_data)
 
-
-        # Display results
-        print(f"\n✓ Report analysis results:")
-        print(json.dumps(report_data, indent=2, ensure_ascii=False))
-        
         # Save to file
         output_file = "report_analysis.json"
         with open(output_file, 'w', encoding='utf-8') as f:

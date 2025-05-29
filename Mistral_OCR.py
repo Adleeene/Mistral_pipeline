@@ -4,6 +4,8 @@ import json
 from mistralai import Mistral
 from typing import Optional, Dict, Any
 from classes.pydantic_model import Report
+from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_general_prompt_no_attributes_french
+from ollama import chat
 
 
 class PDFProcessor:
@@ -60,62 +62,87 @@ class PDFProcessor:
         full_text = ""
         for i, page in enumerate(ocr_response.pages):
             full_text += f"Page {i+1}:\n{page.markdown}\n\n"
+
+        print(full_text)
         
         # Limit text size
         max_chars = 15000
+        print(f"Full text length: {len(full_text)} characters") 
         if len(full_text) > max_chars:
             full_text = full_text[:max_chars]
             print(f"Document truncated to {max_chars} characters")
+
+        #--------------------------------SYSTEM PROMPT--------------------------------
         
-        # Define messages for Mistral API
-        messages = [
-            {
-                "role": "system",
-                "content": (
-                    "You are an expert in analyzing technical documents. Extract the document details, "
-                    "intervention control information, and list of elements according to the following structure:\n"
-                    "{\n"
-                    "  \"document\": {\"name\": \"string\", \"number\": integer, \"date\": \"YYYY-MM-DD\", \"pages_number\": integer},\n"
-                    "  \"intervention_control\": {\"name\": \"string\", \"start_date\": \"YYYY-MM-DD\", \"end_date\": \"YYYY-MM-DD\", "
-                    "\"inspector_company\": \"string\", \"inspector_agency\": \"string\", \"inspector_name\": \"string\", "
-                    "\"customer_company\": \"string\", \"customer_adress\": \"string\", \"customer_factory\": \"string\", "
-                    "\"elements_number\": integer, \"tasks_number\": integer},\n"
-                    "  \"elements\": [{\"number\": integer, \"page\": integer, \"inspector\": \"string\", \"name\": \"string\", "
-                    "\"n_internal\": integer, \"factory\": \"string\", \"building\": \"string\"}]\n"
-                    "}\n"
-                    "Return ONLY a valid JSON object matching this structure. Do not include any additional text."
-                )
-            },
-            {
-                "role": "user",
-                "content": full_text
-            }
-        ]
+        system_prompt = make_general_prompt()
+
+        #--------------------------------MISTRAL LARGE API--------------------------------
         
-        try:
-            print("Sending analysis request to Mistral API...")
-            chat_response = self.client.chat.complete(
-                model="mistral-large-latest",
-                messages=messages,
-                response_format={"type": "json_object"},
-                temperature=0.1,
-                max_tokens=3000
-            )
-            print("Analysis request completed")
+        # #Define messages for Mistral API
+        # messages = [
+        #     {
+        #         "role": "system",
+        #         "content": system_prompt
+        #     },
+        #     {
+        #         "role": "user",
+        #         "content": full_text
+        #     }
+        # ]
+        
+        # try:
+        #     print("Sending analysis request to Mistral API...")
+        #     chat_response = self.client.chat.complete(
+        #         model="mistral-large-latest",
+        #         messages=messages,
+        #         response_format={"type": "json_object"},
+        #         temperature=0.1,
+        #         max_tokens=3000
+        #     )
+        #     print("Analysis request completed")
             
-            # Extract JSON from response
-            response_content = chat_response.choices[0].message.content
-            json_data = json.loads(response_content)
+        #     # Extract JSON from response
+        #     response_content = chat_response.choices[0].message.content
+        #     json_data = json.loads(response_content)
+
+        #--------------------------------OLLAMA MISTRAL SMALL 24B--------------------------------
+
+        try : 
+            response = chat(
+            messages=[
+                {
+                    'role': 'system',
+                    'content': system_prompt,
+                },
+                {
+                    'role': 'user',
+                    'content': full_text,
+                }
+                ],
+                model='mistral-small:24b',
+                format=Report.model_json_schema(),
+            )
+
+            Rapport = Report.model_validate_json(response.message.content)
+            json_data = Rapport.model_dump_json()
+            
+            # Convertir la chaîne JSON en dictionnaire Python
+            json_data = json.loads(json_data)
+
+
+        #----------------------------POST PROCESSING----------------------------------------------
             
             # print("-----------------json_data-----------------")
             # print(json_data)
             # print("-----------------json_data-----------------")
+
             # Validate with Pydantic
-            report = Report.model_validate(json_data)
+            #report = Report.model_validate(json_data)
 
 
             # Convert to dictionary
-            return report.model_dump()
+           # return report.model_dump()
+            return json_data
         except json.JSONDecodeError as e:
             print(f"JSON parsing error: {str(e)}")
             raise RuntimeError(f"Failed to parse JSON response: {str(e)}")
