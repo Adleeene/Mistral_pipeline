@@ -1,11 +1,9 @@
 import json
 from Mistral_OCR import PDFProcessor
-from helper_function.enrich_report_with_regulations import enrich_report_with_regulations
-from helper_function.enrich_report_with_type_element import enrich_report_with_type_element
 
 def main():
     """Main execution function."""
-    pdf_path = "../test_PDF/test_gpt_api.pdf"  # Changed to use a local path
+    pdf_path = "/Users/emiliano/Documents/Mistral_pipeline/test_gpt_api.pdf"
     
     try:
         print(f"Starting processing of: {pdf_path}")
@@ -16,24 +14,32 @@ def main():
         # Process PDF with OCR
         ocr_response = processor.process_ocr(pdf_path)
         print("✓ OCR processing completed")
-        # print(ocr_response)
-        
 
         # Analyze report
         report_data = processor.analyze_report(ocr_response)
 
-        # Afficher le résultat de manière formatée
-        print("\nRésultat formaté :")
+        # Display clean JSON result (your required format)
+        print("\n" + "="*60)
+        print("RÉSULTAT FORMATÉ:")
+        print("="*60)
         print(json.dumps(report_data, indent=2, ensure_ascii=False, sort_keys=False))
-    
+        
+        # Display schema selection summary separately
+        schema_summary = processor.get_schema_selection_summary()
+        if schema_summary:
+            print("\n" + "="*60)
+            print("SCHEMA SELECTION SUMMARY:")
+            print("="*60)
+            for selection in schema_summary:
+                print(f"Element {selection['element_number']}: {selection['equipment_name']}")
+                print(f"  Selected: {selection['selected_schema']}")
+                print(f"  Confidence: {selection['confidence']}")
+                print(f"  Candidates: {len(selection['candidate_schemas'])} schemas considered")
+                if selection['candidate_schemas']:
+                    print(f"  Top candidates: {', '.join(selection['candidate_schemas'][:3])}")
+                print()
 
-        # Enrich report with regulations
-        report_data = enrich_report_with_regulations(report_data)
-
-        # Enrich report with element type
-        report_data = enrich_report_with_type_element(report_data)
-
-        # Save to file
+        # Save clean JSON to file (your required format)
         output_file = "report_analysis.json"
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(report_data, f, indent=2, ensure_ascii=False)

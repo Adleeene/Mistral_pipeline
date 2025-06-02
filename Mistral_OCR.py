@@ -2,10 +2,10 @@ import os
 import base64
 import json
 from mistralai import Mistral
-from typing import Optional, Dict, Any
-from classes.pydantic_model import Report
+from typing import Optional, Dict, Any, List
+from classes.pydantic_model import Report, Element, Document, InterventionControl, Observation
 from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_general_prompt_no_attributes_french, make_simple_prompt
-from ollama import chat
+from schema_selector import SchemaSelector
 
 
 class PDFProcessor:
@@ -13,6 +13,9 @@ class PDFProcessor:
         """Initialize the PDF processor with Mistral API key."""
         self.api_key = api_key or os.getenv("MISTRAL_API_KEY") or "bi78LN9q7kO3MmNlzmzlvDOjjieuod4j"
         self.client = Mistral(api_key=self.api_key)
+        self.schema_selector = SchemaSelector()
+        # Store schema selection info for console display only
+        self.schema_selections = []
     
     def encode_pdf(self, pdf_path: str) -> str:
         """Encode PDF file to base64 string."""
@@ -54,6 +57,80 @@ class PDFProcessor:
         except Exception as e:
             raise RuntimeError(f"OCR processing failed: {str(e)}")
     
+    def _analyze_schema_selections(self, report_data: Dict[str, Any]) -> None:
+        """Analyze and log schema selections (for console display only - doesn't modify JSON)"""
+        print("\n=== SMART SCHEMA ANALYSIS ===")
+        
+        elements = report_data.get("elements", [])
+        if not elements:
+            print("No elements found to analyze")
+            return
+        
+        self.schema_selections = []  # Reset for this analysis
+        
+        for i, element in enumerate(elements):
+            equipment_name = element.get("name", "")
+            if not equipment_name:
+                print(f"Element {i+1}: No name found, skipping")
+                continue
+                
+            print(f"\nAnalyzing element {i+1}: '{equipment_name}'")
+            
+            # Step 1: Get candidate schemas
+            candidate_schemas = self.schema_selector.find_matching_schemas(equipment_name, top_k=5)
+            
+            if not candidate_schemas:
+                print(f"  No candidate schemas found for '{equipment_name}'")
+                selection_info = {
+                    "element_number": i+1,
+                    "equipment_name": equipment_name,
+                    "selected_schema": None,
+                    "candidate_schemas": [],
+                    "confidence": "none"
+                }
+                self.schema_selections.append(selection_info)
+                continue
+            
+            print(f"  Found {len(candidate_schemas)} candidate schemas:")
+            for j, schema in enumerate(candidate_schemas, 1):
+                print(f"    {j}. {schema}")
+            
+            # Step 2: Use LLM to select best schema
+            try:
+                best_schema = self.schema_selector.select_best_schema_with_llm(
+                    equipment_name=equipment_name,
+                    element_data=element,
+                    candidate_schemas=candidate_schemas,
+                    mistral_client=self.client
+                )
+                
+                if best_schema:
+                    print(f"  ✓ Selected schema: {best_schema}")
+                    confidence = "high"
+                else:
+                    best_schema = candidate_schemas[0]
+                    print(f"  ⚠ Fallback to first candidate: {best_schema}")
+                    confidence = "medium"
+                    
+            except Exception as e:
+                print(f"  ✗ Schema selection failed: {e}")
+                best_schema = candidate_schemas[0] if candidate_schemas else None
+                confidence = "low"
+            
+            # Store selection info for console display (not in JSON)
+            selection_info = {
+                "element_number": i+1,
+                "equipment_name": equipment_name,
+                "selected_schema": best_schema,
+                "candidate_schemas": candidate_schemas,
+                "confidence": confidence
+            }
+            self.schema_selections.append(selection_info)
+    
+    def get_schema_selection_summary(self) -> List[Dict]:
+        """Get schema selection summary for console display"""
+        return self.schema_selections
+    
     def analyze_report(self, ocr_response: Dict[str, Any]) -> Dict[str, Any]:
         """Analyze report from OCR response to produce structured output."""
         print("\n=== REPORT ANALYSIS ===")
@@ -63,22 +140,18 @@ class PDFProcessor:
         for i, page in enumerate(ocr_response.pages):
             full_text += f"Page {i+1}:\n{page.markdown}\n\n"
 
-        print(full_text)
+        print(f"Full text length: {len(full_text)} characters")
         
         # Limit text size
         max_chars = 15000
-        print(f"Full text length: {len(full_text)} characters") 
         if len(full_text) > max_chars:
             full_text = full_text[:max_chars]
             print(f"Document truncated to {max_chars} characters")
 
-        #--------------------------------SYSTEM PROMPT--------------------------------
-        
+        # Use existing system prompt
         system_prompt = make_simple_prompt()
 
-        #--------------------------------MISTRAL LARGE API--------------------------------
-        
-        #Define messages for Mistral API
+        # Messages for Mistral API
         messages = [
             {
                 "role": "system",
@@ -95,58 +168,21 @@ class PDFProcessor:
             chat_response = self.client.chat.parse(
                 model="mistral-large-latest",
                 messages=messages,
-                #response_format={"type": "json_object"},
-                response_format=Report,
-                #je crois que schema n'est pas supporté par l'api , essayer avec les fonctions tools 
-
+                response_format=Report,  # Use existing Report model
                 temperature=0,
                 max_tokens=3000
             )
-            print("Analysis request completed")
+            print("✓ Analysis completed")
             
             # Extract JSON from response
             response_content = chat_response.choices[0].message.content
             json_data = json.loads(response_content)
-
-        #--------------------------------OLLAMA MISTRAL SMALL 24B--------------------------------
-
-        # try : 
-        #     response = chat(
-        #     messages=[
-        #         # {
-        #         #     'role': 'system',
-        #         #     'content': system_prompt,
-        #         # },
-        #         {
-        #             'role': 'user',
-        #             'content': full_text,
-        #         }
-        #         ],
-        #         model='mistral-small:24b',
-        #         format=Report.model_json_schema(),
-        #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
-        #     )
-
-        #     Rapport = Report.model_validate_json(response.message.content)
-        #     json_data = Rapport.model_dump_json()
             
-        #     # Convertir la chaîne JSON en dictionnaire Python
-        #     json_data = json.loads(json_data)
-
-
-        #----------------------------POST PROCESSING----------------------------------------------
+            # Analyze schema selections (for console display only)
+            self._analyze_schema_selections(json_data)
             
-            # print("-----------------json_data-----------------")
-            # print(json_data)
-            # print("-----------------json_data-----------------")
-
-            # Validate with Pydantic
-            #report = Report.model_validate(json_data)
-
-
-            # Convert to dictionary
-           # return report.model_dump()
             return json_data
+            
         except json.JSONDecodeError as e:
             print(f"JSON parsing error: {str(e)}")
             raise RuntimeError(f"Failed to parse JSON response: {str(e)}")
