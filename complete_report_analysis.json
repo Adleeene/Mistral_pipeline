@@ -27,7 +27,8 @@
       "n_internal": 113745,
       "factory": "JOUGLET/OTIS",
       "building": "Labos - Bâtiment D 341 - HZ568",
-      "regulation": null
+      "regulation": "Réglementation ascenseurs",
+      "element_type": "Ascenseur électrique"
     },
     {
       "number": 2,
@@ -37,7 +38,8 @@
       "n_internal": 11138,
       "factory": "JOUGLET",
       "building": "Labos D341 - HZ569",
-      "regulation": null
+      "regulation": "Réglementation ascenseurs",
+      "element_type": "Ascenseur électrique"
     },
     {
       "number": 3,
@@ -47,7 +49,36 @@
       "n_internal": null,
       "factory": "ALSACE MANUTENTION",
       "building": "Labos - Bâtiment B 215 - HZ581",
-      "regulation": null
+      "regulation": "Code du travail",
+      "element_type": null
+    }
+  ],
+  "observations": [
+    {
+      "verified_point": "Limiteur de vitesse",
+      "description": "Remplacer le câble du limiteur de vitesse",
+      "detailed_description": "Remplacer le câble du limiteur de vitesse",
+      "observation_number": "1",
+      "suggested_priority": "Élevée",
+      "first_emission_date": "2024-03-07",
+      "predicted_criticality": true,
+      "element_number": 1,
+      "element_name": "Ascenseur",
+      "n_serie": 113745,
+      "controls_name": "Vérification générale périodique"
+    },
+    {
+      "verified_point": "Dispositif de demande de secours",
+      "description": "Localiser l'appareil sur le site",
+      "detailed_description": "Localiser l'appareil sur le site",
+      "observation_number": "2",
+      "suggested_priority": "Normale",
+      "first_emission_date": "2024-03-07",
+      "predicted_criticality": false,
+      "element_number": 1,
+      "element_name": "Ascenseur",
+      "n_serie": 113745,
+      "controls_name": "Vérification générale périodique"
     }
   ]
 }

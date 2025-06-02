@@ -53,7 +53,7 @@ class PDFProcessor:
             raise RuntimeError(f"OCR processing failed: {str(e)}")
     
     def analyze_report(self, ocr_response: Dict[str, Any]) -> Dict[str, Any]:
-        """Analyze report from OCR response to produce structured output."""
+        """Analyze report from OCR response to produce structured output with observations."""
         print("\n=== REPORT ANALYSIS ===")
 
         # Build full text with page numbers
@@ -72,8 +72,8 @@ class PDFProcessor:
             {
                 "role": "system",
                 "content": (
-                    "You are an expert in analyzing technical documents. Extract the document details, "
-                    "intervention control information, and list of elements according to the following structure:\n"
+                    "You are an expert in analyzing technical inspection reports. Extract the document details, "
+                    "intervention control information, list of elements, AND all observations/anomalies according to the following structure:\n"
                     "{\n"
                     "  \"document\": {\"name\": \"string\", \"number\": integer, \"date\": \"YYYY-MM-DD\", \"pages_number\": integer},\n"
                     "  \"intervention_control\": {\"name\": \"string\", \"start_date\": \"YYYY-MM-DD\", \"end_date\": \"YYYY-MM-DD\", "
@@ -81,8 +81,23 @@ class PDFProcessor:
                     "\"customer_company\": \"string\", \"customer_adress\": \"string\", \"customer_factory\": \"string\", "
                     "\"elements_number\": integer, \"tasks_number\": integer},\n"
                     "  \"elements\": [{\"number\": integer, \"page\": integer, \"inspector\": \"string\", \"name\": \"string\", "
-                    "\"n_internal\": integer, \"factory\": \"string\", \"building\": \"string\"}]\n"
-                    "}\n"
+                    "\"n_internal\": integer, \"factory\": \"string\", \"building\": \"string\"}],\n"
+                    "  \"observations\": [{\"element_number\": integer, \"element_name\": \"string\", \"verified_point\": \"string\", "
+                    "\"description\": \"string\", \"detailed_description\": \"string\", \"observation_type\": \"string\"}]\n"
+                    "}\n\n"
+                    "CRITICAL - OBSERVATIONS EXTRACTION:\n"
+                    "- Extract ALL observations, anomalies, defects, actions, or issues mentioned in the report\n"
+                    "- Look for keywords: 'Remplacer', 'Localiser', 'Vérifier', 'Défaut', 'Anomalie', 'Observation', 'Action'\n"
+                    "- Find observations in sections like 'DISPOSITIFS DE SECURITE', 'HABITACLE / CABINE', 'Observations', etc.\n"
+                    "- For each observation found:\n"
+                    "  * Link it to the correct element by number and name\n"
+                    "  * Extract the verified point (what was being inspected)\n"
+                    "  * Get both short description and detailed description\n"
+                    "  * Determine observation type (défaut, anomalie, action, etc.)\n\n"
+                    "EXAMPLES of what to extract:\n"
+                    "- 'Limiteur de vitesse : Remplacer le câble du limiteur de vitesse' → observation\n"
+                    "- 'Dispositif de demande de secours : Localiser l'appareil sur le site' → observation\n"
+                    "- Any text indicating something needs to be fixed, replaced, verified, or improved\n\n"
                     "Return ONLY a valid JSON object matching this structure. Do not include any additional text."
                 )
             },
@@ -112,7 +127,6 @@ class PDFProcessor:
             # print("-----------------json_data-----------------")
             # Validate with Pydantic
             report = Report.model_validate(json_data)
-
 
             # Convert to dictionary
             return report.model_dump()

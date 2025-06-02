@@ -1,5 +1,5 @@
 from typing import Optional, Dict, Any, List
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 # Define Pydantic models for the desired JSON structure
 class Element(BaseModel):
@@ -33,7 +33,21 @@ class InterventionControl(BaseModel):
     elements_number: int
     tasks_number: int
 
+# FIXED: Make fields optional for OCR step
+class Observation(BaseModel):
+    element_number: int = Field(description="Numéro de l'élément concerné")
+    element_name: str = Field(description="Nom de l'élément concerné")
+    verified_point: Optional[str] = Field(default=None, description="Point vérifié où l'observation a été faite")
+    description: str = Field(description="Description courte de l'observation")
+    detailed_description: Optional[str] = Field(default=None, description="Description détaillée complète")
+    observation_type: Optional[str] = Field(default=None, description="Type d'observation: anomalie, défaut, action, etc.")
+    suggested_priority: Optional[str] = Field(default=None, description="Priorité suggérée")
+    first_emission_date: Optional[str] = Field(default=None, description="Date d'émission au format YYYY-MM-DD")
+    predicted_criticality: Optional[bool] = Field(default=None, description="Criticité prédite pour la sécurité")
+
+# UPDATED: Add observations to Report class
 class Report(BaseModel):
     document: Document
     intervention_control: InterventionControl
     elements: List[Element]
+    observations: List[Observation] = Field(default_factory=list, description="Liste des observations extraites")
