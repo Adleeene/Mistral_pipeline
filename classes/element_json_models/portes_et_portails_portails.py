@@ -20,9 +20,6 @@ class portes_et_portails_portails_0(BaseModel):
     usage : Optional[Literal['Destiné au passage des piétons', 'Destiné au passage des véhicules', '']] = Field(description="L'usage du portail, si présent.")
     mode_d_ouverture : Optional[Literal['Horizontale', 'Verticale', '']] = Field(description="Le mode d'ouverture du portail, si présent.")
     mode_de_fonctionnement : Optional[Literal['Manuel', 'Automatique', 'Semi-automatique', '']] = Field(description="Le mode de fonctionnement du portail, si présent.")
-
-
-class portes_et_portails_portails_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du portail, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
     en_location : Optional[bool] = Field(description=".")

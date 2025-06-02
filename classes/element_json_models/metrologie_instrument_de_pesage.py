@@ -20,14 +20,8 @@ class metrologie_instrument_de_pesage_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'instrument de pesage, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'instrument de pesage, si présent.")
     destine_a_la_vente_directe_au_public : Optional[bool] = Field(description="L'instrument de pesage est-il destiné à la vente directe au public, si présent.")
-
-
-class metrologie_instrument_de_pesage_1(BaseModel):
     portee_maximale_en_kg_var : Optional[float] = Field(description="La portée maximale en kg de l'instrument de pesage, si présent.")
     avez_vous_realise_la_verification_primitive_var : Optional[bool] = Field(description="Avez-vous réalisé la vérification primitive, si présent.")
     domaine_d_utilisation_de_l_instrument_automatique : Optional[Literal['Fourniture d’eau et d’énergie', 'Transaction commerciale', 'Détermination de rémunération', 'Expertise judiciaire', 'Opérations de mesurage intéressant la santé', 'Opérations de mesurage intéressant la sécurité des personnes', '']] = Field(description="Le domaine d'utilisation de l'instrument de pesage automatique, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'instrument de pesage, si présent.")
-
-
-class metrologie_instrument_de_pesage_2(BaseModel):
     type_d_instrument_de_pesage : Optional[Literal['A fonctionnement automatique (IPFA)', 'A fonctionnement non automatique (IPFNA)', '']] = Field(description="Le type d'instrument de pesage, si présent.")

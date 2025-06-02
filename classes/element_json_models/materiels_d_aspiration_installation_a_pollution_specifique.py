@@ -20,9 +20,6 @@ class materiels_d_aspiration_installation_a_pollution_specifique_0(BaseModel):
     risque_s_de_pollution_identifie_s_var : Optional[str] = Field(description="Les risques de pollution identifiés, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'installation à pollution spécifique, si présent.")
-
-
-class materiels_d_aspiration_installation_a_pollution_specifique_1(BaseModel):
     debit_d_extraction_m3_h_var : Optional[float] = Field(description="Le débit d'extraction de l'installation à pollution spécifique en m3/h, si présent.")
     vitesse_de_reference_m_s_var : Optional[float] = Field(description=".")
     l_installation_comporte_t_elle_un_systeme_de_recyclage_var : Optional[bool] = Field(description="L'installation comporte-t-elle un système de recyclage, si présent.")
@@ -31,8 +28,5 @@ class materiels_d_aspiration_installation_a_pollution_specifique_1(BaseModel):
     efficacite_par_tranche_granulometrique_dans_le_cas_des_poussieres_var : Optional[str] = Field(description="L'efficacité par tranche granulométrique dans le cas des poussières, si présent.")
     concentration_de_la_pollution_dans_l_atelier : Optional[str] = Field(description="La concentration de la pollution dans l'atelier, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'installation à pollution spécifique, si présent.")
-
-
-class materiels_d_aspiration_installation_a_pollution_specifique_2(BaseModel):
     type_d_installation : Optional[Literal['Hotte', 'Sorbonne', 'Paillasse', 'Armoire ventilée', 'Installation classique', 'Autre', '']] = Field(description="Le type d'installation de l'installation à pollution spécifique, si présent.")
     autre_type_d_installation : Optional[str] = Field(description=".")

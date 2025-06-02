@@ -20,13 +20,7 @@ class equipements_de_protection_individuelle_travail_en_hauteur_0(BaseModel):
     capacite_kg_var : Optional[int] = Field(description="La capacité de charge maximale de l'équipement de protection individuelle pour le travail en hauteur, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'équipement de protection individuelle pour le travail en hauteur, si présent.")
-
-
-class equipements_de_protection_individuelle_travail_en_hauteur_1(BaseModel):
     assigne_a : Optional[str] = Field(description="La personne à qui l'équipement de protection individuelle pour le travail en hauteur est assignée, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'équipement de protection individuelle pour le travail en hauteur, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
-
-
-class equipements_de_protection_individuelle_travail_en_hauteur_2(BaseModel):
     type_element : Optional[Literal['Longe', 'Sangle', 'Mousqueton', 'Harnais', 'Descendeur', 'Absorbeur', 'Poulie', 'Perche', 'Corde', 'Antichute', 'Bloqueur', 'Stop-chute', 'Porte-outils', 'Autre', '']] = Field(description="Le type d'élément de l'équipement de protection individuelle pour le travail en hauteur, si présent.")

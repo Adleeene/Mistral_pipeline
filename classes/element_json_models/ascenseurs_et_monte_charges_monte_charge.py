@@ -20,9 +20,6 @@ class ascenseurs_et_monte_charges_monte_charge_0(BaseModel):
     nombre_d_etages : Optional[int] = Field(description="Le nombre d'étages (ou de niveaux) que le monte charge dessert, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du monte charge, si présent.")
     charge_maximale_kg_var : Optional[int] = Field(description="La charge maximale en kilogrammes du monte charge, si présent.")
-
-
-class ascenseurs_et_monte_charges_monte_charge_1(BaseModel):
     a_t_il_subi_une_modification_importante_var : Optional[bool] = Field(description="Le monte charge a-t-il subi une modification importante, si présent.")
     parachute : Optional[bool] = Field(description="Le parachute du monte charge, si présent.")
     societe_de_maintenance : Optional[str] = Field(description="La société de maintenance du monte charge, si présent.")
@@ -31,11 +28,28 @@ class ascenseurs_et_monte_charges_monte_charge_1(BaseModel):
     vitesse_nominale_en_m_s_var : Optional[float] = Field(description="La vitesse nominale en mètres par seconde du monte charge, si présent.")
     en_location : Optional[bool] = Field(description="Le monte charge est-il en location, si présent.")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du monte charge, si présent.")
-
-
-class ascenseurs_et_monte_charges_monte_charge_2(BaseModel):
     type_de_traction_electrique : Optional[Literal['Entraînement par adhérence', 'Entraînement attelé', '']] = Field(description="Le type de traction électrique du monte charge, si présent.")
     type_de_traction_hydraulique : Optional[Literal['Entraînement direct', 'Entraînement indirect', '']] = Field(description="Le type de traction hydraulique du monte charge, si présent.")
     type_de_traction : Optional[Literal['Électrique', 'Hydraulique', '']] = Field(description="Le type de traction du monte charge, si présent.")
     type_d_ouverture : Optional[Literal['Automatique', 'Manuelle', '']] = Field(description="Le type d'ouverture du monte charge, si présent.")
     type_de_porte : Optional[Literal['Porte Coulissante', 'Porte battante', 'Porte pliante', 'Porte à ouverture centrale', 'Porte à guillotine', '']] = Field(description="Le type de porte du monte charge, si présent.")
+
+
+
+# class ascenseurs_et_monte_charges_monte_charge_1(BaseModel):
+#     a_t_il_subi_une_modification_importante_var : Optional[bool] = Field(description="Le monte charge a-t-il subi une modification importante, si présent.")
+#     parachute : Optional[bool] = Field(description="Le parachute du monte charge, si présent.")
+#     societe_de_maintenance : Optional[str] = Field(description="La société de maintenance du monte charge, si présent.")
+#     motorisation : Optional[Literal['Une vitesse', 'Deux vitesses', 'Variateur de fréquence', 'Hydraulique', '']] = Field(description="La motorisation du monte charge, si présent.")
+#     machinerie : Optional[Literal['Basse', 'Haute', 'Latérale', 'Sans', '']] = Field(description="La machinerie du monte charge, si présent.")
+#     vitesse_nominale_en_m_s_var : Optional[float] = Field(description="La vitesse nominale en mètres par seconde du monte charge, si présent.")
+#     en_location : Optional[bool] = Field(description="Le monte charge est-il en location, si présent.")
+#     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du monte charge, si présent.")
+
+
+# class ascenseurs_et_monte_charges_monte_charge_2(BaseModel):
+#     type_de_traction_electrique : Optional[Literal['Entraînement par adhérence', 'Entraînement attelé', '']] = Field(description="Le type de traction électrique du monte charge, si présent.")
+#     type_de_traction_hydraulique : Optional[Literal['Entraînement direct', 'Entraînement indirect', '']] = Field(description="Le type de traction hydraulique du monte charge, si présent.")
+#     type_de_traction : Optional[Literal['Électrique', 'Hydraulique', '']] = Field(description="Le type de traction du monte charge, si présent.")
+#     type_d_ouverture : Optional[Literal['Automatique', 'Manuelle', '']] = Field(description="Le type d'ouverture du monte charge, si présent.")
+#     type_de_porte : Optional[Literal['Porte Coulissante', 'Porte battante', 'Porte pliante', 'Porte à ouverture centrale', 'Porte à guillotine', '']] = Field(description="Le type de porte du monte charge, si présent.")

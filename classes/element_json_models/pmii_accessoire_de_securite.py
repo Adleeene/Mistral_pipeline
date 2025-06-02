@@ -22,8 +22,5 @@ class pmii_accessoire_de_securite_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'accessoire de sécurité, si présent.")
     pid : Optional[str] = Field(description="Le PID de l'accessoire de sécurité, si présent.")
     adequation_de_l_accessoire : Optional[bool] = Field(description="L'adéquation de l'accessoire de sécurité, si présent.")
-
-
-class pmii_accessoire_de_securite_1(BaseModel):
     type_d_accessoire_de_securite : Optional[Literal['Disque de rupture', 'Soupape', 'DSDCS', 'CSPRS', 'SRMCR', 'Pompe', 'Pressostat de sécurité', 'Arrête-flamme', '']] = Field(description="Le type d'accessoire de sécurité, si présent.")
     type_d_arrete_flamme : Optional[Literal['Anti-déflagration en bout de ligne', 'Anti-déflagration en ligne', 'Anti-détonation', 'Mono ou bidirectionnel', '']] = Field(description="Le type d'arrête flamme de l'accessoire de sécurité, si présent.")

@@ -20,9 +20,6 @@ class chauffage_et_climatisation_chaudiere_0(BaseModel):
     marque_du_bruleur : Optional[str] = Field(description="La marque du brûleur, si présent.")
     puissance_nominale_du_generateur_kw_var : Optional[int] = Field(description="La puissance nominale du générateur de chaleur en kilowatts, si présent.")
     numero_de_serie_du_generateur : Optional[str] = Field(description="Le numéro de série du générateur de chaleur, si présent.")
-
-
-class chauffage_et_climatisation_chaudiere_1(BaseModel):
     combustible : Optional[Literal['Gazeux', 'Liquide', 'Solide', '']] = Field(description="Le type de combustible utilisé, si présent.")
     temperature_de_consigne_du_fluide_caloporteur : Optional[int] = Field(description="La température de consigne du fluide caloporteur, si présent.")
     fluide_caloporteur : Optional[str] = Field(description="Le fluide caloporteur utilisé, si présent.")
@@ -30,9 +27,6 @@ class chauffage_et_climatisation_chaudiere_1(BaseModel):
     pression_de_consigne_du_fluide_caloporteur_bar_var : Optional[float] = Field(description="La pression de consigne du fluide caloporteur en bar, si présent.")
     puissance_du_bruleur : Optional[int] = Field(description="La puissance du brûleur, si présent.")
     marque_du_generateur : Optional[str] = Field(description="La marque du générateur de chaleur, si présent.")
-
-
-class chauffage_et_climatisation_chaudiere_2(BaseModel):
     pci_du_combustible_kwh_nm3_var : Optional[float] = Field(description="Le pouvoir calorifique inférieur du combustible en kilowattheures par mètre cube, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la chaudière, si présent.")
@@ -41,9 +35,34 @@ class chauffage_et_climatisation_chaudiere_2(BaseModel):
     l_installation_est_elle_classee_dans_la_rubrique_2910_a_et_situe_dans_un_etablissement_soumis_a_declaration_dc_var : Optional[bool] = Field(description="L'installation est-elle classée dans la rubrique 2910 A et située dans un établissement soumis à déclaration DC, si présent.")
     somme_des_puissances_nominales_des_chaudieres_en_reseau_en_kw_var : Optional[int] = Field(description="La somme des puissances nominales des chaudières en réseau en kilowatts, si présent.")
     la_chaudiere_est_elle_mise_en_reseau_avec_d_autres_chaudieres_dans_un_meme_local_var : Optional[bool] = Field(description="La chaudière est-elle mise en réseau avec d'autres chaudières dans un même local, si présent.")
-
-
-class chauffage_et_climatisation_chaudiere_3(BaseModel):
     type_de_bruleur : Optional[str] = Field(description="Le type du brûleur, si présent.")
     type_de_generateur : Optional[str] = Field(description="Le type du générateur de chaleur, si présent.")
     type_de_combustible_solide : Optional[str] = Field(description="Le type de combustible solide utilisé, si présent.")
+
+
+
+# class chauffage_et_climatisation_chaudiere_1(BaseModel):
+#     combustible : Optional[Literal['Gazeux', 'Liquide', 'Solide', '']] = Field(description="Le type de combustible utilisé, si présent.")
+#     temperature_de_consigne_du_fluide_caloporteur : Optional[int] = Field(description="La température de consigne du fluide caloporteur, si présent.")
+#     fluide_caloporteur : Optional[str] = Field(description="Le fluide caloporteur utilisé, si présent.")
+#     numero_du_bruleur : Optional[str] = Field(description="Le numéro du brûleur, si présent.")
+#     pression_de_consigne_du_fluide_caloporteur_bar_var : Optional[float] = Field(description="La pression de consigne du fluide caloporteur en bar, si présent.")
+#     puissance_du_bruleur : Optional[int] = Field(description="La puissance du brûleur, si présent.")
+#     marque_du_generateur : Optional[str] = Field(description="La marque du générateur de chaleur, si présent.")
+
+
+# class chauffage_et_climatisation_chaudiere_2(BaseModel):
+#     pci_du_combustible_kwh_nm3_var : Optional[float] = Field(description="Le pouvoir calorifique inférieur du combustible en kilowattheures par mètre cube, si présent.")
+#     en_location : Optional[bool] = Field(description=".")
+#     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la chaudière, si présent.")
+#     est_ce_une_chaudiere_de_recuperation_de_gaz_var : Optional[bool] = Field(description="Est-ce une chaudière de récupération de gaz, si présent.")
+#     avez_vous_un_contrat_de_performance_energetique_sur_cette_installation_var : Optional[bool] = Field(description="Avez-vous un contrat de performance énergétique sur cette installation, si présent.")
+#     l_installation_est_elle_classee_dans_la_rubrique_2910_a_et_situe_dans_un_etablissement_soumis_a_declaration_dc_var : Optional[bool] = Field(description="L'installation est-elle classée dans la rubrique 2910 A et située dans un établissement soumis à déclaration DC, si présent.")
+#     somme_des_puissances_nominales_des_chaudieres_en_reseau_en_kw_var : Optional[int] = Field(description="La somme des puissances nominales des chaudières en réseau en kilowatts, si présent.")
+#     la_chaudiere_est_elle_mise_en_reseau_avec_d_autres_chaudieres_dans_un_meme_local_var : Optional[bool] = Field(description="La chaudière est-elle mise en réseau avec d'autres chaudières dans un même local, si présent.")
+
+
+# class chauffage_et_climatisation_chaudiere_3(BaseModel):
+#     type_de_bruleur : Optional[str] = Field(description="Le type du brûleur, si présent.")
+#     type_de_generateur : Optional[str] = Field(description="Le type du générateur de chaleur, si présent.")
+#     type_de_combustible_solide : Optional[str] = Field(description="Le type de combustible solide utilisé, si présent.")

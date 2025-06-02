@@ -20,13 +20,7 @@ class equipements_de_protection_individuelle_lignes_de_vie_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la ligne de vie, si présent.")
     caracteristique : Optional[Literal['Permanente', 'Temporaire', '']] = Field(description="Les caractéristiques de la ligne de vie, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la ligne de vie, si présent.")
-
-
-class equipements_de_protection_individuelle_lignes_de_vie_1(BaseModel):
     longueur_en_m_var : Optional[float] = Field(description="La longueur de la ligne de vie en mètres, si présent.")
     nombre_d_ancrage : Optional[int] = Field(description="Le nombre d'ancrages de la ligne de vie, si présent.")
     installation : Optional[Literal['Horizontale', 'Verticale', '']] = Field(description="Le type d'installation de la ligne de vie, si présent.")
-
-
-class equipements_de_protection_individuelle_lignes_de_vie_2(BaseModel):
     type_element : Optional[Literal['Câble', 'Rail', '']] = Field(description="Le type d'élément de la ligne de vie, si présent.")

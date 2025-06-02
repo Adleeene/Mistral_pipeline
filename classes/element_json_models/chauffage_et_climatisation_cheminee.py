@@ -20,17 +20,26 @@ class chauffage_et_climatisation_cheminee_0(BaseModel):
     diametre_interne_au_sol_en_m_var : Optional[float] = Field(description="Le diamètre interne au sol en mètres de la cheminée, si présent.")
     diametre_interne_au_sommet_en_m_var : Optional[float] = Field(description="Le diamètre interne au sommet en mètres de la cheminée, si présent.")
     forme : Optional[str] = Field(description="La forme de la cheminée, si présent.")
-
-
-class chauffage_et_climatisation_cheminee_1(BaseModel):
     acces_interne : Optional[str] = Field(description="L'accès interne de la cheminée, si présent.")
     acces_externe : Optional[str] = Field(description="L'accès externe de la cheminée, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la cheminée, si présent.")
     hauteur_en_m_var : Optional[float] = Field(description="La hauteur en mètres de la cheminée, si présent.")
     annee_de_construction : Optional[str] = Field(description="L'année de construction de la cheminée, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la cheminée, si présent.")
-
-
-class chauffage_et_climatisation_cheminee_2(BaseModel):
     autre_type_de_cheminee : Optional[str] = Field(description="Le type de la cheminée, si autre type de cheminée.")
     type_de_cheminee : Optional[Literal['Monoconduit', 'Multiconduit', 'Autre', '']] = Field(description="Le type de la cheminée, si présent.")
+
+
+
+# class chauffage_et_climatisation_cheminee_1(BaseModel):
+#     acces_interne : Optional[str] = Field(description="L'accès interne de la cheminée, si présent.")
+#     acces_externe : Optional[str] = Field(description="L'accès externe de la cheminée, si présent.")
+#     materiau : Optional[str] = Field(description="Le matériau de la cheminée, si présent.")
+#     hauteur_en_m_var : Optional[float] = Field(description="La hauteur en mètres de la cheminée, si présent.")
+#     annee_de_construction : Optional[str] = Field(description="L'année de construction de la cheminée, si présent.")
+#     fabricant : Optional[str] = Field(description="La marque du fabricant de la cheminée, si présent.")
+
+
+# class chauffage_et_climatisation_cheminee_2(BaseModel):
+#     autre_type_de_cheminee : Optional[str] = Field(description="Le type de la cheminée, si autre type de cheminée.")
+#     type_de_cheminee : Optional[Literal['Monoconduit', 'Multiconduit', 'Autre', '']] = Field(description="Le type de la cheminée, si présent.")

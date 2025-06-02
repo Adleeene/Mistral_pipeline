@@ -22,8 +22,5 @@ class portes_et_portails_tourniquet_0(BaseModel):
     materiau : Optional[str] = Field(description="Le matériau du tourniquet, si présent.")
     mode_de_fonctionnement : Optional[Literal['Manuel', 'Automatique', '']] = Field(description="Le mode de fonctionnement du tourniquet, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du tourniquet, si présent.")
-
-
-class portes_et_portails_tourniquet_1(BaseModel):
     autre_type_de_passage : Optional[str] = Field(description=".")
     autre_type_d_usage : Optional[str] = Field(description=".")

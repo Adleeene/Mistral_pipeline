@@ -20,9 +20,6 @@ class exposition_des_travailleurs_risque_chimique_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description=".")
     nature_du_risque_evalue : Optional[Literal['Agents chimiques dangereux', 'Amiante', 'Silice', 'Agents CMR', 'Plomb', 'Autre', '']] = Field(description=".")
-
-
-class exposition_des_travailleurs_risque_chimique_1(BaseModel):
     denomination_de_l_agent_chimique : Optional[str] = Field(description=".")
     reference_de_l_installation_d_air : Optional[str] = Field(description=".")
     presence_d_extracteurs_et_d_equipement_d_aspiration_des_poussieres : Optional[bool] = Field(description=".")
@@ -32,9 +29,6 @@ class exposition_des_travailleurs_risque_chimique_1(BaseModel):
     valeur_limite_d_exposition_professionnelle_en_mg_m3_var : Optional[float] = Field(description=".")
     valeur_limite_d_exposition_professionnelle_en_ppm_var : Optional[float] = Field(description=".")
     phrase_de_risque_mention_de_danger : Optional[str] = Field(description=".")
-
-
-class exposition_des_travailleurs_risque_chimique_2(BaseModel):
     type_de_cmr : Optional[Literal['Cancérigène', 'Mutagène', 'Repro-toxique', '']] = Field(description=".")
     type_de_silice : Optional[str] = Field(description=".")
     type_d_amiante : Optional[str] = Field(description=".")

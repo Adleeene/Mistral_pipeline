@@ -20,14 +20,8 @@ class equipements_de_protection_individuelle_detecteur_portatif_0(BaseModel):
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'appareil de détecteur portatif, si présent.")
     nom_s_du_compose_s_detecte_s_par_l_appareil : Optional[str] = Field(description="Le nom du ou des composés détectés par l'appareil de détecteur portatif, si présent.")
     nombre_de_compose_s_detecte_s_par_l_appareil : Optional[int] = Field(description="Le nombre de composés détectés par l'appareil de détecteur portatif, si présent.")
-
-
-class equipements_de_protection_individuelle_detecteur_portatif_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'appareil de détecteur portatif, si présent.")
     assigne_a : Optional[str] = Field(description="La personne à qui l'appareil de détecteur portatif est assigné, si présent.")
     duree_de_vie_annee_var : Optional[int] = Field(description="La durée de vie en année de l'appareil de détecteur portatif, si présent.")
-
-
-class equipements_de_protection_individuelle_detecteur_portatif_2(BaseModel):
     autre_type_de_detecteur : Optional[str] = Field(description=".")
     type_de_detecteur : Optional[Literal['Monogaz', 'Multigaz', 'Dispositif d’Alarme pour Travailleur Isolé (DATI)', 'Autre', '']] = Field(description="Le type de détecteur de l'appareil de détecteur portatif, si présent.")

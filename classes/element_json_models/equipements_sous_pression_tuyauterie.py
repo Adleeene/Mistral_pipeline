@@ -20,9 +20,6 @@ class equipements_sous_pression_tuyauterie_0(BaseModel):
     date_de_fabrication : Optional[str] = Field(description="La date de fabrication (peut être appelé plaque) de la tuyauterie, si présent.")
     pid : Optional[str] = Field(description="Le PID de la tuyauterie, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul de la tuyauterie en °C, si présent.")
-
-
-class equipements_sous_pression_tuyauterie_1(BaseModel):
     regime_de_fabrication : Optional[Literal['2 avril 1926 (vapeur)', 'Janvier 1943 (gaz)', 'DESP 97/23/CE', 'DESP 2014/68/UE', 'Néo soumis', 'Directive RPS 2014/29/UE', 'Directive RPS 2009/105/CE', 'Directive RPS 87/404/CEE', '15/01/62 Canalisations', '']] = Field(description="Le régime de fabrication de la tuyauterie, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la tuyauterie, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de la tuyauterie, si présent.")
@@ -30,9 +27,6 @@ class equipements_sous_pression_tuyauterie_1(BaseModel):
     temperature_service_minimum_c_var : Optional[float] = Field(description="La température de service minimum de la tuyauterie en °C, si présent.")
     phase_du_fluide : Optional[Literal['Vapeur ou eau surchauffée', 'Gaz', 'Liquide dont la pression de vapeur, à TS, est inférieure ou égale de 0,5 bar à la pression atmosphérique normale (1,013bar)', '']] = Field(description="La phase du fluide de la tuyauterie, si présent.")
     groupe_du_fluide : Optional[Literal['Groupe 1', 'Groupe 2', '']] = Field(description="Le groupe du fluide de la tuyauterie, si présent.")
-
-
-class equipements_sous_pression_tuyauterie_2(BaseModel):
     temperature_service_maximum_c_var : Optional[float] = Field(description="La température de service maximum de la tuyauterie en °C, si présent.")
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service de la tuyauterie en bar, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la tuyauterie, si présent.")
@@ -40,9 +34,6 @@ class equipements_sous_pression_tuyauterie_2(BaseModel):
     fluide_du_groupe_1 : Optional[Literal['Fluor', 'Fluorure de bore', "Fluorure d'hydrogène", 'Trifluorure de bore', "Chlorure d'hydrogène", "Dioxyde d'azote", 'Chlorure de carbonyle (phosgène)', "Sulfure d'hydrogène", 'Corrosif vis à vis des parois', 'Toxique', 'Cas général', '']] = Field(description=".")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la tuyauterie, si présent.")
-
-
-class equipements_sous_pression_tuyauterie_3(BaseModel):
     pression_de_premiere_epreuve_bar_var : Optional[float] = Field(description="La pression de première épreuve de la tuyauterie en bar, si présent.")
     diametre_nominal_dn_var : Optional[float] = Field(description="Le diamètre nominal de la tuyauterie, si présent.")
     nom_du_fluide : Optional[str] = Field(description="Le nom du fluide de la tuyauterie, si présent.")
@@ -50,9 +41,6 @@ class equipements_sous_pression_tuyauterie_3(BaseModel):
     suivi_par_plan_inspection : Optional[bool] = Field(description="Le suivi par plan d'inspection de la tuyauterie, si présent.")
     dispositif_d_isolation : Optional[Literal['Aucun', 'Fibre', 'Céramique', 'Sous vide', 'Laine de roche', 'Laine de verre', 'Liège', 'Mousse', '']] = Field(description="Le dispositif d'isolation de la tuyauterie, si présent.")
     amenagements : Optional[Literal['CTP 07/2020 : suivi des systèmes frigorifiques', 'CTP 11/2019 rev.1 : cahier technique professionnel dispositions spécifiques applicables aux équipements sous pression à paroi vitrifiée', 'AQUAP 2005/01 : inspections réglementaires des équipements sous pression revêtus', '']] = Field(description="Les aménagements de la tuyauterie, si présent.")
-
-
-class equipements_sous_pression_tuyauterie_4(BaseModel):
     revetement_exterieur : Optional[Literal['Aucun', 'Ebonite', 'Résine', 'Bitume', 'Céramique', 'Email', 'Peinture', 'Galvanisation', '']] = Field(description="Le revêtement extérieur de la tuyauterie, si présent.")
     revetement_interieur : Optional[Literal['Aucun', 'Ebonite', 'Résine', 'Bitume', 'Céramique', 'Email', 'Peinture', 'Galvanisation', '']] = Field(description="Le revêtement intérieur de la tuyauterie, si présent.")
     fluide_du_groupe_2 : Optional[Literal['Air', 'Azote', "Bromure d'hydrogène", 'Corrosif vis à vis des parois', 'Cas général', '']] = Field(description=".")

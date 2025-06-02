@@ -22,9 +22,6 @@ class installations_electriques_eclairage_de_securite_0(BaseModel):
     l_installation_est_elle_equipee_d_une_fonction_dbr_var : Optional[bool] = Field(description="L'installation est-elle équipée d'une fonction DBR, si présent.")
     l_installation_est_elle_equipee_d_un_sati_var : Optional[bool] = Field(description="L'installation est-elle équipée d'un SATI, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'installation électrique d'éclairage de sécurité, si présent.")
-
-
-class installations_electriques_eclairage_de_securite_1(BaseModel):
     type_d_eclairage : Optional[Literal['Evacuation', 'Anti-panique ou ambiance', 'Autre', '']] = Field(description="Le type d'éclairage de l'installation électrique d'éclairage de sécurité, si présent.")
     autre_type_d_installation : Optional[str] = Field(description=".")
     type_d_installation : Optional[Literal['BAES', 'LSC', 'Autre', '']] = Field(description="Le type d'installation de l'installation électrique d'éclairage de sécurité, si présent.")

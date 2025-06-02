@@ -20,9 +20,6 @@ class stockage_corrosif_reservoir_0(BaseModel):
     le_produit_stocke_est_il_corrosif_var : Optional[bool] = Field(description="Le produit stocké est-il corrosif, si présent.")
     produit_stocke : Optional[str] = Field(description="Le produit stocké dans le réservoir, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du réservoir, si présent.")
-
-
-class stockage_corrosif_reservoir_1(BaseModel):
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du réservoir, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du réservoir, si présent.")
     calorifuge : Optional[str] = Field(description="Le calorifuge du réservoir, si présent.")
@@ -30,9 +27,6 @@ class stockage_corrosif_reservoir_1(BaseModel):
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service du réservoir en bar, si présent.")
     phrases_de_risque_mentions_de_danger : Optional[Literal['Rien', '']] = Field(description="Les phrases de risque et mentions de danger du produit stocké dans le réservoir, si présent.")
     temperature_de_service_c_var : Optional[float] = Field(description="La température de service du réservoir en degrés Celsius, si présent.")
-
-
-class stockage_corrosif_reservoir_2(BaseModel):
     pression_de_calcul_bar_var : Optional[float] = Field(description="La pression de calcul du réservoir en bar, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul du réservoir en degrés Celsius, si présent.")
     hauteur_du_reservoir_m_var : Optional[float] = Field(description="La hauteur du réservoir en mètres, si présent.")
@@ -41,7 +35,4 @@ class stockage_corrosif_reservoir_2(BaseModel):
     en_location : Optional[bool] = Field(description="Le réservoir est-il en location, si présent.")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du réservoir, si présent.")
     l_installation_est_elle_soumise_a_declaration_d_dans_la_rubrique_1_6_substances_corrosives_var : Optional[bool] = Field(description="L'installation est-elle soumise à déclaration dans la rubrique 1.6 (substances corrosives), si présent.")
-
-
-class stockage_corrosif_reservoir_3(BaseModel):
     type_de_reservoir : Optional[str] = Field(description="Le type de réservoir, si présent.")

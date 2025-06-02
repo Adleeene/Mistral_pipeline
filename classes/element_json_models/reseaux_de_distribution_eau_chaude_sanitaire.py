@@ -19,9 +19,6 @@ class reseaux_de_distribution_eau_chaude_sanitaire_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du reseau de distribution d'eau chaude sanitaire, si présent.")
     point_de_surveillance : Optional[Literal['Fond de ballon de production et de stockage d’eau chaude sanitaire', 'Point d’usage à risque', 'Retour de boucle', 'Autre', '']] = Field(description="Le point de surveillance du réseau de distribution d'eau chaude sanitaire, si présent.")
     autre_point_de_surveillance : Optional[str] = Field(description=".")
-
-
-class reseaux_de_distribution_eau_chaude_sanitaire_1(BaseModel):
     autre_type_de_point_d_usage_a_risque : Optional[str] = Field(description=".")
     type_de_bain : Optional[Literal['A remous', 'A jet', 'Autre', '']] = Field(description="Le type de bain du réseau de distribution d'eau chaude sanitaire, si présent.")
     autre_type_de_bain : Optional[str] = Field(description=".")

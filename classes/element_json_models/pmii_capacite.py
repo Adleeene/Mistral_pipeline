@@ -20,9 +20,6 @@ class pmii_capacite_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la capacité, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la capacité, si présent.")
-
-
-class pmii_capacite_1(BaseModel):
     temperature_de_calcul_c_var : Optional[str] = Field(description="La temperature de calcul de la capacité en °C, si présent.")
     pression_de_calcul_bar_var : Optional[str] = Field(description="La pression de calcul de la capacité en bar, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la capacité, si présent.")
@@ -30,17 +27,11 @@ class pmii_capacite_1(BaseModel):
     phase_du_fluide_stocke : Optional[Literal['Gaz', 'Liquide dont la tension de vapeur, à TS, est inférieure à la pression atmosphérique normale (1,013 bar)', '']] = Field(description="La phase du fluide stocké dans la capacité, si présent.")
     phrase_de_risque_et_ou_mention_de_danger : Optional[Literal['rien', '']] = Field(description="La phrase de risque et/ou mention de danger de la capacité, si présent.")
     la_defaillance_de_l_equipement_peut_elle_causer_un_risque_technologique_au_sens_de_l_arrete_du_29_09_2005_var : Optional[bool] = Field(description="La défaillance de l'équipement peut-elle causer un risque technologique au sens de l'arrêté du 29/09/2005, si présent.")
-
-
-class pmii_capacite_2(BaseModel):
     est_ce_qu_une_defaillance_liee_au_vieillissement_peut_generer_un_risque_environnemental_important_var : Optional[Literal['Oui', 'Non', 'Je ne sais pas', '']] = Field(description="Est-ce qu'une défaillance liée au vieillissement peut générer un risque environnemental important, si présent.")
     la_capacite_est_elle_calorifugee_var : Optional[bool] = Field(description="La capacité est-elle calorifugée, si présent.")
     produit_stocke : Optional[str] = Field(description="Le produit stocké dans la capacité, si présent.")
     volume_en_m3_var : Optional[float] = Field(description="Le volume en m3 de la capacité, si présent.")
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service de la capacité en bar, si présent.")
     temperature_de_service_c_var : Optional[str] = Field(description="La temperature de service de la capacité en °C, si présent.")
-
-
-class pmii_capacite_3(BaseModel):
     autre_type_de_capacite : Optional[str] = Field(description=".")
     type_de_capacite : Optional[Literal['Colonne', 'Ballon', 'Mélangeur', 'Cuve', 'Autre', '']] = Field(description="Le type de capacité, si présent.")

@@ -20,9 +20,6 @@ class installations_electriques_foudre_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'installation électrique de foudre, si présent.")
     toiture_du_batiment : Optional[str] = Field(description="La toiture du bâtiment de l'installation électrique de foudre, si présent.")
     parois_du_batiment : Optional[str] = Field(description="Les parois du bâtiment de l'installation électrique de foudre, si présent.")
-
-
-class installations_electriques_foudre_1(BaseModel):
     uc_v_var : Optional[float] = Field(description=".")
     up_kv_var : Optional[float] = Field(description=".")
     in_ka_var : Optional[float] = Field(description=".")
@@ -30,17 +27,11 @@ class installations_electriques_foudre_1(BaseModel):
     marque_reference : Optional[str] = Field(description="La marque de référence de l'installation électrique de foudre, si présent.")
     protection : Optional[str] = Field(description="La protection de l'installation électrique de foudre, si présent.")
     niveau_de_protection_defini_par_l_analyse_foudre_effets_indirects_var : Optional[Literal['I', 'II', 'III', 'IV', '']] = Field(description="Le niveau de protection défini par l'analyse de foudre des effets indirects de l'installation électrique de foudre, si présent.")
-
-
-class installations_electriques_foudre_2(BaseModel):
     composition_de_l_installation_exterieure : Optional[Literal['Dispositif de capture', 'Dispositif de conducteurs de descente', 'Prise de terre', '']] = Field(description="La composition de l'installation extérieure de l'installation électrique de foudre, si présent.")
     isscr_ka_var : Optional[float] = Field(description=".")
     calibre : Optional[str] = Field(description="Le calibre de l'installation électrique de foudre, si présent.")
     nombre_de_dispositif_suivi : Optional[int] = Field(description="Le nombre de dispositif suivi de l'installation électrique de foudre, si présent.")
     niveau_de_protection_defini_par_l_analyse_foudre_effets_directs_var : Optional[Literal['I', 'II', 'III', 'IV', '']] = Field(description="Le niveau de protection défini par l'analyse de foudre des effets directs de l'installation électrique de foudre, si présent.")
-
-
-class installations_electriques_foudre_3(BaseModel):
     type_du_parafoudre : Optional[Literal['I', 'II', 'III', '']] = Field(description="Le type du parafoudre de l'installation électrique de foudre, si présent.")
     type_de_systeme_de_protection_contre_la_foudre : Optional[Literal['Installation extérieure (IEPF)', 'Installation intérieure (IIPF)', '']] = Field(description="Le type de système de protection contre la foudre de l'installation électrique de foudre, si présent.")
     type_de_dispositif_de_conducteurs_descente : Optional[Literal['Descentes constituées de conducteurs foudres dédiées', 'Descentes constituées de la structure naturelle du bâtiment', '']] = Field(description="Le type de dispositif de conducteurs de descente de l'installation électrique de foudre, si présent.")

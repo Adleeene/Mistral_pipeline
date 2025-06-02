@@ -20,9 +20,6 @@ class materiels_d_aspiration_hotte_aspirante_0(BaseModel):
     debit_d_extraction_m3_h_var : Optional[int] = Field(description="Le débit d'extraction de la hotte aspirante en m3/h, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la hotte aspirante, si présent.")
     vitesse_de_reference_m_s_var : Optional[float] = Field(description=".")
-
-
-class materiels_d_aspiration_hotte_aspirante_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la hotte aspirante, si présent.")
     concentration_de_la_pollution_dans_l_atelier : Optional[str] = Field(description="La concentration de la pollution dans l'atelier, si présent.")

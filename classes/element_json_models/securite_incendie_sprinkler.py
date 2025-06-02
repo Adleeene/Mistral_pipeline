@@ -20,7 +20,4 @@ class securite_incendie_sprinkler_0(BaseModel):
     pression_statique_en_amont_du_poste_de_controle_bar_var : Optional[float] = Field(description="La pression statique en amont du poste de contrôle en bar du sprinkler, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du sprinkler, si présent.")
-
-
-class securite_incendie_sprinkler_1(BaseModel):
     type_element : Optional[Literal['Installation sous eau', 'Installation sous air', 'Installation alternative', 'Installation à pré-action', 'Installation déluge', 'Installation à Eau + Antigel', '']] = Field(description="Le type d'élément du sprinkler, si présent.")

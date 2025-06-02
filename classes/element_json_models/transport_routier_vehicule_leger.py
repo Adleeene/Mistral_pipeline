@@ -20,9 +20,6 @@ class transport_routier_vehicule_leger_0(BaseModel):
     numero_de_serie : Optional[str] = Field(description="Le numéro de série du véhicule, si présent.")
     utilisation_du_vehicule : Optional[Literal['Transport de personnes', 'Transport de marchandises', '']] = Field(description="L'utilisation du véhicule, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class transport_routier_vehicule_leger_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du véhicule, si présent.")
     constructeur : Optional[str] = Field(description="Le nom du constructeur du véhicule, si présent.")
     utilisation_specifique_du_vehicule : Optional[Literal['De collection', 'Agricole', 'Destiné à l’armée (Militaire)', 'École', 'Diplomatique', 'Aucune', '']] = Field(description="L'utilisation spécifique du véhicule, si présent.")
@@ -30,13 +27,7 @@ class transport_routier_vehicule_leger_1(BaseModel):
     charge_utile_en_kg_var : Optional[float] = Field(description="La charge utile du véhicule en kilogrammes, si présent.")
     poids_total_autorise_en_charge_ptac_en_kg_var : Optional[float] = Field(description="Le poids total autorisé en charge du véhicule en kilogrammes, si présent.")
     nombre_de_place_assises_sauf_le_siege_conducteur_var : Optional[int] = Field(description="Le nombre de places assises sauf le siège conducteur, si présent.")
-
-
-class transport_routier_vehicule_leger_2(BaseModel):
     le_vehicule_doit_il_subir_un_controle_technique_specifique_a_une_reglementation_var : Optional[bool] = Field(description="Le véhicule doit-il subir un contrôle technique spécifique à une réglementation, si présent.")
     statut_du_vehicule : Optional[Literal['Utilitaire', 'Particulier', '']] = Field(description="Le statut du véhicule, si présent.")
     carburant_utilise : Optional[Literal['Gasoil', 'Essence', 'GPL', 'GNV', 'Biocarburant', '']] = Field(description="Le carburant utilisé par le véhicule, si présent.")
-
-
-class transport_routier_vehicule_leger_3(BaseModel):
     type_de_moteur : Optional[Literal['Electrique', 'Hybride', 'Thermique', '']] = Field(description="Le type de moteur du véhicule, si présent.")

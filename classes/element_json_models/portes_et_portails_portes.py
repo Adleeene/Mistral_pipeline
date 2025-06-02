@@ -20,9 +20,6 @@ class portes_et_portails_portes_0(BaseModel):
     mode_de_fonctionnement : Optional[Literal['Manuel', 'Automatique', 'Semi-automatique', '']] = Field(description="Le mode de fonctionnement de la porte, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la porte, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
-
-
-class portes_et_portails_portes_1(BaseModel):
     mode_d_ouverture_verticale : Optional[Literal['Sectionnel', 'Coulissant', 'Levant', '']] = Field(description="Le mode d'ouverture verticale de la porte, si présent.")
     mode_d_ouverture_horizontale : Optional[Literal['Battant', 'Coulissant', 'Sectionnel', 'Tambours', '']] = Field(description="Le mode d'ouverture horizontale de la porte, si présent.")
     usage : Optional[Literal['Destinée au passage des piétons', 'Destinée au passage des véhicules', '']] = Field(description="L'usage de la porte, si présent.")

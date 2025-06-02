@@ -20,9 +20,6 @@ class materiels_d_aspiration_armoire_ventilee_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'armoire ventilée, si présent.")
     numero_de_fabrication : Optional[str] = Field(description="Le numéro de fabrication de l'armoire ventilée, si présent.")
     vitesse_de_reference_m_s_var : Optional[float] = Field(description="La vitesse de référence de l'armoire ventilée, si présent.")
-
-
-class materiels_d_aspiration_armoire_ventilee_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'armoire ventilée, si présent.")
     l_installation_comporte_t_elle_un_systeme_de_recyclage_var : Optional[bool] = Field(description="L'installation comporte-t-elle un système de recyclage, si présent.")

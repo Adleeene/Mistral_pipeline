@@ -22,9 +22,6 @@ class equipements_de_protection_individuelle_detecteur_fixe_0(BaseModel):
     nom_du_des_compose_s_detecte_s_par_l_installation : Optional[str] = Field(description="Le nom du ou des composés détectés par l'installation, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du détecteur fixe, si présent.")
     nombre_de_detecteurs : Optional[int] = Field(description="Le nombre de détecteurs, si présent.")
-
-
-class equipements_de_protection_individuelle_detecteur_fixe_1(BaseModel):
     autre_type_d_installation : Optional[str] = Field(description=".")
     type_d_installation : Optional[Literal['Centrale détection gaz', 'Autre', '']] = Field(description="Le type d'installation du détecteur fixe, si présent.")
     type_de_centrale_de_detection_gaz : Optional[Literal['Mono-voie', 'Multivoies', '']] = Field(description="Le type de centrale de détection de gaz, si présent.")

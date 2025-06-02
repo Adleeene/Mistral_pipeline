@@ -20,9 +20,6 @@ class equipements_sous_pression_recipient_0(BaseModel):
     date_de_fabrication : Optional[str] = Field(description="La date de fabrication (peut être appelé plaque) du récipient sous pression, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du récipient sous pression, si présent.")
     materiau : Optional[str] = Field(description="Le matériau du récipient sous pression, si présent.")
-
-
-class equipements_sous_pression_recipient_1(BaseModel):
     groupe_du_fluide : Optional[Literal['Groupe 1', 'Groupe 2', '']] = Field(description="Le groupe du fluide contenu dans le récipient sous pression, si présent.")
     revetement_exterieur : Optional[Literal['Aucun', 'Ebonite', 'Résine', 'Bitume', 'Céramique', 'Email', 'Peinture', 'Galvanisation', '']] = Field(description="Le revêtement extérieur du récipient sous pression, si présent.")
     regime_de_fabrication : Optional[Literal['2 avril 1926 (vapeur)', 'Janvier 1943 (gaz)', 'DESP 97/23/CE', 'DESP 2014/68/UE', 'Néo soumis', 'Directive RPS 2014/29/UE', 'Directive RPS 2009/105/CE', 'Directive RPS 87/404/CEE', '15/01/62 Canalisations', '']] = Field(description="Le régime de fabrication du récipient sous pression, si présent.")
@@ -30,9 +27,6 @@ class equipements_sous_pression_recipient_1(BaseModel):
     phase_du_fluide : Optional[Literal['Vapeur ou eau surchauffée', 'Gaz', 'Liquide dont la pression de vapeur, à TS, est inférieure ou égale de 0,5 bar à la pression atmosphérique normale (1,013bar)', '']] = Field(description="La phase du fluide contenu dans le récipient sous pression, si présent.")
     pid : Optional[str] = Field(description="Le PID du récipient sous pression, si présent.")
     fluide_du_groupe_2 : Optional[Literal['Air', 'Azote', "Bromure d'hydrogène", 'Corrosif vis à vis des parois', 'Cas général', '']] = Field(description=".")
-
-
-class equipements_sous_pression_recipient_2(BaseModel):
     fluide_du_groupe_1 : Optional[Literal['Fluor', 'Fluorure de bore', "Fluorure d'hydrogène", 'Trifluorure de bore', "Chlorure d'hydrogène", "Dioxyde d'azote", 'Chlorure de carbonyle (phosgène)', "Sulfure d'hydrogène", 'Corrosif vis à vis des parois', 'Toxique', 'Cas général', '']] = Field(description=".")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du récipient sous pression, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du récipient sous pression, si présent.")
@@ -40,9 +34,6 @@ class equipements_sous_pression_recipient_2(BaseModel):
     temperature_maximale_de_service_c_var : Optional[float] = Field(description="La température maximale de service du récipient sous pression en degrés Celsius, si présent.")
     criticite : Optional[Literal['Faible', 'Moyenne', 'Forte', '']] = Field(description="La criticité du récipient sous pression, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class equipements_sous_pression_recipient_3(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du récipient sous pression, si présent.")
     pression_de_premiere_epreuve_bar_var : Optional[str] = Field(description="La pression de première épreuve du récipient sous pression en bar, si présent.")
     volume_l_var : Optional[float] = Field(description="Le volume en litres du récipient sous pression, si présent.")
@@ -50,16 +41,10 @@ class equipements_sous_pression_recipient_3(BaseModel):
     suivi_par_plan_inspection : Optional[bool] = Field(description="Le suivi par plan d'inspection du récipient sous pression, si présent.")
     a_t_il_subit_une_modification_notable_ou_un_changement_de_site_var : Optional[bool] = Field(description="A-t-il subit une modification notable ou un changement de site, si présent.")
     a_t_il_subit_une_modification_notable_depuis_son_dernier_controle_reglementaire_var : Optional[bool] = Field(description="A-t-il subit une modification notable depuis son dernier contrôle réglementaire, si présent.")
-
-
-class equipements_sous_pression_recipient_4(BaseModel):
     avez_vous_realise_une_cms_volontaire_var : Optional[bool] = Field(description="Avez-vous réalisé une CMS volontaire, si présent.")
     dispositif_d_isolation : Optional[Literal['Aucun', 'Fibre', 'Céramique', 'Sous vide', 'Laine de roche', 'Laine de verre', 'Liège', 'Mousse', '']] = Field(description="Le dispositif d'isolation du récipient sous pression, si présent.")
     pression_maximale_admissible_bar_var : Optional[float] = Field(description="La pression maximale admissible du récipient sous pression en bar, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul du récipient sous pression en degrés Celsius, si présent.")
     amenagements : Optional[Literal['CTP 07/2020 : suivi des systèmes frigorifiques', 'CTP 11/2019 rev.1 : cahier technique professionnel dispositions spécifiques applicables aux équipements sous pression à paroi vitrifiée', 'AQUAP 2005/01 : inspections réglementaires des équipements sous pression revêtus', 'CTP 09/2019 : pour l’inspection en service des ESP en graphite imprégné', 'CTP 152-02D /2019 : dispositions spécifiques applicables aux récipients à double paroi', '']] = Field(description="Les aménagements du récipient sous pression, si présent.")
     realisez_vous_des_inspections_periodiques_externes_ipe_var : Optional[Literal["Oui, après l'IP", 'Oui, après la RP', 'Non', '']] = Field(description="Réalisez-vous des inspections périodiques externes (IPE), si présent.")
-
-
-class equipements_sous_pression_recipient_5(BaseModel):
     type_de_recipient : Optional[Literal['ACAFR fixe', 'ACAFR mobile', 'Mobile en matériaux autre que métallique', 'Récipient à pression simple', 'Autre type de récipient', '']] = Field(description="Le type de récipient sous pression, si présent.")

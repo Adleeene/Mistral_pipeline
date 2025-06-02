@@ -20,9 +20,6 @@ class reseaux_de_distribution_systeme_anti_pollution_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du système anti-pollution, si présent.")
     modele_de_disconnecteur : Optional[Literal['BA : Disconnecteur à zone de pression réduite contrôlable', 'CA : Disconnecteur à zone de pression différente non contrôlable', 'HA : Disconnecteur d’extrémité', 'Autre', '']] = Field(description="Le modèle (ou type) de disconnecteur du système anti-pollution, si présent.")
-
-
-class reseaux_de_distribution_systeme_anti_pollution_1(BaseModel):
     presence_logo_nf : Optional[bool] = Field(description="La présence du logo NF sur le système anti-pollution, si présent.")
     le_systeme_protege_un_reseau_de : Optional[Literal['Incendie', 'Alimentation générale', 'Production technique', 'Arrosage', 'Chauffage ou climatisation', 'Autre', '']] = Field(description="Le système protège-t-il un réseau de distribution d'eau potable, si présent.")
     diametre : Optional[str] = Field(description="Le diamètre du système anti-pollution, si présent.")
@@ -30,9 +27,6 @@ class reseaux_de_distribution_systeme_anti_pollution_1(BaseModel):
     modele_de_clapet : Optional[Literal['EA : Clapet de non-retour anti-pollution contrôlable', 'EB : Clapet de non-retour anti-pollution non contrôlable', 'Autre', '']] = Field(description="Le modèle (ou type) de clapet du système anti-pollution, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du système anti-pollution, si présent.")
     nature_du_fluide_present_dans_l_installation : Optional[Literal['Eau potable', 'Eau ou fluide ne présentant pas de danger pour la santé', 'Eau ou fluide présentant un certain danger pour la santé du fait de substance toxiques', 'Eau ou fluide présentant un danger toxicologique', 'Eau ou fluide présentant un danger microbiologique ou viral', 'Autre', '']] = Field(description="La nature du fluide présent dans l'installation, si présent.")
-
-
-class reseaux_de_distribution_systeme_anti_pollution_2(BaseModel):
     autre_type_de_systeme_anti_pollution : Optional[str] = Field(description=".")
     type_de_systeme_anti_pollution : Optional[Literal['Disconnecteur', 'Clapet', 'Autre', '']] = Field(description="Le type de système anti-pollution, si présent.")
     autre_type_de_reseau : Optional[str] = Field(description=".")

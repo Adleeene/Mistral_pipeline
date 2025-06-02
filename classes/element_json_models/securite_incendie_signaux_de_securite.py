@@ -20,16 +20,10 @@ class securite_incendie_signaux_de_securite_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du signal de sécurité, si présent.")
     reference_commerciale : Optional[str] = Field(description="La référence commerciale du signal de sécurité, si présent.")
     l_installation_fait_elle_partie_d_un_systeme_en_reseau : Optional[bool] = Field(description="L'installation fait-elle partie d'un système en réseau, si présent.")
-
-
-class securite_incendie_signaux_de_securite_1(BaseModel):
     surface_couverte_par_le_systeme_d_alarme_m2_var : Optional[str] = Field(description="La surface couverte par le système d'alarme en m2, si présent.")
     nombre_d_equipements_d_alarme : Optional[int] = Field(description="Le nombre d'équipements d'alarme, si présent.")
     designation_de_l_equipement_d_alarme : Optional[str] = Field(description="La désignation de l'équipement d'alarme, si présent.")
     nombre_de_signaux_lumineux : Optional[int] = Field(description="Le nombre de signaux lumineux, si présent.")
-
-
-class securite_incendie_signaux_de_securite_2(BaseModel):
     type_de_signal : Optional[Literal['Lumineux', 'Acoustique', '']] = Field(description="Le type de signal de sécurité, si présent.")
     type_d_emission_du_signal_lumineux : Optional[Literal['Intermittent', 'Continu', '']] = Field(description="Le type d'émission du signal lumineux, si présent.")
     type_des_equipements_d_alarme : Optional[Literal['Type 2a', 'Type 2b', 'Type 3', 'Type 4', '']] = Field(description="Le type des équipements d'alarme, si présent.")

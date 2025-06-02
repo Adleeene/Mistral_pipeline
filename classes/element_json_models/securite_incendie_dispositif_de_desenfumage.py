@@ -21,8 +21,5 @@ class securite_incendie_dispositif_de_desenfumage_0(BaseModel):
     quantite_d_exutoire_present_dans_l_installation : Optional[int] = Field(description="La quantité d'exutoire présent dans l'installation, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du dispositif de désenfumage, si présent.")
-
-
-class securite_incendie_dispositif_de_desenfumage_1(BaseModel):
     type_element : Optional[Literal['Extraction naturelle', 'Extraction mécanique', '']] = Field(description="Le type d'élément du dispositif de désenfumage, si présent.")
     type_de_suivi : Optional[Literal['Individuel', 'Ensemble', '']] = Field(description="Le type de suivi du dispositif de désenfumage, si présent.")

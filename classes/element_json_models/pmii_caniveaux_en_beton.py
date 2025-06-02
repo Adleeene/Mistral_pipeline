@@ -20,9 +20,6 @@ class pmii_caniveaux_en_beton_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'ouvrage, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de l'ouvrage, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication de l'ouvrage, si présent.")
-
-
-class pmii_caniveaux_en_beton_1(BaseModel):
     hauteur_m_var : Optional[float] = Field(description="La hauteur en m de l'ouvrage, si présent.")
     longueur_m_var : Optional[float] = Field(description="La longueur en m de l'ouvrage, si présent.")
     l_ouvrage_appartient_il_a_une_unite_de_fabrication_vehiculant_des_produits_agressifs_pour_lui_var : Optional[bool] = Field(description="L'ouvrage appartient-il à une unité de fabrication véhiculant des produits agressifs pour lui, si présent.")

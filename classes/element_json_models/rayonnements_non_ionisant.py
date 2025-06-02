@@ -20,14 +20,8 @@ class rayonnements_non_ionisant_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du rayonement non ionisant, si présent.")
     installation_qui_genere_un_rayonnement_optique : Optional[str] = Field(description="Le nom de l'installation qui génère un rayonnement optique, si présent.")
     l_etude_des_risques_de_rayonnement_est_elle_evaluee_par_mesurage_var : Optional[bool] = Field(description="L'étude des risques de rayonnement est-elle évaluée par mesurage, si présent.")
-
-
-class rayonnements_non_ionisant_1(BaseModel):
     installation_qui_genere_un_rayonnement_electromagnetique : Optional[str] = Field(description="Le nom de l'installation qui génère un rayonnement électromagnétique, si présent.")
     numero_identification : Optional[str] = Field(description="Le numéro d'identification de l'élément de rayonnement non ionisant, si présent.")
     frequence_khz_var : Optional[float] = Field(description="La fréquence en kHz de l'élément de rayonnement non ionisant, si présent.")
-
-
-class rayonnements_non_ionisant_2(BaseModel):
     type_de_rayonnement : Optional[Literal['Optique\u202fartificiel', 'Électromagnétique', '']] = Field(description="Le type de rayonnement non ionisant, si présent.")
     type_de_rayonnement_optique_artificiel : Optional[Literal['Ultraviolet', 'Lumière visible', 'Infrarouge', 'Laser', 'Autre', '']] = Field(description="Le type de rayonnement optique artificiel, si présent.")

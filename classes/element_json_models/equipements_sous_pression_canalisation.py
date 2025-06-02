@@ -20,9 +20,6 @@ class equipements_sous_pression_canalisation_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la canalisation, si présent.")
     pid : Optional[str] = Field(description="Le PID de la canalisation, si présent.")
-
-
-class equipements_sous_pression_canalisation_1(BaseModel):
     pression_maximale_admissible_en_bar_var : Optional[float] = Field(description="La pression maximale admissible en bar de la canalisation, si présent.")
     temperature_maximale_admissible_en_c_var : Optional[float] = Field(description="La température maximale admissible en °C de la canalisation, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la canalisation, si présent.")
@@ -30,9 +27,6 @@ class equipements_sous_pression_canalisation_1(BaseModel):
     depart_du_reseau : Optional[str] = Field(description="Le départ du réseau de la canalisation, si présent.")
     arrivee_du_reseau : Optional[str] = Field(description="L'arrivée du réseau de la canalisation, si présent.")
     la_canalisation_fait_elle_partie_du_code_minier_ou_d_une_installation_classee_icpe_var : Optional[bool] = Field(description="La canalisation fait-elle partie du code minier ou d'une installation classée ICPE, si présent.")
-
-
-class equipements_sous_pression_canalisation_2(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de la canalisation, si présent.")
     autre_regime_de_fabrication : Optional[str] = Field(description=".")
     numero_de_serie : Optional[str] = Field(description="Le numéro de série de la canalisation, si présent.")
@@ -40,9 +34,6 @@ class equipements_sous_pression_canalisation_2(BaseModel):
     nombre_de_reseau_desservis : Optional[int] = Field(description="Le nombre de réseaux desservis par la canalisation, si présent.")
     la_canalisation_fait_elle_partie_d_une_installation_classee_icpe_var : Optional[bool] = Field(description="La canalisation fait-elle partie d'une installation classée ICPE, si présent.")
     quel_fluide_est_transporte_var : Optional[Literal['Dioxyde de carbone', 'Gaz inflammable ou nocif ou toxique', 'Liquide inflammable', 'Autre', '']] = Field(description="Le fluide transporté par la canalisation, si présent.")
-
-
-class equipements_sous_pression_canalisation_3(BaseModel):
     realisez_vous_des_essais_d_etancheite_ou_de_recherches_systematiques_de_fuites_var : Optional[bool] = Field(description="Réalisez-vous des essais d'étanchéité ou de recherches systématiques de fuites, si présent.")
     la_canalisation_applique_t_elle_une_des_conditions_prevues_pour_augmenter_la_periodicite_var : Optional[bool] = Field(description=".")
     regime_de_fabrication : Optional[Literal['2 avril 1926 (vapeur)', 'Janvier 1943 (gaz)', 'DESP 97/23/CE', 'DESP 2014/68/UE', 'Néo soumis', '15/01/62 Canalisations', 'Autre', '']] = Field(description="Le régime de fabrication de la canalisation, si présent.")

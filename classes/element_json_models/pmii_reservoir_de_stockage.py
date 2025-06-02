@@ -20,9 +20,6 @@ class pmii_reservoir_de_stockage_0(BaseModel):
     phrase_de_risque_mention_de_danger : Optional[Literal['R22', 'R50', 'TEST', '']] = Field(description="La phrase de risque mention de danger du réservoir de stockage, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du réservoir de stockage, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du réservoir de stockage, si présent.")
-
-
-class pmii_reservoir_de_stockage_1(BaseModel):
     temperature_de_service_c_var : Optional[float] = Field(description="La temperature de service en °C du réservoir de stockage, si présent.")
     serpentin_de_rechauffage : Optional[bool] = Field(description="Le serpentin de réchauffage du réservoir de stockage, si présent.")
     calorifuge : Optional[bool] = Field(description="Le calorifuge du réservoir de stockage, si présent.")
@@ -30,9 +27,6 @@ class pmii_reservoir_de_stockage_1(BaseModel):
     volume_m3_var : Optional[float] = Field(description="Le volume en m3 du réservoir de stockage, si présent.")
     pid : Optional[str] = Field(description="Le PID du réservoir de stockage, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du réservoir de stockage, si présent.")
-
-
-class pmii_reservoir_de_stockage_2(BaseModel):
     pression_de_calcul_bar_var : Optional[float] = Field(description="La pression de calcul en bar du réservoir de stockage, si présent.")
     hauteur_du_reservoir_m_var : Optional[float] = Field(description="La hauteur du réservoir en m, si présent.")
     temperature_de_calcul_c_var : Optional[int] = Field(description="La temperature de calcul en °C du réservoir de stockage, si présent.")
@@ -40,13 +34,7 @@ class pmii_reservoir_de_stockage_2(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du réservoir de stockage, si présent.")
     est_ce_qu_une_defaillance_liee_au_vieillissement_peut_generer_un_risque_environnemental_important : Optional[Literal['Oui', 'Non', 'Ne sais pas', '']] = Field(description="Est-ce qu'une défaillance liée au vieillissement peut générer un risque environnemental important, si présent.")
-
-
-class pmii_reservoir_de_stockage_3(BaseModel):
     diametre_du_reservoir_m_var : Optional[str] = Field(description="Le diamètre du réservoir en m, si présent.")
     phase_du_fluide : Optional[Literal['Gaz', 'Vapeur ou eau surchauffée', 'Liquide dont la pression de vapeur à TS, est inférieure ou égale de 0,5 bar à la pression atmosphérique normale (1,013 bar)', '']] = Field(description="La phase du fluide du réservoir de stockage, si présent.")
     materiau : Optional[Literal['Acier carbone', 'Acier inoxydable', 'Matériau composite', 'Métallique', 'Non métallique', 'Acier ignifugé', 'Fonte', 'Alliage Aluminium', 'Cuivre', 'Alliage cuivre', 'Nickel', 'Alliage de nickel', 'Nickel chrome', 'Titane', 'Alliage de titane', 'Graphite', 'Céramique', 'Polyester', 'Acier non allié', 'Aluminium non allié', 'Acier carbone manganèse', 'Acier faiblement allié', 'Acier allié', 'Acier inoxydable ferritique', 'Acier inoxydable austéno-ferritique', 'Acier inoxydable martensitique', 'Acier inoxydable austénitique', 'Matériaux ferreux\xa0', 'Matériaux non ferreux', '']] = Field(description="Le matériau du réservoir de stockage, si présent.")
-
-
-class pmii_reservoir_de_stockage_4(BaseModel):
     type_de_reservoir : Optional[Literal['A toit fixe', 'A toit flottant', 'A écran flottant', '']] = Field(description="Le type de réservoir de stockage, si présent.")

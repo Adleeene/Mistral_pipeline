@@ -20,9 +20,6 @@ class levage_appareil_0(BaseModel):
     date_de_fabrication : Optional[str] = Field(description="La date de fabrication (peut être appelé plaque) de l'appareil de levage, si présent.")
     date_de_mise_en_service : Optional[str] = Field(description="La date de mise en service de l'appareil de levage, si présent.")
     energie : Optional[Literal['À bras', 'Motorisé', '']] = Field(description="L'énergie de l'appareil de levage, si présent.")
-
-
-class levage_appareil_1(BaseModel):
     charge_maximale_d_utilisation_kg_var : Optional[float] = Field(description="La charge maximale d'utilisation de l'appareil de levage, si présent.")
     etat_a_l_achat : Optional[Literal['Neuf', 'Occasion', '']] = Field(description="L'état à l'achat de l'appareil de levage, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'appareil de levage, si présent.")
@@ -30,9 +27,6 @@ class levage_appareil_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'appareil de levage, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'appareil de levage, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
-
-
-class levage_appareil_2(BaseModel):
     type_de_palan_fixe : Optional[Literal['Palan à chaine sur monorail', 'Palan à chaine sur point fixe', 'Palan à chaine sur potence', 'Palan à chaine sur poutre roulante', 'Palan à cable de type Lugall', 'Palan à levier à chaine pull-lift', '']] = Field(description="Le type de palan fixe de l'appareil de levage, si présent.")
     type_de_chariot_elevateur : Optional[Literal['Porté', 'Accompagnant', 'À poste de conduite élevable', 'Haute levée', '']] = Field(description="Le type de chariot élévateur de l'appareil de levage, si présent. Tu dois te baser sur la désignation pour choisir le type..")
     type_de_pont_roulant : Optional[Literal['Pont roulant à commande au sol', 'Pont roulant à cabine', 'Portique à commande au sol', 'Portique à cabine', 'Semi-portique à cabine', 'Semi-portique à commande du sol', 'Autre', '']] = Field(description="Le type de pont roulant de l'appareil de levage, si présent.")
@@ -42,9 +36,6 @@ class levage_appareil_2(BaseModel):
     type_de_treuil : Optional[Literal['Treuil sur monorail', 'Treuil sur potence', 'Treuil sur point fixe', 'Autre', '']] = Field(description="Le type de treuil de l'appareil de levage, si présent.")
     type_de_palan_mobile : Optional[Literal['Palan à chaîne', 'Palan de type Pull-Lift', 'Palan à câble de type Lugall', 'Treuil à tambour', 'Treuil à mâchoire de type tire-fort', '']] = Field(description="Le type de palan mobile de l'appareil de levage, si présent.")
     type_d_appareil_de_chantier : Optional[Literal['Grues à tour à montage rapide ou automatisé, sur stabilisateurs', 'Monte-meubles', 'Monte-matériaux de chantier', 'Engins de terrassement équipés pour le levage', 'Grues mobiles automotrices ou sur véhicule porteur, ne nécessitant pas de montage ou de démontage de parties importantes', 'Tracteurs poseurs de canalisations', 'Palan à chaine', 'Autre', '']] = Field(description="Le type d'appareil de chantier de l'appareil de levage, si présent.")
-
-
-class levage_appareil_3(BaseModel):
     l_element_de_levage_possede_t_il_un_auxiliaire_var : Optional[bool] = Field(description="L'élément de levage possède-t-il un auxiliaire, si présent.")
     nom_auxiliaire_n_1 : Optional[str] = Field(description="Le nom auxiliaire n°1, si présent.")
     cmu_auxiliaire_n_1 : Optional[str] = Field(description="La charge maximale d'utilisation auxiliaire n°1, si présent.")

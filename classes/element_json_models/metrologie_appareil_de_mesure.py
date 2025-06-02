@@ -20,13 +20,7 @@ class metrologie_appareil_de_mesure_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'appareil de mesure, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'appareil de mesure, si présent.")
-
-
-class metrologie_appareil_de_mesure_1(BaseModel):
     autre_type : Optional[str] = Field(description="Un autre type de l'appareil de mesure, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'appareil de mesure, si présent.")
     grandeur_mesuree : Optional[str] = Field(description="La grandeur mesurée par l'appareil de mesure, si présent.")
-
-
-class metrologie_appareil_de_mesure_2(BaseModel):
     type_appareil : Optional[Literal['Électronique', 'Mécanique', 'Pression', 'Pesage', 'Autre', '']] = Field(description="Le type de l'appareil de mesure, si présent.")

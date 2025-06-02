@@ -22,7 +22,4 @@ class rampes_d_acces_quai_niveleur_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la rampe d'accès au quai niveleur, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de la rampe d'accès au quai niveleur, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
-
-
-class rampes_d_acces_quai_niveleur_1(BaseModel):
     type_element : Optional[str] = Field(description="Le type d'élément de la rampe d'accès au quai niveleur, si présent.")

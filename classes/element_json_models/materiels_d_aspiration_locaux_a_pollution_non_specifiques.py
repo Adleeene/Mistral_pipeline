@@ -20,16 +20,10 @@ class materiels_d_aspiration_locaux_a_pollution_non_specifiques_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du local à pollution non spécifique, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'installation à pollution non spécifique, si présent.")
-
-
-class materiels_d_aspiration_locaux_a_pollution_non_specifiques_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'installation à pollution non spécifique, si présent.")
     nombre_d_ouvrant : Optional[int] = Field(description="Le nombre d'ouvrant de l'installation à pollution non spécifique, si présent.")
     risque_s_de_pollution_identifie_s_var : Optional[str] = Field(description="Les risques de pollution identifiés, si présent.")
     debit_d_extraction_m3_h_var : Optional[float] = Field(description="Le débit d'extraction de l'installation à pollution non spécifique en m3/h, si présent.")
     volume_du_local_m3_var : Optional[float] = Field(description="Le volume du local en m3, si présent.")
     usage : Optional[str] = Field(description="L'usage de l'installation à pollution non spécifique, si présent.")
-
-
-class materiels_d_aspiration_locaux_a_pollution_non_specifiques_2(BaseModel):
     type_d_aeration : Optional[Literal['Ventilation mécanique', 'Ventilation naturelle', 'Absence de ventilation', 'Ventilation mécanique et naturelle', '']] = Field(description="Le type d'aération de l'installation à pollution non spécifique, si présent.")

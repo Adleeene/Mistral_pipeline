@@ -20,9 +20,6 @@ class equipements_sous_pression_accessoire_de_securite_0(BaseModel):
     numero_de_serie : Optional[str] = Field(description="Le numéro de série de l'accessoire de sécurité, si présent.")
     pid : Optional[str] = Field(description="Le PID de l'accessoire de sécurité, si présent.")
     pression_de_debut_d_ouverture_ou_pression_d_eclatement_en_bar_var : Optional[float] = Field(description="La pression de début d'ouverture ou pression d'éclatement de l'accessoire de sécurité en bar, si présent.")
-
-
-class equipements_sous_pression_accessoire_de_securite_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'accessoire de sécurité, si présent.")
     dn_entree : Optional[int] = Field(description=".")
@@ -30,8 +27,5 @@ class equipements_sous_pression_accessoire_de_securite_1(BaseModel):
     pn_entree : Optional[int] = Field(description=".")
     pn_sortie : Optional[int] = Field(description=".")
     adequation_de_l_accessoire : Optional[bool] = Field(description="L'adéquation de l'accessoire de sécurité, si présent.")
-
-
-class equipements_sous_pression_accessoire_de_securite_2(BaseModel):
     type_d_accessoire : Optional[Literal['CSPRS', 'Disque de rupture', 'DSDCS', 'Pompe', 'Pressostat de sécurité', 'Soupape', 'SRMCR', 'Arrête-flamme', '']] = Field(description="Le type d'accessoire de sécurité, si présent.")
     type_d_arrete_flamme : Optional[Literal['Anti-déflagration en bout de ligne', 'Anti-déflagration en ligne', 'Anti-détonation', 'Mono ou bidirectionnel', '']] = Field(description="Le type d'arrête-flamme de l'accessoire de sécurité, si présent.")

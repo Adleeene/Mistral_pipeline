@@ -19,7 +19,4 @@ class exposition_des_travailleurs_eclairage_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description=".")
     zone_d_eclairement : Optional[Literal['Voies de circulation intérieure', 'Zones et voies de circulation extérieure', 'Escaliers et entrepôts', 'Locaux de travail, vestiaires et sanitaires', 'Locaux aveugles affectés à un travail permanent', 'Espaces extérieurs où sont effectués des travaux à caractère permanent', 'Autre', '']] = Field(description=".")
     valeur_d_eclairement_mesuree_en_lux_var : Optional[float] = Field(description=".")
-
-
-class exposition_des_travailleurs_eclairage_1(BaseModel):
     autre_type_de_zone : Optional[str] = Field(description=".")

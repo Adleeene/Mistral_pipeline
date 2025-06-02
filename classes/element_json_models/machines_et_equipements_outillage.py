@@ -20,13 +20,7 @@ class machines_et_equipements_outillage_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'outillage, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'outil, si présent.")
-
-
-class machines_et_equipements_outillage_1(BaseModel):
     autre_type : Optional[str] = Field(description=".")
     environnement_d_utilisation : Optional[str] = Field(description="L'environnement d'utilisation de l'outil, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'outil, si présent.")
-
-
-class machines_et_equipements_outillage_2(BaseModel):
     type_d_outil : Optional[Literal['Mécanique', 'Électrique', 'Pneumatique', 'Hydraulique', 'Autre', '']] = Field(description="Le type d'outil, si présent.")

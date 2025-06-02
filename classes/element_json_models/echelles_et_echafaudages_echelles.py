@@ -20,7 +20,4 @@ class echelles_et_echafaudages_echelles_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'echelle, si présent.")
     nombre_de_marche : Optional[int] = Field(description="Le nombre de marches de l'échelle, si présent.")
     hauteur : Optional[float] = Field(description="La hauteur de l'échelle, si présent.")
-
-
-class echelles_et_echafaudages_echelles_1(BaseModel):
     type_element : Optional[Literal['Echelle', 'Echelle à crinoline', 'Escabeau', 'Gazelle', 'Marchepied', "Pied d'éléphant", 'PIR', 'PIRL', 'Tabouret', 'Échelle avec garde-corps', 'Plateforme saut de loup', 'Autre', '']] = Field(description="Le type d'élément de l'échelle, si présent.")

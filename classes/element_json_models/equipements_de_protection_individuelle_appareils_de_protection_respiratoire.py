@@ -21,9 +21,6 @@ class equipements_de_protection_individuelle_appareils_de_protection_respiratoir
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'appareil de protection respiratoire, si présent.")
     assigne_a : Optional[str] = Field(description="L'assignation de l'appareil de protection respiratoire, si présent.")
-
-
-class equipements_de_protection_individuelle_appareils_de_protection_respiratoire_1(BaseModel):
     type_d_appareil_filtrant : Optional[Literal['Appareil filtrant à ventilation libre', 'Appareil filtrant à ventilation assistée', "Appareil d'évacuation filtrant", '']] = Field(description="Le type de l'appareil filtrant, si présent.")
     type_d_appareil_isolant : Optional[Literal["Appareil isolant à adduction d'air comprimé", 'Appareil isolant à air libre à assistance motorisée', 'Appareil isolant à air libre à assistance manuelle', 'Appareil isolant à air libre sans assistance', 'Appareil isolant autonome à air comprimé à circuit ouvert', 'Appareil isolant autonome à oxygène comprimé à circuit fermé', "Appareil d'évacuation autonome à air comprimé à circuit ouvert", "Appareil d'évacuation autonome à oxygène comprimé à circuit fermé", "Appareil d'évacuation autonome à génération d'oxygène", '']] = Field(description="Le type de l'appareil isolant, si présent.")
     type_element : Optional[Literal['Demi-masque', 'Ensemble embout buccal', 'Cagoule', 'Casque', '']] = Field(description="Le type d'élément de l'appareil de protection respiratoire, si présent.")

@@ -20,9 +20,6 @@ class pmii_cuvette_de_retention_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de la cuvette de rétention, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de la cuvette de rétention, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication de la cuvette de rétention, si présent.")
-
-
-class pmii_cuvette_de_retention_1(BaseModel):
     hauteur_de_la_retention_m_var : Optional[float] = Field(description="La hauteur de la rétention en m de la cuvette de rétention, si présent.")
     nature_de_l_etancheite_verticale : Optional[str] = Field(description="La nature de l'étanchéité verticale de la cuvette de rétention, si présent.")
     nature_de_l_etancheite_horizontale : Optional[str] = Field(description="La nature de l'étanchéité horizontale de la cuvette de rétention, si présent.")

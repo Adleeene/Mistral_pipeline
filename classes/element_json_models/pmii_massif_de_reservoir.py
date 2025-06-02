@@ -20,9 +20,6 @@ class pmii_massif_de_reservoir_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du massif de réservoir, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du massif de réservoir, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du massif de réservoir, si présent.")
-
-
-class pmii_massif_de_reservoir_1(BaseModel):
     hauteur_du_massif_m_var : Optional[float] = Field(description="La hauteur du massif de réservoir en m, si présent.")
     classe_d_etat : Optional[Literal['Classe 1', 'Classe 2', 'Classe 2E', 'Classe 3', 'Classe 3P', '']] = Field(description="La classe d'état du massif de réservoir, si présent.")
     nature_du_massif : Optional[Literal['Assise simple en remblai compacté', 'Dalle en béton armé', 'Fondation sur pieux', 'Fondation sur inclusions rigides', '']] = Field(description="La nature du massif de réservoir, si présent.")

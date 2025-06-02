@@ -20,9 +20,6 @@ class stockage_corrosif_bassin_0(BaseModel):
     phrases_de_risque_mentions_de_danger : Optional[Literal['Rien', '']] = Field(description="Les phrases de risque et mentions de danger du produit stocké dans le bassins de stockage corrosif, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du bassin de stockage corrosif, si présent.")
     produit_stocke : Optional[str] = Field(description="Le produit stocké dans le bassin de stockage corrosif, si présent.")
-
-
-class stockage_corrosif_bassin_1(BaseModel):
     volume_m3_var : Optional[float] = Field(description="Le volume en mètre cube du bassin de stockage corrosif, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du bassin de stockage corrosif, si présent.")
     materiau : Optional[str] = Field(description="Le matériau du bassin de stockage corrosif, si présent.")
@@ -30,9 +27,6 @@ class stockage_corrosif_bassin_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du bassin de stockage corrosif, si présent.")
     calorifuge : Optional[str] = Field(description="Le calorifuge du bassin de stockage corrosif, si présent.")
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service en bar du bassin de stockage corrosif, si présent.")
-
-
-class stockage_corrosif_bassin_2(BaseModel):
     le_produit_stocke_est_il_corrosif_var : Optional[bool] = Field(description="Le produit stocké est-il corrosif, si présent.")
     temperature_de_service_c_var : Optional[float] = Field(description="La température de service en °C du bassin de stockage corrosif, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul en °C du bassin de stockage corrosif, si présent.")
@@ -40,7 +34,4 @@ class stockage_corrosif_bassin_2(BaseModel):
     pid : Optional[str] = Field(description="Le PID du bassin de stockage corrosif, si présent.")
     en_location : Optional[bool] = Field(description="Le bassin de stockage corrosif est-il en location, si présent.")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du bassin de stockage corrosif, si présent.")
-
-
-class stockage_corrosif_bassin_3(BaseModel):
     type_de_bassin : Optional[str] = Field(description="Le type de bassin de stockage corrosif, si présent.")

@@ -22,8 +22,5 @@ class installations_electriques_installation_classique_0(BaseModel):
     controle_par_thermographie_infrarouge_demande_par_l_assureur_q19_var : Optional[bool] = Field(description="Le contrôle par thermographie infrarouge demandé par l'assureur Q19, si présent.")
     presence_d_un_silo_de_cereales_de_grains_ou_de_produits_organiques_degageant_des_poussieres_inflammables_var : Optional[bool] = Field(description="La présence d'un silo de céréales, de grains ou de produits organiques dégageant des poussières inflammables, si présent.")
     cette_installation_est_elle_comprise_dans_une_zone_erp_var : Optional[bool] = Field(description="Cette installation est-elle comprise dans une zone ERP, si présent.")
-
-
-class installations_electriques_installation_classique_1(BaseModel):
     type_element : Optional[Literal['Bâtiment', 'Local TGBT', 'Armoire', 'Autre', '']] = Field(description="Le type d'élément de l'installation électrique classique, si présent.")
     autre_type_d_installation : Optional[str] = Field(description=".")

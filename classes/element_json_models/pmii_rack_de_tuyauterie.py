@@ -20,9 +20,6 @@ class pmii_rack_de_tuyauterie_0(BaseModel):
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du rack de tuyauterie, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du rack de tuyauterie, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du rack de tuyauterie, si présent.")
-
-
-class pmii_rack_de_tuyauterie_1(BaseModel):
     materiau : Optional[Literal['Acier carbone', 'Acier inoxydable', 'Acier ignifugé', 'Béton', 'Mixte acier-béton', 'Métallique', '']] = Field(description="Le matériau du rack de tuyauterie, si présent.")
     hauteur_m_var : Optional[float] = Field(description="La hauteur en m du rack de tuyauterie, si présent.")
     longueur_de_l_ouvrage_m_var : Optional[float] = Field(description="La longueur de l'ouvrage en m, si présent.")
@@ -30,7 +27,4 @@ class pmii_rack_de_tuyauterie_1(BaseModel):
     zone_de_sensibilite_environnementale_de_la_tuyauterie_supporte_par_le_rack : Optional[Literal['Zone OA', 'Zone OB', 'Zone 1A', 'Zone 1B', 'Zone 1C', 'Zone 2A', 'Zone 2B', 'Zone 3', 'Zone 4', 'Zone 5', '']] = Field(description="La zone de sensibilité environnementale de la tuyauterie supportée par le rack, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du rack de tuyauterie, si présent.")
-
-
-class pmii_rack_de_tuyauterie_2(BaseModel):
     type_de_structure : Optional[Literal['Bi-poutres en profilés', 'Caisson treillis', 'Poutres treillis', 'Mono poteau', 'Autre cas', '']] = Field(description="Le type de structure du rack de tuyauterie, si présent.")

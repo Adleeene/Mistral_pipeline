@@ -20,9 +20,6 @@ class pmii_bac_de_stockage_0(BaseModel):
     phrase_de_risque_mention_de_danger : Optional[Literal['rien', '']] = Field(description="La phrase de risque mention de danger du bac de stockage, si présent.")
     calorifuge : Optional[bool] = Field(description="Le calorifuge du bac de stockage, si présent.")
     serpentin_de_rechauffage : Optional[bool] = Field(description="Le serpentin de réchauffage du bac de stockage, si présent.")
-
-
-class pmii_bac_de_stockage_1(BaseModel):
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service en bar du bac de stockage, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du bac de stockage, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du bac de stockage, si présent.")
@@ -30,9 +27,6 @@ class pmii_bac_de_stockage_1(BaseModel):
     hauteur_du_reservoir_m_var : Optional[float] = Field(description="La hauteur du réservoir en m du bac de stockage, si présent.")
     pression_de_calcul_bar_var : Optional[float] = Field(description="La pression de calcul en bar du bac de stockage, si présent.")
     volume_m3_var : Optional[float] = Field(description="Le volume en m3 du bac de stockage, si présent.")
-
-
-class pmii_bac_de_stockage_2(BaseModel):
     pid : Optional[str] = Field(description="Le PID du bac de stockage, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul en °C du bac de stockage, si présent.")
     temperature_de_service_c_var : Optional[float] = Field(description="La température de service en °C du bac de stockage, si présent.")
@@ -40,9 +34,6 @@ class pmii_bac_de_stockage_2(BaseModel):
     le_liquide_est_il_inflammable_var : Optional[bool] = Field(description="Le liquide est-il imflammable, si present.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du bac de stockage, si présent.")
-
-
-class pmii_bac_de_stockage_3(BaseModel):
     quelle_est_la_periodicite_de_la_nouvelle_inspection_hors_exploitation_detaillee_ihed_var : Optional[int] = Field(description="Quelle est la périodicité de la nouvelle inspection hors exploitation détaillée IHED, si présent.")
     les_resultats_des_inspections_recentes_permettent_ils_un_report_de_l_ihed_du_reservoir_var : Optional[bool] = Field(description="Les résultats des inspections récentes permettent-ils un report de l'IHED du réservoir, si présent.")
     est_il_exploite_dans_une_installation_soumise_a_une_des_rubriques_autorisees_par_l_am_du_03_10_2010_var : Optional[bool] = Field(description="Est-il exploité dans une installation soumise à une des rubriques autorisées par l'AM du 03/10/2010, si présent.")

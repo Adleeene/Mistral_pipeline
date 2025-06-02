@@ -20,9 +20,6 @@ class materiels_d_aspiration_sorbonne_de_laboratoire_0(BaseModel):
     numero_de_fabrication : Optional[str] = Field(description="Le numéro de fabrication de la sorbonne de laboratoire, si présent.")
     debit_d_extraction_m3_h_var : Optional[int] = Field(description="Le débit d'extraction de la sorbonne de laboratoire en m3/h, si présent.")
     vitesse_de_reference_m_s_var : Optional[float] = Field(description=".")
-
-
-class materiels_d_aspiration_sorbonne_de_laboratoire_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la sorbonne de laboratoire, si présent.")
     l_installation_comporte_t_elle_un_systeme_de_recyclage_var : Optional[bool] = Field(description="L'installation comporte-t-elle un système de recyclage, si présent.")

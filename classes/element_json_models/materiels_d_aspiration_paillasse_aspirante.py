@@ -20,9 +20,6 @@ class materiels_d_aspiration_paillasse_aspirante_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de la paillasse aspirante, si présent.")
     numero_de_fabrication : Optional[str] = Field(description="Le numéro de fabrication de la paillasse aspirante, si présent.")
     vitesse_de_reference_m_s_var : Optional[float] = Field(description=".")
-
-
-class materiels_d_aspiration_paillasse_aspirante_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la paillasse aspirante, si présent.")
     l_installation_comporte_t_elle_un_systeme_de_recyclage_var : Optional[bool] = Field(description="L'installation comporte-t-elle un système de recyclage, si présent.")

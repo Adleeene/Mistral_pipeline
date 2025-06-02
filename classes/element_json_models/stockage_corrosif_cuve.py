@@ -20,9 +20,6 @@ class stockage_corrosif_cuve_0(BaseModel):
     pid : Optional[str] = Field(description="Le PID de la cuve, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la cuve, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de la cuve, si présent.")
-
-
-class stockage_corrosif_cuve_1(BaseModel):
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul en °C, si présent.")
     calorifuge : Optional[str] = Field(description="Le calorifuge de la cuve, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de la cuve, si présent.")
@@ -30,9 +27,6 @@ class stockage_corrosif_cuve_1(BaseModel):
     pression_de_service_bar_var : Optional[float] = Field(description="La pression de service en bar, si présent.")
     produit_stocke : Optional[str] = Field(description="Le produit stocké dans la cuve, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication de la cuve, si présent.")
-
-
-class stockage_corrosif_cuve_2(BaseModel):
     le_produit_stocke_est_il_corrosif_var : Optional[bool] = Field(description="Le produit stocké est-il corrosif, si présent.")
     hauteur_de_la_cuve_m_var : Optional[float] = Field(description="La hauteur de la cuve en mètre, si présent.")
     temperature_de_service_c_var : Optional[float] = Field(description="La température de service en °C, si présent.")
@@ -40,7 +34,4 @@ class stockage_corrosif_cuve_2(BaseModel):
     pression_de_calcul_bar_var : Optional[float] = Field(description="La pression de calcul en bar, si présent.")
     en_location : Optional[bool] = Field(description="La cuve est-elle en location, si présent.")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la cuve, si présent.")
-
-
-class stockage_corrosif_cuve_3(BaseModel):
     type_de_cuve : Optional[str] = Field(description="Le type de cuve, si présent.")

@@ -22,7 +22,4 @@ class equipements_de_protection_individuelle_equipements_de_travail_0(BaseModel)
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'équipement de travail, si présent.")
     assigne_a : Optional[str] = Field(description="La personne à qui l'équipement de travail est assigné, si présent.")
-
-
-class equipements_de_protection_individuelle_equipements_de_travail_1(BaseModel):
     type_element : Optional[Literal['Protection de la tête', 'Protection auditive', 'Protection du visage', 'Protection des mains', 'Protection du corps', 'Protection des pieds', 'Sac', 'Autre', '']] = Field(description="Le type d'élément de l'équipement de travail, si présent.")

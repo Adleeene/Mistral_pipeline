@@ -20,9 +20,6 @@ class rayonnements_ionisant_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du rayonement ionisant, si présent.")
     numero_identification : Optional[str] = Field(description="Le numéro d'identification de l'élément de rayonnement ionisant, si présent.")
-
-
-class rayonnements_ionisant_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'élément de rayonnement ionisant, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'élément de rayonnement ionisant, si présent.")
     tension_maximale_kv_var : Optional[float] = Field(description="La tension maximale en kV de l'élément de rayonnement ionisant, si présent.")
@@ -30,9 +27,6 @@ class rayonnements_ionisant_1(BaseModel):
     energie_maximale_des_particules_emises_mev_var : Optional[float] = Field(description="L'énergie maximale des particules émises en MeV de l'élément de rayonnement ionisant, si présent.")
     particules_accelerees : Optional[str] = Field(description="Les particules accélérées par l'élément de rayonnement ionisant, si présent.")
     intensite_maximale_ma_var : Optional[float] = Field(description="L'intensité maximale en mA de l'élément de rayonnement ionisant, si présent.")
-
-
-class rayonnements_ionisant_2(BaseModel):
     nombre_de_source : Optional[int] = Field(description="Le nombre de sources de l'élément de rayonnement ionisant, si présent.")
     nature_source_s_var : Optional[str] = Field(description="La nature des sources de l'élément de rayonnement ionisant, si présent.")
     rayonnement : Optional[str] = Field(description="Le rayonnement de l'élément de rayonnement ionisant, si présent.")
@@ -40,15 +34,9 @@ class rayonnements_ionisant_2(BaseModel):
     activite_totale_detenue_bq_var : Optional[float] = Field(description="L'activité totale détenue en Bq de l'élément de rayonnement ionisant, si présent.")
     activite_utilisee_bq_var : Optional[float] = Field(description="L'activité utilisée en Bq de l'élément de rayonnement ionisant, si présent.")
     periode_t_var : Optional[str] = Field(description="La période T de l'élément de rayonnement ionisant, si présent.")
-
-
-class rayonnements_ionisant_3(BaseModel):
     nombre_de_salles_de_manipulation : Optional[int] = Field(description="Le nombre de salles de manipulation de l'élément de rayonnement ionisant, si présent.")
     nombre_de_locaux_de_stockage_de_sources : Optional[int] = Field(description="Le nombre de locaux de stockage de sources de l'élément de rayonnement ionisant, si présent.")
     nombre_de_salles_de_preparation : Optional[int] = Field(description="Le nombre de salles de préparation de l'élément de rayonnement ionisant, si présent.")
     particules_generees : Optional[str] = Field(description="Les particules générées par l'élément de rayonnement ionisant, si présent.")
     zone_de_l_installation : Optional[Literal['Zone surveillée bleue', 'Zone contrôlée verte', 'Zone contrôlée jaune', 'Zone contrôlée orange', 'Zone contrôlée rouge', 'Zone non réglementée', '']] = Field(description="La zone de l'installation de l'élément de rayonnement ionisant, si présent.")
-
-
-class rayonnements_ionisant_4(BaseModel):
     type_element : Optional[Literal['Générateur électrique de rayons X', 'Accélérateur de particules', 'Source(s) radioactive scellée(s)', 'Source(s) radioactive non scellée(s)', '']] = Field(description="Le type d'élément de rayonnement ionisant, si présent.")

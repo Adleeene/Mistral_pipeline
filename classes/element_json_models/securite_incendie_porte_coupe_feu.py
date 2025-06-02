@@ -20,9 +20,6 @@ class securite_incendie_porte_coupe_feu_0(BaseModel):
     materiau : Optional[str] = Field(description="Le matériau du dispositif de compartimentage, si présent.")
     epaisseur_mm_var : Optional[float] = Field(description="L'épaisseur en mm du dispositif de compartimentage, si présent.")
     modele : Optional[Literal['Porte simple', 'Porte double', '']] = Field(description="Le modèle (ou type) du dispositif de compartimentage, si présent.")
-
-
-class securite_incendie_porte_coupe_feu_1(BaseModel):
     nombre_de_porte_s_var : Optional[int] = Field(description="Le nombre de portes du dispositif de compartimentage, si présent.")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la porte coupe-feu, si présent.")
     temperature_de_declenchement_en_c_var : Optional[str] = Field(description="La température de déclenchement en °C du dispositif de compartimentage, si présent.")
@@ -30,15 +27,9 @@ class securite_incendie_porte_coupe_feu_1(BaseModel):
     classe_de_resistance_au_feu_e_var : Optional[str] = Field(description="La classe de résistance au feu du dispositif de compartimentage, si présent.")
     nombre_de_fermeture_s_var : Optional[str] = Field(description="Le nombre de fermetures du dispositif de compartimentage, si présent.")
     nombre_de_clapet_s_var : Optional[int] = Field(description="Le nombre de clapets du dispositif de compartimentage, si présent.")
-
-
-class securite_incendie_porte_coupe_feu_2(BaseModel):
     declenchement : Optional[Literal['Automatique', 'Manuel', '']] = Field(description="Le déclenchement du dispositif de compartimentage, si présent.")
     dimension_largeur_x_hauteur_var : Optional[str] = Field(description="Les dimensions largeur x hauteur du dispositif de compartimentage, si présent.")
     nombre_de_dispositif_suivi : Optional[int] = Field(description="Le nombre de dispositif suivi, si présent.")
-
-
-class securite_incendie_porte_coupe_feu_3(BaseModel):
     autre_type_de_porte : Optional[str] = Field(description=".")
     type_de_rideau : Optional[Literal['Souple', 'Rigide', 'Autre', '']] = Field(description="Le type de rideau du dispositif de compartimentage, si présent.")
     autre_type_de_compartimentage : Optional[str] = Field(description="L'autre type de compartimentage, si présent.")

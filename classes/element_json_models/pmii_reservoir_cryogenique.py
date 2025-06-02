@@ -20,9 +20,6 @@ class pmii_reservoir_cryogenique_0(BaseModel):
     implante_sur_un_site_seveso_seuil_haut_ou_bas : Optional[bool] = Field(description="Est-il implanté sur un site SEVESO seuil haut ou bas, si présent.")
     calorifuge : Optional[bool] = Field(description="Le calorifuge du réservoir cryogénique, si présent.")
     hauteur_du_reservoir_m_var : Optional[float] = Field(description="La hauteur du réservoir en m, si présent.")
-
-
-class pmii_reservoir_cryogenique_1(BaseModel):
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul en °C du réservoir cryogénique, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du réservoir cryogénique, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du réservoir cryogénique, si présent.")
@@ -30,9 +27,6 @@ class pmii_reservoir_cryogenique_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du réservoir cryogénique, si présent.")
     pid : Optional[str] = Field(description="Le PID du réservoir cryogénique, si présent.")
     volume_m3_var : Optional[float] = Field(description="Le volume en m3 du réservoir cryogénique, si présent.")
-
-
-class pmii_reservoir_cryogenique_2(BaseModel):
     phase_du_fluide : Optional[Literal['Gaz', 'Vapeur ou eau surchauffée', 'Liquide dont la pression de vapeur à TS, est inférieure ou égale de 0,5 bar à la pression atmosphérique normale (1,013 bar)', '']] = Field(description="La phase du fluide du réservoir cryogénique, si présent.")
     pression_de_calcul_bar_var : Optional[float] = Field(description="La pression de calcul en bar du réservoir cryogénique, si présent.")
     temperature_de_service_c_var : Optional[float] = Field(description="La température de service en °C du réservoir cryogénique, si présent.")
@@ -42,7 +36,4 @@ class pmii_reservoir_cryogenique_2(BaseModel):
     diametre_du_reservoir_m_var : Optional[str] = Field(description="Le diamètre du réservoir en m, si présent.")
     phase_du_gaz : Optional[Literal['Gaz', 'Gaz liquéfié', 'Gaz dissous sous pression', 'Liquide dont la pression de vapeur, à TS, est supérieur à 0,5 bar à la pression atmosphérique normale (1,013bar)', '']] = Field(description="La phase du gaz du réservoir cryogénique, si présent.")
     materiau : Optional[Literal['Acier carbone', 'Acier inoxydable', 'Matériau composite', 'Métallique', 'Non métallique', 'Acier ignifugé', 'Fonte', 'Alliage Aluminium', 'Cuivre', 'Alliage cuivre', 'Nickel', 'Alliage de nickel', 'Nickel chrome', 'Titane', 'Alliage de titane', 'Graphite', 'Céramique', 'Polyester', 'Acier non allié', 'Aluminium non allié', 'Acier carbone manganèse', 'Acier faiblement allié', 'Acier allié', 'Acier inoxydable ferritique', 'Acier inoxydable austéno-ferritique', 'Acier inoxydable martensitique', 'Acier inoxydable austénitique', 'Matériaux ferreux\xa0', 'Matériaux non ferreux', '']] = Field(description="Le matériau du réservoir cryogénique, si présent.")
-
-
-class pmii_reservoir_cryogenique_3(BaseModel):
     type_du_fluide : Optional[Literal['Toxique', 'Inflammable', 'Oxygène', "Gaz de distillation de l'air", 'Autre', '']] = Field(description="Le type du fluide du réservoir cryogénique, si présent.")

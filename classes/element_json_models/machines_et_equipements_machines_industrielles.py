@@ -20,15 +20,9 @@ class machines_et_equipements_machines_industrielles_0(BaseModel):
     etat_a_l_achat : Optional[Literal['Neuf', 'Occasion', '']] = Field(description="L'état à l'achat de la machine industrielle, si présent.")
     energie : Optional[Literal['Force humaine employée directement', 'Force humaine non employée directement', 'Motorisé', '']] = Field(description="L'énergie de la machine industrielle, si présent.")
     mode_de_chargement : Optional[Literal['Manuel', 'Automatique', '']] = Field(description="Le mode de chargement de la machine industrielle, si présent.")
-
-
-class machines_et_equipements_machines_industrielles_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la machine industrielle, si présent.")
     l_equipement_possede_t_il_un_compteur_permettant_d_evaluer_le_nombre_reel_d_heures_d_utilisation_et_de_justifier_sa_faible_utilisation_var : Optional[bool] = Field(description="L'équipement possède-t-il un compteur permettant d'évaluer le nombre réel d'heures d'utilisation et de justifier sa faible utilisation, si présent.")
-
-
-class machines_et_equipements_machines_industrielles_2(BaseModel):
     type_de_machine_a_cylindre : Optional[Literal["Machine à cylindres pour l'industrie du caoutchouc", 'Autre', '']] = Field(description="Le type de machine à cylindre de la machine industrielle, si présent.")
     type_de_compacteur : Optional[Literal['Compacteur à déchets', "Système de compactage des véhicules de collecte d'ordures ou de déchets", 'Autre', '']] = Field(description="Le type de compacteur de la machine industrielle, si présent.")
     type_element : Optional[Literal['Presse', 'Massicot', 'Machine à cylindre', 'Compacteur', 'Centrifugeuse', 'Machine pour travaux', 'Autre', '']] = Field(description="Le type d'élément de la machine industrielle, si présent.")

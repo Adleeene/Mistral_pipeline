@@ -20,9 +20,6 @@ class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_0(Ba
     quantite_de_fluide_frigorigene_tonnes_equivalent_co2_var : Optional[float] = Field(description="La quantité de fluide frigorigène en tonnes équivalent CO2, si présent.")
     gwp : Optional[float] = Field(description=".")
     presence_d_un_systeme_permanent_de_detection_de_fuites : Optional[bool] = Field(description="La présence d'un système permanent de détection de fuites, si présent.")
-
-
-class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_1(BaseModel):
     quantite_de_fluide_frigorigene_kg_var : Optional[float] = Field(description="La quantité de fluide frigorigène en kilogrammes, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la climatisation, si présent.")
     le_systeme_est_couvert_par_une_certification_iso_50001_var : Optional[bool] = Field(description="Le système est-il couvert par une certification ISO 50001, si présent.")
@@ -30,9 +27,6 @@ class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_1(Ba
     charge_en_hcfc_kg_var : Optional[float] = Field(description="La charge en HCFC en kilogrammes, si présent.")
     charge_en_hfc_ou_pfc_tonnes_equivalent_co2_var : Optional[float] = Field(description="La charge en HFC ou PFC en tonnes équivalent CO2, si présent.")
     seuil_de_detection : Optional[Literal["50g/h ou 10% de la charge totale du fluide contenu dans l'équipement", 'Seuil supérieur', '']] = Field(description="Le seuil de détection, si présent.")
-
-
-class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_2(BaseModel):
     nom_du_gaz : Optional[str] = Field(description="Le nom du gaz, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de la climatisation, si présent.")
@@ -41,9 +35,6 @@ class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_2(Ba
     le_batiment_ou_la_zone_de_production_contient_il_plusieurs_systemes_thermodynamiques_var : Optional[bool] = Field(description="Le bâtiment ou la zone de production contient-il plusieurs systèmes thermodynamiques, si présent.")
     somme_des_puissances_nominales_des_systemes_thermodynamiques_du_batiment_en_kw_var : Optional[float] = Field(description="La somme des puissances nominales des systèmes thermodynamiques du bâtiment en kilowatts, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de la climatisation, si présent.")
-
-
-class chauffage_et_climatisation_climatisations_pac_et_fluides_frigorigenes_3(BaseModel):
     type_de_methode_de_detection_de_fuites : Optional[Literal['Directe', 'Indirecte', '']] = Field(description="Le type de méthode de détection de fuites, si présent.")
     type_element : Optional[Literal['Équipement de réfrigération', 'Équipement de climatisation', 'Pompe à chaleur', 'Unité de réfrigération des camions et remorques frigorifiques', 'Cycle organique de Rankine', '']] = Field(description="Le type d'élément de la climatisation, si présent.")
     autre_type_de_gaz : Optional[str] = Field(description=".")

@@ -20,14 +20,8 @@ class securite_incendie_installation_d_extinction_a_gaz_0(BaseModel):
     agent_extincteur_du_gaz_inhibiteur : Optional[Literal['HFC 227ea', 'HFC 23', 'FC 3-1-10', '']] = Field(description="L'agent extincteur du gaz inhibiteur de l'installation d'extinction à gaz, si présent.")
     appellation_du_gaz_inhibiteur : Optional[str] = Field(description="L'appellation du gaz inhibiteur de l'installation d'extinction à gaz, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'installation d'extinction à gaz, si présent.")
-
-
-class securite_incendie_installation_d_extinction_a_gaz_1(BaseModel):
     agent_extincteur_du_gaz_inerte : Optional[Literal['IG 55', 'IG 541', 'IG 01', ' IG 100', '']] = Field(description="L'agent extincteur du gaz inerte de l'installation d'extinction à gaz, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'installation d'extinction à gaz, si présent.")
-
-
-class securite_incendie_installation_d_extinction_a_gaz_2(BaseModel):
     type_d_installation : Optional[Literal['Modulaire', 'Centralisée', 'Directionnelle', '']] = Field(description="Le type d'installation d'extinction à gaz, si présent.")
     type_de_gaz : Optional[Literal['Gaz inhibiteurs', 'Gaz inertes', '']] = Field(description="Le type de gaz de l'installation d'extinction à gaz, si présent.")

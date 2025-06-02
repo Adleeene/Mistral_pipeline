@@ -20,9 +20,6 @@ class pmii_fosses_humides_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de la fosse humide, si présent.")
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de la fosse humide, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication de la fosse humide, si présent.")
-
-
-class pmii_fosses_humides_1(BaseModel):
     l_ouvrage_appartient_il_a_une_unite_de_fabrication_vehiculant_des_produits_agressifs_pour_lui_var : Optional[bool] = Field(description="L'ouvrage appartient-il à une unité de fabrication véhiculant des produits agressifs pour lui, si présent.")
     l_unite_de_fabrication_comprend_il_un_equipement_pouvant_causer_un_risque_technologique_lors_de_la_defaillance_de_celui_ci_var : Optional[bool] = Field(description="L'unité de fabrication comprend-il un équipement pouvant causer un risque technologique lors de la défaillance de celui-ci, si présent.")
     periodicite_des_arrets_techniques_generaux_en_mois_var : Optional[int] = Field(description="La périodicité des arrêts techniques généraux en mois, si présent.")

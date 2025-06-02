@@ -110,3 +110,14 @@ def make_general_prompt_no_attributes_french():
 
 
     return prompt_wrap_tags(user_prompt=prompt)
+
+
+def make_simple_prompt():
+
+    prompt = (
+                    "Tu es un expert en analyse de documents techniques. Extrait les informations du document " 
+                )
+    
+
+
+    return prompt_wrap_tags(user_prompt=prompt)

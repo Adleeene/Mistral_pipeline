@@ -20,9 +20,6 @@ class equipements_sous_pression_transportable_0(BaseModel):
     l_equipement_sous_pression_fait_il_parti_d_une_de_ces_categories_var : Optional[Literal['Bouteille ARI (Appareil Respiratoire Isolant)', 'Générateur d’aérosol (ayant le n°ONU 1950)', 'Récipient cryogénique ouvert', 'Extincteur incendie (ayant le n°ONU 1044)', 'Non', '']] = Field(description="L'équipement sous pression fait-il partie d'une de ces catégories, si présent.")
     groupe_d_emballage : Optional[Literal['I', 'II', 'III', '']] = Field(description="Le groupe d'emballage de l'équipement sous pression transportable, si présent.")
     le_grv_est_il_utilise_pour_le_transport_de_matieres_dangereuses_var : Optional[bool] = Field(description="Le GRV est-il utilisé pour le transport de matières dangereuses, si présent.")
-
-
-class equipements_sous_pression_transportable_1(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'équipement sous pression transportable, si présent.")
     regime_de_fabrication : Optional[Literal['Directive 1999/36/CE', 'Directive 2010/35/UE', 'Directive 84/525/CEE', 'Directive 84/526/CEE', 'Directive 84/527/CEE', 'Fabriqué suivant décret du 18 janvier 1943', 'Directive 94/55/CE', 'Autre régime', '']] = Field(description="Le régime de fabrication de l'équipement sous pression transportable, si présent.")
@@ -30,9 +27,6 @@ class equipements_sous_pression_transportable_1(BaseModel):
     autre_code_de_classification_du_gaz : Optional[str] = Field(description=".")
     code_de_classification_du_gaz : Optional[Literal['1A', '1O', '1F', '2A', '2O', '2F', 'Autre', '']] = Field(description="Le code de classification du gaz de l'équipement sous pression transportable, si présent.")
     le_recipient_comprend_il_une_disposition_transitoire_var : Optional[bool] = Field(description="Le récipient comprend il une disposition transitoire, si présent.")
-
-
-class equipements_sous_pression_transportable_2(BaseModel):
     code_de_classification_designant_le_grv : Optional[Literal['11A', '11B', '11N', '21A', '21B', '21N', '31A', '31B', '31N', '11H1', '11H2', '11HZ1', '11HZ2', '2121H1', '21H2', '21HZ1', '21\tHZ2', '31H1', '31H2', '31HZ1', '31HZ2', 'Autre', '']] = Field(description="Le code de classification désignant le GRV de l'équipement sous pression transportable, si présent.")
     sous_classe_de_gaz : Optional[Literal['Classe 2.1 - Gaz inflammable', 'Classe 2.2 - Gaz non inflammable et non toxique', 'Classe 2.3 - Gaz toxique', '']] = Field(description="La sous-classe de gaz de l'équipement sous pression transportable, si présent.")
     volume_l_var : Optional[float] = Field(description="Le volume en litres de l'équipement sous pression transportable, si présent.")
@@ -40,16 +34,10 @@ class equipements_sous_pression_transportable_2(BaseModel):
     pression_d_epreuve_bar_var : Optional[float] = Field(description="La pression d'épreuve de l'équipement sous pression transportable, si présent.")
     temperature_de_calcul_c_var : Optional[float] = Field(description="La température de calcul de l'équipement sous pression transportable, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de l'équipement sous pression transportable, si présent.")
-
-
-class equipements_sous_pression_transportable_3(BaseModel):
     n_onu : Optional[str] = Field(description="Le numéro ONU de l'équipement sous pression transportable, si présent.")
     autre_code_de_classification_du_grv : Optional[str] = Field(description=".")
     quelle_disposition_transitoire_est_applicable_sur_l_equipement_var : Optional[Literal['Fabriqué en matériau composite', 'Bouteille en acier soudée ayant le n°ONU 1011/1075,1965,1969 ou 1978', 'Destiné au transport comprenant les n°ONU 1008, 1017, 1048, 1050, 1053, 1067, 1076 et 1079', 'Destiné au transport des gaz liquéfiés réfrigérés', "Destiné au transport des liquides ayant un point d'éclair ne dépassant pas 60 °C", '']] = Field(description="Quelle disposition transitoire est applicable sur l'équipement, si présent.")
     classe_de_marchandise_dangereuse : Optional[Literal['Classe 1 (Explosif)', 'Classe 2 (Gaz)', 'Classe 3 (Liquide inflammable)', 'Classe 4 (Solide inflammable)', 'Classe 5 (Substance comburante)', 'Classe 6 (Substance toxique)', 'Classe 7 (Radioactif)', ' Classe 8 (Corrosif)', 'Classe 9 (Autres)', '']] = Field(description="La classe de marchandise dangereuse de l'équipement sous pression transportable, si présent.")
-
-
-class equipements_sous_pression_transportable_4(BaseModel):
     type_de_recipient_a_pression_rechargeable : Optional[Literal['Bouteille', 'Tube', 'Fût à pression', 'Cadre de bouteille', 'Récipient cryogénique', 'Autre', '']] = Field(description="Le type de récipient à pression rechargeable de l'équipement sous pression transportable, si présent.")
     type_de_grv : Optional[Literal['Métallique', 'Plastique Rigide', 'Composite (avec récipient intérieur en plastique)', 'Textile', 'Papier', 'Bois naturel ou reconstitué', 'Carton', '']] = Field(description="Le type de GRV de l'équipement sous pression transportable, si présent.")
     type_de_citerne : Optional[Literal['Citerne fixe', 'Citerne démontable', 'Véhicule-batterie', 'Conteneur-citerne', 'Caisse mobile citerne', 'Conteneurs à Gaz à Éléments Multiples (CGEM)', '']] = Field(description="Le type de citerne de l'équipement sous pression transportable, si présent.")

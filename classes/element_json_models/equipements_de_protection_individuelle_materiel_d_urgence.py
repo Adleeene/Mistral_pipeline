@@ -20,15 +20,9 @@ class equipements_de_protection_individuelle_materiel_d_urgence_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du matériel d'urgence, si présent.")
     nombre : Optional[int] = Field(description="Le nombre de matériel d'urgence, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) du matériel d'urgence, si présent.")
-
-
-class equipements_de_protection_individuelle_materiel_d_urgence_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du matériel d'urgence, si présent.")
     taille : Optional[str] = Field(description="La taille du matériel d'urgence, si présent.")
     assigne_a : Optional[str] = Field(description="La personne à qui le matériel d'urgence est assigné, si présent.")
-
-
-class equipements_de_protection_individuelle_materiel_d_urgence_2(BaseModel):
     type_de_defibrillateur : Optional[Literal['Automatique\u202f', 'Semi-automatique', '']] = Field(description="Le type de défibrillateur, si présent.")
     autre_type_d_installation : Optional[str] = Field(description=".")
     type_de_lavage_d_urgence : Optional[Literal['Douche de sécurité', 'Rince-œil', 'Combiné douche et rince-œil', '']] = Field(description="Le type de lavage d'urgence, si présent.")

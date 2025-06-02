@@ -21,8 +21,5 @@ class reseaux_de_distribution_rejet_aqueux_0(BaseModel):
     denomination_du_point : Optional[str] = Field(description="La dénomination du point de prélèvement ou de prise d'échantillons, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du réseau de distribution de rejet aqueux, si présent.")
-
-
-class reseaux_de_distribution_rejet_aqueux_1(BaseModel):
     type_d_installation_de_rejet_aqueux : Optional[Literal['Station d’épuration (STEP)', 'Réseaux d’égouts', 'Installations industrielles', 'Installations agricoles', 'Traitement des déchets', 'Installations d’extraction', 'Station de traitement', 'Autre', '']] = Field(description="Le type d'installation de rejet aqueux, si présent.")
     autre_type_d_installation : Optional[str] = Field(description=".")

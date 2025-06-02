@@ -20,9 +20,6 @@ class equipements_sous_pression_generateur_de_vapeur_0(BaseModel):
     a_t_il_subit_une_modification_notable_ou_un_changement_de_site_var : Optional[bool] = Field(description="Le générateur de vapeur a-t-il subi une modification notable ou un changement de site, si présent.")
     pid : Optional[str] = Field(description="Le PID du générateur de vapeur, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du générateur de vapeur, si présent.")
-
-
-class equipements_sous_pression_generateur_de_vapeur_1(BaseModel):
     temperature_maximale_de_service_c_var : Optional[float] = Field(description="La température maximale de service du générateur de vapeur en °C, si présent.")
     lieu_de_fabrication : Optional[str] = Field(description="Le lieu de fabrication du générateur de vapeur, si présent.")
     materiau : Optional[str] = Field(description="Le matériau du générateur de vapeur, si présent.")
@@ -30,9 +27,6 @@ class equipements_sous_pression_generateur_de_vapeur_1(BaseModel):
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant du générateur de vapeur, si présent.")
     pression_de_premiere_epreuve_bar_var : Optional[float] = Field(description="La pression de première épreuve du générateur de vapeur en bar, si présent.")
     presence_humaine_permanente : Optional[Literal['Avec', 'Sans', '']] = Field(description="La présence humaine permanente du générateur de vapeur, si présent.")
-
-
-class equipements_sous_pression_generateur_de_vapeur_2(BaseModel):
     criticite : Optional[Literal['Faible', 'Moyenne', 'Forte', '']] = Field(description="La criticité du générateur de vapeur, si présent.")
     revetement_interieur : Optional[Literal['Aucun', 'Ebonite', 'Résine', 'Bitume', 'Céramique', 'Email', 'Peinture', 'Galvanisation', '']] = Field(description="Le revêtement intérieur du générateur de vapeur, si présent.")
     revetement_exterieur : Optional[Literal['Aucun', 'Ebonite', 'Résine', 'Bitume', 'Céramique', 'Email', 'Peinture', 'Galvanisation', '']] = Field(description="Le revêtement extérieur du générateur de vapeur, si présent.")
@@ -40,9 +34,6 @@ class equipements_sous_pression_generateur_de_vapeur_2(BaseModel):
     puissance_kw_var : Optional[float] = Field(description="La puissance en kW du générateur de vapeur, si présent.")
     tension_d_alimentation_volts_var : Optional[float] = Field(description="La tension d'alimentation en volts du générateur de vapeur, si présent.")
     suivi_selon_un_plan_d_inspection : Optional[bool] = Field(description="Le suivi selon un plan d'inspection du générateur de vapeur, si présent.")
-
-
-class equipements_sous_pression_generateur_de_vapeur_3(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du générateur de vapeur, si présent.")
     dispositif_d_isolation : Optional[Literal['Aucun', 'Fibre', 'Céramique', 'Sous vide', 'Laine de roche', 'Laine de verre', 'Liège', 'Mousse', '']] = Field(description="Le dispositif d'isolation du générateur de vapeur, si présent.")

@@ -20,8 +20,5 @@ class rayonnements_instrument_de_radioprotection_0(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'instrument de radioprotection, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'instrument de radioprotection, si présent.")
     gamme : Optional[Literal['Fixe', 'Portative', '']] = Field(description="La gamme de l'instrument de radioprotection, si présent.")
-
-
-class rayonnements_instrument_de_radioprotection_1(BaseModel):
     autre_type_d_appareil : Optional[str] = Field(description=".")
     type_d_appareil : Optional[Literal['Mesurage du risque d’exposition externe', 'Détection de la contamination', 'Dosimètre opérationnel', 'Autre', '']] = Field(description="Le type d'appareil de l'instrument de radioprotection, si présent.")

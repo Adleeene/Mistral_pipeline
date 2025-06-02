@@ -20,17 +20,11 @@ class equipements_sous_pression_accessoire_sous_pression_0(BaseModel):
     regime_de_fabrication : Optional[Literal['2 avril 1926 (vapeur)', 'Janvier 1943 (gaz)', 'DESP 97/23/CE', 'DESP 2014/68/UE', '']] = Field(description="Le régime de fabrication de l'accessoire sous pression, si présent.")
     pid : Optional[str] = Field(description="Le PID de l'accessoire sous pression, si présent.")
     volume_en_l_var : Optional[float] = Field(description="Le volume en litres de l'accessoire sous pression, si présent.")
-
-
-class equipements_sous_pression_accessoire_sous_pression_1(BaseModel):
     pression_de_service_en_bar_var : Optional[float] = Field(description="La pression de service en bar de l'accessoire sous pression, si présent.")
     materiau : Optional[str] = Field(description="Le matériau de l'accessoire sous pression, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'accessoire sous pression, si présent.")
     longueur_en_m_var : Optional[float] = Field(description="La longueur en mètres de l'accessoire sous pression, si présent.")
     pression_d_epreuve_en_bar_var : Optional[float] = Field(description="La pression d'épreuve en bar de l'accessoire sous pression, si présent.")
-
-
-class equipements_sous_pression_accessoire_sous_pression_2(BaseModel):
     type_d_accessoire_sous_pression : Optional[Literal['Flexible', 'Vanne', 'Réservoir', 'Ballon', 'Filtre', 'Autre', '']] = Field(description="Le type d'accessoire sous pression, si présent.")
     autre_type_d_accessoire : Optional[str] = Field(description=".")

@@ -20,13 +20,7 @@ class pmii_mmri_0(BaseModel):
     adresse_du_fabricant : Optional[str] = Field(description="L'adresse du fabricant de l'élément, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'élément, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class pmii_mmri_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'élément, si présent.")
     periodicite_selon_le_plan_de_surveillance : Optional[int] = Field(description="La périodicité selon le plan de surveillance de l'élément, si présent.")
     la_defaillance_de_l_element_remet_elle_en_cause_de_facon_importante_la_securite_var : Optional[bool] = Field(description="La défaillance de l'élément remet-elle en cause de façon importante la sécurité, si présent.")
-
-
-class pmii_mmri_2(BaseModel):
     type_de_mesures_de_maitrise_des_risques_instrumentees_mmri_var : Optional[str] = Field(description="Le type de mesures de maîtrise des risques instrumentées (MMRI) de l'élément, si présent.")

@@ -20,9 +20,6 @@ class securite_incendie_installation_de_detection_automatique_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'installation de détection automatique, si présent.")
     reference_commerciale : Optional[str] = Field(description="La référence commerciale de l'installation de détection automatique, si présent.")
     modele_de_detecteur_de_fumee : Optional[str] = Field(description="Le modèle (ou type) de détecteur de fumée de l'installation de détection automatique, si présent.")
-
-
-class securite_incendie_installation_de_detection_automatique_1(BaseModel):
     nombre_de_detecteur_de_fumee : Optional[int] = Field(description="Le nombre de détecteur de fumée de l'installation de détection automatique, si présent.")
     modele_de_detecteur_de_chaleur : Optional[str] = Field(description="Le modèle (ou type) de détecteur de chaleur de l'installation de détection automatique, si présent.")
     nombre_de_detecteur_de_chaleur : Optional[int] = Field(description="Le nombre de détecteur de chaleur de l'installation de détection automatique, si présent.")
@@ -30,16 +27,10 @@ class securite_incendie_installation_de_detection_automatique_1(BaseModel):
     nombre_de_detecteur_de_flamme : Optional[int] = Field(description="Le nombre de détecteur de flamme de l'installation de détection automatique, si présent.")
     modele_de_detecteur_multicapteur : Optional[str] = Field(description="Le modèle (ou type) de détecteur multicapteur de l'installation de détection automatique, si présent.")
     nombre_de_detecteur_multicapteur : Optional[int] = Field(description="Le nombre de détecteur multicapteur de l'installation de détection automatique, si présent.")
-
-
-class securite_incendie_installation_de_detection_automatique_2(BaseModel):
     niveau_de_surveillance : Optional[Literal['Surveillance totale', 'Surveillance locale', 'Surveillance partielle', '']] = Field(description="Le niveau de surveillance de l'installation de détection automatique, si présent.")
     l_installation_fait_elle_partie_d_un_systeme_en_reseau_var : Optional[bool] = Field(description="L'installation fait-elle partie d'un système en réseau, si présent.")
     principaux_constituants_de_l_installation : Optional[Literal['Système de détection incendie', 'Alarme évacuation', 'Télésurveillance', 'Extinction automatique', 'Centralisateur de mise en sécurité incendie', 'Tableau de signalisation', '']] = Field(description="Les principaux constituants de l'installation de détection automatique, si présent.")
     surface_couverte_par_le_systeme_de_detection_m2_var : Optional[str] = Field(description="La surface couverte par le système de détection en m2, si présent.")
-
-
-class securite_incendie_installation_de_detection_automatique_3(BaseModel):
     type_de_detection : Optional[Literal['Automatique', 'Manuelle', '']] = Field(description="Le type de détection de l'installation de détection automatique, si présent.")
     type_de_detecteur : Optional[Literal['Fumée', 'Chaleur', 'Flamme', 'Multicapteur', 'Autre', '']] = Field(description="Le type de détecteur de l'installation de détection automatique, si présent.")
     nombre_autre_type_de_detecteur : Optional[int] = Field(description="Le nombre d'un autre type de détecteur de l'installation de détection automatique, si présent.")

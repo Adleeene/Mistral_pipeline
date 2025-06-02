@@ -20,9 +20,6 @@ class exposition_des_travailleurs_bruit_0(BaseModel):
     l_evaluation_des_niveaux_de_bruit_comprend_elle_le_mesurage_var : Optional[bool] = Field(description=".")
     niveau_d_exposition_au_bruit_evalue_et_retenu_lors_de_la_derniere_evaluation_en_db_var : Optional[float] = Field(description=".")
     niveau_d_exposition_au_bruit_residuel_mesure_en_db_var : Optional[float] = Field(description=".")
-
-
-class exposition_des_travailleurs_bruit_1(BaseModel):
     conditions_meteorologiques_lors_de_la_derniere_evaluation : Optional[str] = Field(description=".")
     source_s_de_bruit : Optional[str] = Field(description=".")
     materiel_utilise : Optional[str] = Field(description=".")

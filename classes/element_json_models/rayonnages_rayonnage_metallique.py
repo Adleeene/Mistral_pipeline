@@ -20,14 +20,8 @@ class rayonnages_rayonnage_metallique_0(BaseModel):
     longueur_en_m_var : Optional[float] = Field(description="La longueur du rayonnage métallique, si présent.")
     nombre_de_niveaux : Optional[int] = Field(description="Le nombre de niveaux du rayonnage métallique, si présent.")
     hauteur_en_m_var : Optional[float] = Field(description="La hauteur en m du rayonnage métallique, si présent.")
-
-
-class rayonnages_rayonnage_metallique_1(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant du rayonnage métallique, si présent.")
     charge_maximale_d_utilisation_kg_paire_de_lisse_var : Optional[int] = Field(description="La charge maximale d'utilisation en kg par paire de lisse du rayonnage métallique, si présent.")
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du rayonnage métallique, si présent.")
-
-
-class rayonnages_rayonnage_metallique_2(BaseModel):
     type_element : Optional[str] = Field(description="Le type d'élément du rayonnage métallique, si présent.")

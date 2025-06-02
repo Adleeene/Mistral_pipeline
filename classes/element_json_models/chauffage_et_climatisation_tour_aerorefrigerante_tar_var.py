@@ -20,9 +20,6 @@ class chauffage_et_climatisation_tour_aerorefrigerante_tar_var_0(BaseModel):
     volume_d_eau_m3_var : Optional[float] = Field(description="Le volume d'eau de la tour aéro-réfrigérante en m3, si présent.")
     debit_d_eau_m3_h_var : Optional[float] = Field(description="Le débit d'eau de la tour aéro-réfrigérante en m3/h, si présent.")
     temperature_nominale_entree_c_var : Optional[float] = Field(description="La température nominale d'entrée de la tour aéro-réfrigérante en °C, si présent.")
-
-
-class chauffage_et_climatisation_tour_aerorefrigerante_tar_var_1(BaseModel):
     temperature_nominale_sortie_c_var : Optional[float] = Field(description="La température nominale de sortie de la tour aéro-réfrigérante en °C, si présent.")
     presence_de_protection_sur_les_reseaux_d_appoints_var : Optional[bool] = Field(description="La présence de protection sur les réseaux d'appoints, si présent.")
     domaine_d_utilisation : Optional[str] = Field(description="Le domaine d'utilisation de la tour aéro-réfrigérante, si présent.")
@@ -30,16 +27,10 @@ class chauffage_et_climatisation_tour_aerorefrigerante_tar_var_1(BaseModel):
     presence_de_separateur_de_gouttelettes_var : Optional[bool] = Field(description="La présence de séparateur de gouttelettes, si présent.")
     nombre_de_tours_en_parallele : Optional[int] = Field(description="Le nombre de tours en parallèle, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant de la tour aéro-réfrigérante, si présent.")
-
-
-class chauffage_et_climatisation_tour_aerorefrigerante_tar_var_2(BaseModel):
     l_installation_est_elle_certifiee_conforme_par_la_norme_internationale_iso_14001_var : Optional[bool] = Field(description="L'installation est-elle certifiée conforme par la norme internationale ISO 14001, si présent.")
     sous_quel_regime_de_la_rubrique_2921_est_classee_l_installation_var : Optional[Literal['Déclaration (DC)', 'Enregistrement (E)', 'Non classée dans rubrique 2921', '']] = Field(description="Sous quel régime de la rubrique 2921 est classée l'installation, si présent.")
     etes_vous_dans_l_impossibilite_technique_ou_economique_de_realiser_l_arret_annuel_de_l_installation_nettoyage_et_desinfection_var : Optional[bool] = Field(description="Êtes-vous dans l'impossibilité technique ou économique de réaliser l'arrêt annuel de l'installation (nettoyage et désinfection), si présent.")
     puissance_de_la_tar_en_kw_var : Optional[float] = Field(description="La puissance de la tour aéro-réfrigérante en kW, si présent.")
-
-
-class chauffage_et_climatisation_tour_aerorefrigerante_tar_var_3(BaseModel):
     quel_type_de_protection_var : Optional[str] = Field(description="Le type de protection sur les réseaux d'appoints, si présent.")
     type_de_corps_d_echange : Optional[str] = Field(description="Le type de corps d'échange de la tour aéro-réfrigérante, si présent.")
     type_de_separateur : Optional[str] = Field(description="Le type de séparateur de gouttelettes, si présent.")

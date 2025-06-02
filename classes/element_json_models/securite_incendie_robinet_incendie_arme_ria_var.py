@@ -20,9 +20,6 @@ class securite_incendie_robinet_incendie_arme_ria_var_0(BaseModel):
     longueur_en_m_var : Optional[float] = Field(description="La longueur en mètre du robinet d'incendie armé, si présent.")
     raccordement_du_ria : Optional[str] = Field(description="Le raccordement du robinet d'incendie armé, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class securite_incendie_robinet_incendie_arme_ria_var_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut du robinet d'incendie armé, si présent.")
     fabricant : Optional[str] = Field(description="La marque du fabricant du robinet d'incendie armé, si présent.")
     classe_s_de_feu_x_couvert_par_l_installation : Optional[Literal['Classe A', 'Classe B', 'Classe C', 'Classe D', 'Classe F', '']] = Field(description="La classe S de feu couvert par l'installation, si présent.")
@@ -32,9 +29,6 @@ class securite_incendie_robinet_incendie_arme_ria_var_1(BaseModel):
     volume_l_var : Optional[float] = Field(description="Le volume en litre du robinet d'incendie armé, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) du robinet d'incendie armé, si présent.")
     nombre_de_ria_dans_l_installation : Optional[int] = Field(description="Le nombre de robinet d'incendie armé dans l'installation, si présent.")
-
-
-class securite_incendie_robinet_incendie_arme_ria_var_2(BaseModel):
     type_d_additif : Optional[Literal['Émulseur', 'Agent mouillant', 'Agent mouillant moussant', 'Autre', '']] = Field(description="Le type d'additif, si présent.")
     autre_type_d_additif : Optional[str] = Field(description=".")
     type_d_emulseur : Optional[str] = Field(description="Le type d'émulseur, si présent.")

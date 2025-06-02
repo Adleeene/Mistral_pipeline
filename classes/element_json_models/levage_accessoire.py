@@ -20,15 +20,9 @@ class levage_accessoire_0(BaseModel):
     charge_maximale_d_utilisation_kg_var : Optional[int] = Field(description="La charge maximale d'utilisation de l'accessoire de levage, si présent.")
     etat_a_l_achat : Optional[Literal['Neuf', 'Occasion', '']] = Field(description="L'état à l'achat de l'accessoire de levage, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class levage_accessoire_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'accessoir de levage, si présent.")
     modele : Optional[str] = Field(description="Le modèle (ou type) de l'accessoire de levage, si présent.")
     marquage_ce : Optional[bool] = Field(description="Le marquage CE est-il présent.")
-
-
-class levage_accessoire_2(BaseModel):
     type_de_pince : Optional[Literal['À tôle', 'Lève-fût', 'Lève tuyaux', 'Lève blocs', 'Lève poutres', 'Autre', '']] = Field(description="Le type de pince de l'accessoire de levage, si présent.")
     type_d_anneau : Optional[Literal['Simple', 'Articulé', '']] = Field(description="Le type d'anneau de l'accessoire de levage, si présent.")
     type_de_palonnier : Optional[Literal['A crochets', 'A ventouses', '']] = Field(description="Le type de palonnier de l'accessoire de levage, si présent.")

@@ -20,17 +20,11 @@ class securite_incendie_extincteur_0(BaseModel):
     fabricant : Optional[str] = Field(description="La marque du fabricant de l'extincteur, si présent.")
     contenance_d_eau_ou_de_mousse_en_litres_var : Optional[Literal['2 litres', '6 litres', '9 litres', '45 litres', '50 litres', '100 litres', '']] = Field(description="La contenance d'eau ou de mousse en litres de l'extincteur, si présent.")
     en_location : Optional[bool] = Field(description=".")
-
-
-class securite_incendie_extincteur_1(BaseModel):
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'extincteur, si présent.")
     agent_extincteur : Optional[Literal['Eau en jet pulvérisé', 'Eau avec additif en jet pulvérisé', 'Mousse', 'Poudre BC', 'Poudre ABC ou polyvalente', 'Dioxyde de carbone (CO2)', 'Hydrocarbure halogéné (FM200...)', '']] = Field(description="L'agent extincteur de l'extincteur, si présent.")
     nombre_d_extincteur_suivi : Optional[int] = Field(description="Le nombre d'extincteur suivi, si présent.")
     l_extincteur_fait_il_parti_des_exclusions_de_maintenance_var : Optional[bool] = Field(description="L'extincteur fait-il parti des exclusions de maintenance, si présent.")
     contenance_de_poudre_en_kg_var : Optional[Literal['1 kg', '2 kg', '6 kg', '9 kg', '10 kg', '12 kg', '50kg', '100 kg', '']] = Field(description="La contenance de poudre en kg de l'extincteur, si présent.")
-
-
-class securite_incendie_extincteur_2(BaseModel):
     type_de_pression : Optional[Literal['Pression permanente', 'Pression auxiliaire', '']] = Field(description="Le type de pression de l'extincteur, si présent.")
     type_element : Optional[Literal['Portatif', 'Mobile', 'Fixe', '']] = Field(description="Le type d'élément de l'extincteur, si présent.")
     type_de_suivi : Optional[Literal['Individuel', 'Ensemble', '']] = Field(description="Le type de suivi de l'extincteur, si présent.")

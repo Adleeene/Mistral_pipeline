@@ -4,7 +4,7 @@ import json
 from mistralai import Mistral
 from typing import Optional, Dict, Any
 from classes.pydantic_model import Report
-from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_general_prompt_no_attributes_french
+from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_general_prompt_no_attributes_french, make_simple_prompt
 from ollama import chat
 
 
@@ -74,60 +74,64 @@ class PDFProcessor:
 
         #--------------------------------SYSTEM PROMPT--------------------------------
         
-        system_prompt = make_general_prompt()
+        system_prompt = make_simple_prompt()
 
         #--------------------------------MISTRAL LARGE API--------------------------------
         
-        # #Define messages for Mistral API
-        # messages = [
-        #     {
-        #         "role": "system",
-        #         "content": system_prompt
-        #     },
-        #     {
-        #         "role": "user",
-        #         "content": full_text
-        #     }
-        # ]
+        #Define messages for Mistral API
+        messages = [
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": full_text
+            }
+        ]
         
-        # try:
-        #     print("Sending analysis request to Mistral API...")
-        #     chat_response = self.client.chat.complete(
-        #         model="mistral-large-latest",
-        #         messages=messages,
-        #         response_format={"type": "json_object"},
-        #         temperature=0.1,
-        #         max_tokens=3000
-        #     )
-        #     print("Analysis request completed")
+        try:
+            print("Sending analysis request to Mistral API...")
+            chat_response = self.client.chat.parse(
+                model="mistral-large-latest",
+                messages=messages,
+                #response_format={"type": "json_object"},
+                response_format=Report,
+                #je crois que schema n'est pas supporté par l'api , essayer avec les fonctions tools 
+
+                temperature=0,
+                max_tokens=3000
+            )
+            print("Analysis request completed")
             
-        #     # Extract JSON from response
-        #     response_content = chat_response.choices[0].message.content
-        #     json_data = json.loads(response_content)
+            # Extract JSON from response
+            response_content = chat_response.choices[0].message.content
+            json_data = json.loads(response_content)
 
         #--------------------------------OLLAMA MISTRAL SMALL 24B--------------------------------
 
-        try : 
-            response = chat(
-            messages=[
-                {
-                    'role': 'system',
-                    'content': system_prompt,
-                },
-                {
-                    'role': 'user',
-                    'content': full_text,
-                }
-                ],
-                model='mistral-small:24b',
-                format=Report.model_json_schema(),
-            )
+        # try : 
+        #     response = chat(
+        #     messages=[
+        #         # {
+        #         #     'role': 'system',
+        #         #     'content': system_prompt,
+        #         # },
+        #         {
+        #             'role': 'user',
+        #             'content': full_text,
+        #         }
+        #         ],
+        #         model='mistral-small:24b',
+        #         format=Report.model_json_schema(),
+        #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
+        #     )
 
-            Rapport = Report.model_validate_json(response.message.content)
-            json_data = Rapport.model_dump_json()
+        #     Rapport = Report.model_validate_json(response.message.content)
+        #     json_data = Rapport.model_dump_json()
             
-            # Convertir la chaîne JSON en dictionnaire Python
-            json_data = json.loads(json_data)
+        #     # Convertir la chaîne JSON en dictionnaire Python
+        #     json_data = json.loads(json_data)
 
 
         #----------------------------POST PROCESSING----------------------------------------------

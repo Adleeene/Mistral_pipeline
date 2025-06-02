@@ -20,9 +20,6 @@ class securite_incendie_installation_de_point_d_eau_incendie_0(BaseModel):
     en_location : Optional[bool] = Field(description=".")
     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = Field(description="Le statut de l'installation de point d'eau incendie, si présent.")
     nombre_de_bouche_incendie : Optional[int] = Field(description="Le nombre de bouche incendie de l'installation de point d'eau incendie, si présent.")
-
-
-class securite_incendie_installation_de_point_d_eau_incendie_1(BaseModel):
     volume_de_la_reserve_incendie_m3_var : Optional[float] = Field(description="Le volume de la réserve incendie en m3 de l'installation de point d'eau incendie, si présent.")
     nombre_de_reserve_incendie : Optional[int] = Field(description="Le nombre de réserve incendie de l'installation de point d'eau incendie, si présent.")
     volume_de_la_citerne_incendie_m3_var : Optional[float] = Field(description="Le volume de la citerne incendie en m3 de l'installation de point d'eau incendie, si présent.")
@@ -30,9 +27,6 @@ class securite_incendie_installation_de_point_d_eau_incendie_1(BaseModel):
     sources_d_eau : Optional[str] = Field(description="Les sources d'eau de l'installation de point d'eau incendie, si présent.")
     presence_pompe_ou_groupe_surpresseur : Optional[bool] = Field(description="La présence de pompe ou groupe surpresseur de l'installation de point d'eau incendie, si présent.")
     nombre_de_poteau_incendie : Optional[int] = Field(description="Le nombre de poteau incendie de l'installation de point d'eau incendie, si présent.")
-
-
-class securite_incendie_installation_de_point_d_eau_incendie_2(BaseModel):
     l_installation_fait_elle_partie_d_un_systeme_en_reseau_var : Optional[bool] = Field(description="L'installation fait-elle partie d'un système en réseau, si présent.")
     reference_commerciale : Optional[str] = Field(description="La référence commerciale de l'installation de point d'eau incendie, si présent.")
     composition_de_l_installation : Optional[Literal['Prise d’incendie', 'Raccord d’alimentation ou réalimentation', 'Détendeur', '']] = Field(description="La composition de l'installation de point d'eau incendie, si présent.")
@@ -41,9 +35,6 @@ class securite_incendie_installation_de_point_d_eau_incendie_2(BaseModel):
     nombre_de_prise : Optional[int] = Field(description="Le nombre de prise de l'installation de point d'eau incendie, si présent.")
     nombre_de_point_d_eau_suivi : Optional[int] = Field(description="Le nombre de point d'eau incendie suivi, si présent.")
     decomposition_des_points_d_eau_suivis : Optional[Literal['Bouche incendie', 'Poteau incendie', 'Réserve d’eau', 'Citerne', 'Colonne', 'Canon à eau', '']] = Field(description="La décomposition des points d'eau incendie suivis, si présent.")
-
-
-class securite_incendie_installation_de_point_d_eau_incendie_3(BaseModel):
     type_de_colonne : Optional[Literal['Sèche', 'En charge', '']] = Field(description="Le type de colonne de l'installation de point d'eau incendie, si présent.")
     type_de_point_d_eau : Optional[Literal['Bouche incendie', 'Poteau incendie', 'Réserve d’eau', 'Citerne', 'Colonne', 'Canon à eau', '']] = Field(description="Le type de point d'eau incendie, si présent.")
     type_de_suivi : Optional[Literal['Individuel', 'Ensemble', '']] = Field(description="Le type de suivi de l'installation de point d'eau incendie, si présent.")
