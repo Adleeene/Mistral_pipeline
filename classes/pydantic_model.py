@@ -7,10 +7,26 @@ from .element_json_models import *
 
 
 
+    # FIXED: Make fields optional for OCR step
+class Observation(BaseModel):
+    element_number: int = Field(description="Index de l'élément concerné")
+    n_serie: str = Field(description="Numéro de l'élément concerné, peut etre un string par exemple : 1137/45SHZ568 ")
+    element_name: str = Field(description="Nom de l'élément concerné")
+    verified_point: Optional[str] = Field(default=None, description="Point vérifié où l'observation a été faite")
+    description: str = Field(description="Description courte de l'observation")
+    detailed_description: Optional[str] = Field(default=None, description="Description détaillée complète")
+    observation_type: Optional[str] = Field(default=None, description="Type d'observation: anomalie, défaut, action, etc.")
+    suggested_priority: Optional[str] = Field(default=None, description="Priorité suggérée")
+    first_emission_date: Optional[str] = Field(default=None, description="Date d'émission au format YYYY-MM-DD")
+    predicted_criticality: bool = Field(default=None, description="Criticité prédite pour la sécurité")
+    observation_number: str = Field(description="Numéro de l'observation")
+    
+
+
 
 # Define Pydantic models for the desired JSON structure
 class Element(BaseModel):
-    number: int
+    number: str
     page: int
     inspector: str
     name: str
@@ -18,11 +34,11 @@ class Element(BaseModel):
     n_internal: Optional[int] # Assuming string keys and values; change to Dict[str, int] if number_internal is an integer
     factory: str
     building: str 
-    regulation: Literal[
-        "ascenseurs", 
-        "monte_charge",
+    # regulation: Literal[
+    #     "ascenseurs", 
+    #     "monte_charge",
 
-        ]
+    #     ]
     #----------------------------------ATTRIBUTES----------------------------------
 
     attribut: Union[
@@ -164,7 +180,10 @@ class InterventionControl(BaseModel):
     elements_number: int
     tasks_number: int
 
+
+
 class Report(BaseModel):
     document: Document
     intervention_control: InterventionControl
     elements: List[Element]
+    observations: List[Observation]

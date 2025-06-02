@@ -2,13 +2,13 @@
   "document": {
     "name": "Vérification générale périodique des équipements mécaniques",
     "number": 1002437790011,
-    "date": "07/03/2024",
+    "date": "2024-03-07",
     "pages_number": 14
   },
   "intervention_control": {
-    "name": "Intervention Control",
-    "start_date": "07/03/2024",
-    "end_date": "07/03/2024",
+    "name": "Vérification générale périodique des équipements mécaniques",
+    "start_date": "2024-03-07",
+    "end_date": "2024-03-07",
     "inspector_company": "APAVE",
     "inspector_agency": "AGENCE DE Compiègne",
     "inspector_name": "Mr COVAREL STEPHANE",
@@ -16,18 +16,17 @@
     "customer_adress": "ZI DE BREUIL LE SEC, RUE ANDRE POMMERY, 60840 BREUIL LE SEC",
     "customer_factory": "BASF FRANCE SAS",
     "elements_number": 3,
-    "tasks_number": 3
+    "tasks_number": 0
   },
   "elements": [
     {
-      "number": 1,
+      "number": "1",
       "page": 3,
       "inspector": "Mr COVAREL STEPHANE",
       "name": "Ascenseur",
       "n_internal": 113745,
       "factory": "JOUGLET/OTIS",
       "building": "Labos - Bâtiment D 341 - HZ568",
-      "regulation": "ascenseurs_et_monte_charges",
       "attribut": {
         "type_de_control": "Vérification périodique",
         "date_de_mise_en_service": "1990",
@@ -40,30 +39,30 @@
         "nombre_d_etages": 3,
         "machinerie": "Haute",
         "nombre_de_personnes": 3,
-        "motorisation": "Une vitesse",
+        "motorisation": "Variateur de fréquence",
         "en_location": null,
         "status": null,
-        "vitesse_nominale_en_m_s_var": 1,
+        "vitesse_nominale_en_m_s_var": 1.0,
         "certification_ce": null,
-        "type_de_traction_electrique": "Entraînement par adhérence",
+        "type_de_traction_electrique": null,
         "type_de_traction_hydraulique": null,
-        "type_de_traction": "Électrique",
-        "type_d_ouverture": "Automatique",
-        "type_de_porte": "Porte Coulissante"
+        "type_de_traction": null,
+        "type_d_ouverture": null,
+        "type_de_porte": null
       },
+      "regulation": "ascenseurs_et_monte_charges",
       "element_type": "ascenseur"
     },
     {
-      "number": 2,
+      "number": "2",
       "page": 6,
       "inspector": "Mr COVAREL STEPHANE",
       "name": "Ascenseur",
       "n_internal": 11138,
       "factory": "JOUGLET",
       "building": "Labos D341 - HZ569",
-      "regulation": "ascenseurs_et_monte_charges",
       "attribut": {
-        "type_de_control": null,
+        "type_de_control": "Vérification périodique",
         "date_de_mise_en_service": "1990",
         "date_de_fabrication": "1990",
         "modification_importante": null,
@@ -81,21 +80,21 @@
         "certification_ce": null,
         "type_de_traction_electrique": null,
         "type_de_traction_hydraulique": null,
-        "type_de_traction": "Hydraulique",
+        "type_de_traction": null,
         "type_d_ouverture": null,
         "type_de_porte": null
       },
+      "regulation": "ascenseurs_et_monte_charges",
       "element_type": "ascenseur"
     },
     {
-      "number": 3,
+      "number": "3",
       "page": 8,
       "inspector": "Mr COVAREL STEPHANE",
       "name": "Monte charge",
       "n_internal": null,
       "factory": "ALSACE MANUTENTION",
       "building": "Labos - Bâtiment B 215 - HZ581",
-      "regulation": "ascenseurs_et_monte_charges",
       "attribut": {
         "type_de_control": "Vérification périodique",
         "date_de_mise_en_service": "1983",
@@ -106,7 +105,7 @@
         "charge_maximale_kg_var": 100,
         "a_t_il_subi_une_modification_importante_var": null,
         "parachute": null,
-        "societe_de_maintenance": null,
+        "societe_de_maintenance": "OTIS",
         "motorisation": null,
         "machinerie": "Haute",
         "vitesse_nominale_en_m_s_var": null,
@@ -118,7 +117,38 @@
         "type_d_ouverture": null,
         "type_de_porte": null
       },
+      "regulation": "ascenseurs_et_monte_charges",
       "element_type": "monte_charge"
+    }
+  ],
+  "observations": [
+    {
+      "element_number": 1,
+      "n_serie": "1137/45SHZ568",
+      "element_name": "Ascenseur",
+      "verified_point": "Limiteur de vitesse",
+      "description": "Remplacer le câble du limiteur de vitesse.",
+      "detailed_description": null,
+      "observation_type": "anomalie",
+      "suggested_priority": null,
+      "first_emission_date": null,
+      "date_verification": null,
+      "predicted_criticality": true,
+      "observation_number": "1"
+    },
+    {
+      "element_number": 1,
+      "n_serie": "1137/45SHZ568",
+      "element_name": "Ascenseur",
+      "verified_point": "Dispositif de demande de secours",
+      "description": "Localiser l'appareil sur le site",
+      "detailed_description": null,
+      "observation_type": "anomalie",
+      "suggested_priority": null,
+      "first_emission_date": null,
+      "date_verification": null,
+      "predicted_criticality": true,
+      "observation_number": "2"
     }
   ]
 }
