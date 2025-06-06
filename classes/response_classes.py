@@ -185,3 +185,4 @@ class transport_routier(BaseModel):
         "vehicule_leger",
         "vehicule_lourd"
     ] = Field(description="Type d'élément de transport routier")
+

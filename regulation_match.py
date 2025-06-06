@@ -5,6 +5,7 @@ from prompt.general_json import make_general_prompt_no_attributes
 import time
 from Mistral_OCR import PDFProcessor
 
+
 def query_ollama(user_prompt, system_prompt="", model="mistral-small:24b"):
     """
     Envoie une requête au modèle Ollama et retourne sa réponse
@@ -35,3 +36,5 @@ def query_ollama(user_prompt, system_prompt="", model="mistral-small:24b"):
     except Exception as e:
         print(f"Erreur lors de la requête: {e}")
         return None
+
+

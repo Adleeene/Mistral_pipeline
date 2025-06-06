@@ -2,12 +2,114 @@ from typing import Optional, Dict, Any, List, Literal, Union, Type
 from pydantic import BaseModel
 from datetime import date
 from decimal import Decimal
-from pydantic import Field,validator,create_model
+from pydantic import Field,validator,create_model,root_validator,model_validator,AfterValidator,ValidationInfo
 from .element_json_models import *
+from typing_extensions import Self,TypeVar,override,Annotated
+
+
+# class BaseAttributes(BaseModel):
+#     regulation_type: Literal["ascenseurs", "mont_charge","chaudiere"]
+    
+    
+
+# class chauffage_et_climatisation_chaudiere_0(BaseAttributes):
+
+#     regulation_type : Literal["chaudiere" ]= "chaudiere"
+
+#     type_de_control : Optional[Literal["Contrôle de l'efficacité énergétique", 'Entretien annuel', 'Calcul du rendement']] = None
+#     date_de_mise_en_service : Optional[str] = None
+#     date_de_fabrication_du_bruleur : Optional[str] = None
+#     date_de_fabrication_du_generateur : Optional[str] = None
+#     marque_du_bruleur : Optional[str] = None
+#     puissance_nominale_du_generateur_kw_var : Optional[int] = None
+#     numero_de_serie_du_generateur : Optional[str] = None
+#     combustible : Optional[Literal['Gazeux', 'Liquide', 'Solide', '']] = None
+#     temperature_de_consigne_du_fluide_caloporteur : Optional[int] = None
+#     fluide_caloporteur : Optional[str] = None
+#     numero_du_bruleur : Optional[str] = None
+#     pression_de_consigne_du_fluide_caloporteur_bar_var : Optional[float] = None
+#     puissance_du_bruleur : Optional[int] = None
+#     marque_du_generateur : Optional[str] = None
+#     pci_du_combustible_kwh_nm3_var : Optional[float] = None
+#     en_location : Optional[bool] = None
+#     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = None
+#     est_ce_une_chaudiere_de_recuperation_de_gaz_var : Optional[bool] = None
+#     avez_vous_un_contrat_de_performance_energetique_sur_cette_installation_var : Optional[bool] = None
+#     l_installation_est_elle_classee_dans_la_rubrique_2910_a_et_situe_dans_un_etablissement_soumis_a_declaration_dc_var : Optional[bool] = None
+#     somme_des_puissances_nominales_des_chaudieres_en_reseau_en_kw_var : Optional[int] = None
+#     la_chaudiere_est_elle_mise_en_reseau_avec_d_autres_chaudieres_dans_un_meme_local_var : Optional[bool] = None
+#     type_de_bruleur : Optional[str] = None
+#     type_de_generateur : Optional[str] = None
+#     type_de_combustible_solide : Optional[str] = None
+
+
+# class ascenseurs_et_monte_charges_ascenseur_0(BaseAttributes):
+#     regulation_type : Literal["ascenseur" ]= "ascenseur"
+#     type_de_control : Optional[Literal['Contrôle technique', 'Vérification périodique']] = None
+#     date_de_mise_en_service : Optional[str] = None
+#     date_de_fabrication : Optional[str] = None
+#     modification_importante : Optional[bool] = None
+#     societe_de_maintenance : Optional[str] = None
+#     fabricant : Optional[str] = None
+#     charge_maximale_kg_var : Optional[int] = None
+#     parachute : Optional[bool] = None
+#     nombre_d_etages : Optional[int] = None
+#     machinerie : Optional[Literal['Basse', 'Haute', 'Latérale', 'Latérale basse', 'Latérale haute', 'Sans', '']] = None
+#     nombre_de_personnes : Optional[int] = None
+#     motorisation : Optional[Literal['Une vitesse', 'Deux vitesses', 'Variateur de fréquence', 'Hydraulique', '']] = None
+#     en_location : Optional[bool] = None
+#     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = None
+#     vitesse_nominale_en_m_s_var : Optional[float] = None
+#     certification_ce : Optional[bool] = None
+#     type_de_traction_electrique : Optional[Literal['Entraînement par adhérence', 'Entraînement attelé', '']] = None
+#     type_de_traction_hydraulique : Optional[Literal['Entraînement direct', 'Entraînement indirect', '']] = None
+#     type_de_traction : Optional[Literal['Électrique', 'Hydraulique', '']] = None
+#     type_d_ouverture : Optional[Literal['Automatique', 'Manuelle', '']] = None
+#     type_de_porte : Optional[Literal['Porte Coulissante', 'Porte battante', 'Porte pliante', 'Porte à ouverture centrale', 'Porte à guillotine', '']] = None
 
 
 
-    # FIXED: Make fields optional for OCR step
+# class ascenseurs_et_monte_charges_monte_charge_0(BaseAttributes):
+#     regulation_type : Literal["monte_charge" ]= "monte_charge"
+#     type_de_control : Optional[Literal['Vérification périodique']] = None
+#     date_de_mise_en_service : Optional[str] = None
+#     date_de_fabrication : Optional[str] = None
+#     certification_ce : Optional[bool] = None
+#     nombre_d_etages : Optional[int] = None
+#     fabricant : Optional[str] = None
+#     charge_maximale_kg_var : Optional[int] = None
+#     a_t_il_subi_une_modification_importante_var : Optional[bool] = None
+#     parachute : Optional[bool] = None
+#     societe_de_maintenance : Optional[str] = None
+#     motorisation : Optional[Literal['Une vitesse', 'Deux vitesses', 'Variateur de fréquence', 'Hydraulique', '']] = None
+#     machinerie : Optional[Literal['Basse', 'Haute', 'Latérale', 'Sans', '']] = None
+#     vitesse_nominale_en_m_s_var : Optional[float] = None
+#     en_location : Optional[bool] = None
+#     status : Optional[Literal['Actif', 'Au chômage', 'Au rebut', 'En stock', 'Au brouillon', '']] = None
+#     type_de_traction_electrique : Optional[Literal['Entraînement par adhérence', 'Entraînement attelé', '']] = None
+#     type_de_traction_hydraulique : Optional[Literal['Entraînement direct', 'Entraînement indirect', '']] = None
+#     type_de_traction : Optional[Literal['Électrique', 'Hydraulique', '']] = None
+#     type_d_ouverture : Optional[Literal['Automatique', 'Manuelle', '']] = None
+#     type_de_porte : Optional[Literal['Porte Coulissante', 'Porte battante', 'Porte pliante', 'Porte à ouverture centrale', 'Porte à guillotine', '']] = None
+# # def auto_assign_attribut_from_regulation(value: str, info: ValidationInfo) -> str:
+#     """Assigne automatiquement attribut basé sur regulation, ignore la valeur d'entrée"""
+#     # Récupère la valeur du champ 'regulation'
+#     regulation = info.data.get('regulation') if info.data else None
+    
+#     if regulation == "ascenseurs":
+#         return "ascenseurs"  # Force la valeur
+#     elif regulation == "mont_charge":
+#         return "mont_charge"  # Force la valeur
+#     else:
+#         # Si regulation inconnue, retourne la valeur originale
+#         return value
+
+# # Type annoté qui force l'assignation (comme EvenNumber mais qui transforme)
+# AutoAssignedAttribut = Annotated[str, AfterValidator(auto_assign_attribut_from_regulation)]
+
+
+
+# FIXED: Make fields optional for OCR step
 class Observation(BaseModel):
     element_number: int = Field(description="Index de l'élément concerné")
     n_serie: str = Field(description="Numéro de l'élément concerné, peut etre un string par exemple : 1137/45SHZ568 ")
@@ -23,60 +125,89 @@ class Observation(BaseModel):
     
 
 
-
-# Define Pydantic models for the desired JSON structure
-class Element(BaseModel):
+class Element(BaseModel,extra="allow" ):
     number: str
-    page: int
+    pages: list[int] = Field(description="Toutes les pages ou cet element precis est present")
     inspector: str
     name: str
-    #N_Identification: Dict[str, int]  # Assuming string keys and values; change to Dict[str, int] if number_internal is an integer
-    n_internal: Optional[int] # Assuming string keys and values; change to Dict[str, int] if number_internal is an integer
+    n_internal: Optional[str] = Field(description="Numéro d'identification de l'élément")
     factory: str
-    building: str 
-    # regulation: Literal[
-    #     "ascenseurs", 
-    #     "monte_charge",
+    building: str
+    regulation: Literal["ascenseurs", "mont_charge"]
 
-    #     ]
-    #----------------------------------ATTRIBUTES----------------------------------
+    # attribut: Union[
+    #     ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
+    #     ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0        
 
-    attribut: Union[
-        ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
-        ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0
-    ]
+    #     # ascenseurs_et_monte_charges_ascenseur_0,
+    #     # ascenseurs_et_monte_charges_monte_charge_0  ,
+    #     # chauffage_et_climatisation_chaudiere_0
+    #      ] 
+    # = Field(discriminator="regulation_type")
+
+    
+    # test: AutoAssignedAttribut
+    
+
+    # @model_validator(mode="after")
+    # def set_admin_status(self):
+
+    #     attribut_model_map = {
+    #         "ascenseurs": ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
+    #         "mont_charge": ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0
+    #     }
+    #     self.attribut = attribut_model_map[self.regulation]
+    #     print(self)
+        
+    #     return self
+    
+    # @override
+    # def model_dump(self, include_extra: bool = True, **kwargs):
+    #     # On force l'inclusion des champs extra si include_extra=True
+    #     data = super().model_dump(**kwargs)
+    #     if include_extra and hasattr(self, "is_admin"):
+    #         data.update(self.is_admin)
+    #     return data
+
+    # def to_dict(self):
+    #     return self.model_dump(by_alias=True, include_extra=True)
+
+    # attribut: Optional[Union[
+    #     ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
+    #     ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0
+    # ]] = None
+    
+
+    # @root_validator(pre=True)
+    # def set_attribut_by_regulation(cls, values):
+        # attribut_model_map = {
+        #     "ascenseurs": ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
+        #     "mont_charge": ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0
+        # }
+        # reg = values.get("regulation")
+        # attribut_data = values.get("attribut")
+        # if reg in attribut_model_map and attribut_data is not None and not isinstance(attribut_data, attribut_model_map[reg]):
+        #     values["attribut"] = attribut_model_map[reg](**attribut_data) if isinstance(attribut_data, dict) else attribut_data
+        # return values
+
 
 
     
-# class ElementBase(BaseModel):
-#     number: int
-#     page: int
-#     inspector: str
-#     name: str
-#     n_internal: Optional[int] = Field(None, alias="N_Identification")
-#     factory: str
-#     building: str 
-#     regulation: Literal["ascenseurs", "monte_charge"]
+    # is_admin: bool = Field(
+    #     default=False,
+    #     description="Défini automatiquement selon le type de régulation",
+       
+    # )
 
-# class Element(ElementBase):
-#     attribut: Dict = Field(..., description="Attributs obligatoires")
+   
 
-#     @classmethod
-#     def create_element_model(cls, regulation_type: str) -> Type[BaseModel]:
-#         attribut_model_map = {
-#             "ascenseurs": ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,
-#             "monte_charge": ascenseurs_et_monte_charges_monte_charge.ascenseurs_et_monte_charges_monte_charge_0
-#         }
-        
-#         if regulation_type not in attribut_model_map:
-#             raise ValueError(f"Type de régulation non supporté: {regulation_type}")
-        
-#         return create_model(
-#             f"Element{regulation_type.capitalize()}",
-#             __base__=Element,
-#             attribut=(attribut_model_map[regulation_type], Field(...))
-#         )
+
     
+    
+
+
+    
+
     # attribut: Union[
     #     transport_routier_vehicule_lourd.transport_routier_vehicule_lourd_0,
     #     transport_routier_vehicule_leger.transport_routier_vehicule_leger_0,
@@ -165,7 +296,7 @@ class Document(BaseModel):
     name: str
     number: int
     date: str  # Format YYYY-MM-DD
-    pages_number: int
+    pages_number: int 
 
 class InterventionControl(BaseModel):
     name: str
@@ -187,3 +318,14 @@ class Report(BaseModel):
     intervention_control: InterventionControl
     elements: List[Element]
     observations: List[Observation]
+    # elements: List[Element]
+
+
+
+
+
+# ---------------------attributs_elements_json_models---------------------
+
+
+
+    

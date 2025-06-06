@@ -9,10 +9,11 @@
 
 from typing import Optional, Literal
 from pydantic import Field, BaseModel
-
+# from BaseAttributes import BaseAttributes
 
 
 class ascenseurs_et_monte_charges_ascenseur_0(BaseModel):
+    # regulation_type : Literal["ascenseur" ]= "ascenseur"
     type_de_control : Optional[Literal['Contrôle technique', 'Vérification périodique']] = Field(description="Le type de contrôle effectué sur l'élément, si présent.")
     date_de_mise_en_service : Optional[str] = Field(description="La date de mise en service de l'ascenseur, si présent.")
     date_de_fabrication : Optional[str] = Field(description="La date de fabrication (peut être appelé plaque) de l'ascenseur, si présent.")

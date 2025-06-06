@@ -1,4 +1,5 @@
 __all__ = [
+    # "BaseAttributes",
     "transport_routier_vehicule_lourd",
     "transport_routier_vehicule_leger",
     "stockage_corrosif_reservoir",

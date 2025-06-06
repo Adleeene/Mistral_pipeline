@@ -9,10 +9,13 @@
 
 from typing import Optional, Literal
 from pydantic import Field, BaseModel
-
+# from BaseAttributes import BaseAttributes
 
 
 class chauffage_et_climatisation_chaudiere_0(BaseModel):
+
+    # regulation_type : Literal["chaudiere" ]= "chaudiere"
+
     type_de_control : Optional[Literal["Contrôle de l'efficacité énergétique", 'Entretien annuel', 'Calcul du rendement']] = Field(description="Le type de contrôle effectué sur l'élément, si présent.")
     date_de_mise_en_service : Optional[str] = Field(description="La date de mise en service de la chaudière, si présent.")
     date_de_fabrication_du_bruleur : Optional[str] = Field(description="La date de fabrication (peut être appelé plaque) du brûleur, si présent.")

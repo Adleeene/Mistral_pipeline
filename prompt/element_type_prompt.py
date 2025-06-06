@@ -10,7 +10,7 @@ from classes.response_classes import (
 
 # Mapping des noms de réglementation vers leurs classes correspondantes
 REGULATION_CLASSES = {
-   "ascenseurs_et_monte_charges": ascenseurs_et_monte_charges,
+    "ascenseurs_et_monte_charges": ascenseurs_et_monte_charges,
     "chauffage_et_climatisation": chauffage_et_climatisation,
     "echelles_et_echafaudages": echelles_et_echafaudages,
     "equipements_de_protection_individuelle": equipements_de_protection_individuelle,

@@ -22,9 +22,11 @@ def main():
         # Analyze report
         report_data = processor.analyze_report(ocr_response)
 
+
         # Afficher le résultat de manière formatée
         print("\nRésultat formaté :")
         print(json.dumps(report_data, indent=2, ensure_ascii=False, sort_keys=False))
+
     
 
         # Enrich report with regulations
@@ -44,6 +46,7 @@ def main():
         return 1
     
     return 0
+
 
 if __name__ == "__main__":
     exit(main())
