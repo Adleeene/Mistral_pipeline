@@ -33,7 +33,7 @@ def main_extraction_strategies():
     # Stratégie 1
     pdf_processor = PDFProcessor()
     # message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/apave_13.pdf")
-    message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/apave_elev.pdf")
+    message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/Armand_5_M6nyVyk.pdf")
 
     
 

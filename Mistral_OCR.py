@@ -169,6 +169,9 @@ class PDFProcessor:
     def analyze_attributes(self,report_data: Dict[str, Any], pages_text_specific_element: str,element_type: str,n_internal: int) -> Dict[str, Any]:
         """Analyze the attributes of each element by an adequate response format"""
 
+        print("\n=== ENRICHISSEMENT DES ATTRIBUTS POUR CHAQUE ELEMENT ===")
+
+
         attribut_model_map = {
             # Ascenseurs et monte-charges
             "ascenseur": ascenseurs_et_monte_charges_ascenseur.ascenseurs_et_monte_charges_ascenseur_0,

@@ -116,7 +116,9 @@ def make_simple_prompt():
 
     prompt = (
                     "Tu es un expert en analyse de documents techniques. Extrait les informations du document " 
-                )
+                    "Fait bien attention, si deux éléments on le même nom, ce n'est pas forcément qu'ils sont identiques, si ils "
+                    "ont un numéro de série différent, ils sont différent et il faut prendre en compte les deux éléments distincts. "          
+                                )
     
 
 
