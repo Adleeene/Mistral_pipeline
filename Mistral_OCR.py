@@ -70,12 +70,13 @@ class PDFProcessor:
 
         print(full_text)
         
-        # # Limit text size
-        # max_chars = 15000
-        # print(f"Full text length: {len(full_text)} characters") 
-        # if len(full_text) > max_chars:
-        #     full_text = full_text[:max_chars]
-        #     print(f"Document truncated to {max_chars} characters")
+        # Limit text size
+        max_chars = 15000
+        print(f"Full text length: {len(full_text)} characters") 
+        if len(full_text) > max_chars:
+            full_text = full_text[:max_chars]
+            print(f"Document truncated to {max_chars} characters")
+
 
         #--------------------------------SYSTEM PROMPT--------------------------------
         
