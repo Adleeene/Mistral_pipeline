@@ -4,7 +4,7 @@ import json
 from mistralai import Mistral
 from typing import Optional, Dict, Any
 from classes.pydantic_model import Report
-from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_general_prompt_no_attributes_french, make_simple_prompt
+from prompt.general_json import make_general_prompt_no_attributes, make_general_prompt, make_simple_prompt,make_attribute_prompt,make_general_prompt1
 from ollama import chat
 
 from pydantic import BaseModel, Field
@@ -16,7 +16,8 @@ from classes.element_json_models import *
 class PDFProcessor:
     def __init__(self, api_key: Optional[str] = None):
         """Initialize the PDF processor with Mistral API key."""
-        self.api_key = api_key or os.getenv("MISTRAL_API_KEY") or "bi78LN9q7kO3MmNlzmzlvDOjjieuod4j"
+        self.api_key = api_key or os.getenv("MISTRAL_API_KEY") or "UUo7mEuSJ2K0gQKEy2BMR5Z75gQb9wK5"
+        # UxylX7NLFr9qynmYMWBpDbDmzcFvDSj6
         self.client = Mistral(api_key=self.api_key)
     
     def encode_pdf(self, pdf_path: str) -> str:
@@ -55,6 +56,7 @@ class PDFProcessor:
                 include_image_base64=True
             )
             print("OCR request completed")
+
             return ocr_response
         except Exception as e:
             raise RuntimeError(f"OCR processing failed: {str(e)}")
@@ -68,19 +70,29 @@ class PDFProcessor:
         for i, page in enumerate(ocr_response.pages):
             full_text += f"Page {i+1}:\n{page.markdown}\n\n"
 
-        print(full_text)
         
-        # Limit text size
-        max_chars = 15000
-        print(f"Full text length: {len(full_text)} characters") 
-        if len(full_text) > max_chars:
-            full_text = full_text[:max_chars]
-            print(f"Document truncated to {max_chars} characters")
+        #Gestion du text
+        print(full_text)
+        # Save to file
+        output_file = "extracted_text.txt"
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write(full_text)
+        print(f"✓ Results saved to {output_file}")
+    
+        # # Limit text size
+        # max_chars = 15000
+        # print(f"Full text length: {len(full_text)} characters") 
+        # if len(full_text) > max_chars:
+        #     full_text = full_text[:max_chars]
+        #     print(f"Document truncated to {max_chars} characters")
 
 
         #--------------------------------SYSTEM PROMPT--------------------------------
         
-        system_prompt = make_simple_prompt()
+        # system_prompt = make_simple_prompt()
+        system_prompt = make_general_prompt1()
+        
+
 
         #--------------------------------MISTRAL LARGE API--------------------------------
         
@@ -166,11 +178,14 @@ class PDFProcessor:
 
 
         
-    def analyze_attributes(self,report_data: Dict[str, Any], pages_text_specific_element: str,element_type: str,n_internal: int) -> Dict[str, Any]:
+    def analyze_attributes(self, pages_text_specific_element: str,element_type: str,n_internal: int , name) -> Dict[str, Any]:
         """Analyze the attributes of each element by an adequate response format"""
 
-        print("\n=== ENRICHISSEMENT DES ATTRIBUTS POUR CHAQUE ELEMENT ===")
-
+        if not n_internal : 
+            print("\n=== ENRICHISSEMENT DES ATTRIBUTS de l'element  ===")
+        else :
+            print("\n=== ENRICHISSEMENT DES ATTRIBUTS de l'element : [",name," : ",n_internal, " ] ===")
+ 
 
         attribut_model_map = {
             # Ascenseurs et monte-charges
@@ -301,66 +316,64 @@ class PDFProcessor:
 
         #--------------------------------SYSTEM PROMPT--------------------------------
         
-        system_prompt = make_simple_prompt()
+        system_prompt = make_attribute_prompt(n_internal)
 
         #--------------------------------MISTRAL LARGE API--------------------------------
         
-        #Define messages for Mistral API
-        messages = [
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": pages_text_specific_element
-            }
-        ]
+        # #Define messages for Mistral API
+        # messages = [
+        #     {
+        #         "role": "system",
+        #         "content": system_prompt
+        #     },
+        #     {
+        #         "role": "user",
+        #         "content": pages_text_specific_element
+        #     }
+        # ]
         
-        try:
-            print("Sending analysis request to Mistral API...")
-            chat_response = self.client.chat.parse(
-                model="mistral-large-latest",
-                messages=messages,
-                response_format=attributes_class,
-                temperature=0,
-                max_tokens=3000
-            )
-            print("Analysis request completed")
+        # try:
+        #     print("Sending analysis request to Mistral API...")
+        #     chat_response = self.client.chat.parse(
+        #         model="mistral-large-latest",
+        #         messages=messages,
+        #         response_format=attributes_class,
+        #         temperature=0,
+        #         max_tokens=3000
+        #     )
+        #     print("Analysis request completed")
             
-            # Extract JSON from response
-            response_content = chat_response.choices[0].message.content
-            json_data = json.loads(response_content)
+        #     # Extract JSON from response
+        #     response_content = chat_response.choices[0].message.content
+        #     json_data = json.loads(response_content)
+        #     return json_data
+
+        #---------------------------- LOCAL ----------------------------------------------
+
+        try : 
+            response = chat(
+            messages=[
+                {
+                    'role': 'system',
+                    'content': system_prompt,
+                },
+                {
+                    'role': 'user',
+                    'content': pages_text_specific_element,
+                }
+                ],
+                model='mistral-small:24b',
+                format=attributes_class.model_json_schema(),
+                options={'temperature': 0},  # Set temperature to 0 for more deterministic output
+            )
+
+            Rapport = attributes_class.model_validate_json(response.message.content)
+            json_data = Rapport.model_dump_json()
+            
+            # Convertir la chaîne JSON en dictionnaire Python
+            json_data = json.loads(json_data)
             return json_data
 
-            # Add the response content to the report_data for the specific element
-            # for element in report_data.get("elements", []):
-            #     if element.get("element_type") == n_internal:
-            #         element.update(json_data)
-            #         break
-
-        # try : 
-        #     response = chat(
-        #     messages=[
-        #         {
-        #             'role': 'system',
-        #             'content': system_prompt,
-        #         },
-        #         {
-        #             'role': 'user',
-        #             'content': full_text,
-        #         }
-        #         ],
-        #         model='mistral-small:24b',
-        #         format=Report.model_json_schema(),
-        #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
-        #     )
-
-        #     Rapport = Report.model_validate_json(response.message.content)
-        #     json_data = Rapport.model_dump_json()
-            
-        #     # Convertir la chaîne JSON en dictionnaire Python
-        #     json_data = json.loads(json_data)
 
 
         #----------------------------POST PROCESSING----------------------------------------------

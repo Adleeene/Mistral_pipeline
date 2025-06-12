@@ -83,26 +83,57 @@ def make_general_prompt_no_attributes():
 
 # NAME OF KEY IN FRENCH 
 
-def make_general_prompt_no_attributes_french():
+def make_general_prompt1():
 
     prompt = (
                     "Tu es un expert en analyse de documents techniques. Extrait les détails du document, "
                     "les informations de contrôle d'intervention et la liste des éléments selon la structure suivante :\n"
                     "{\n"
-                    "  \"document\": {\"nom\": \"string\", \"numero\": integer, \"date\": \"YYYY-MM-DD\", \"nombre_de_pages\": integer},\n"
-                    "  \"intervention_control\": {\"nom\": \"string\", \"date_de_debut\": \"YYYY-MM-DD\", \"date_de_fin\": \"YYYY-MM-DD\", "
-                    "\"entreprise_inspecteur\": \"string\", \"agence_inspecteur\": \"string\", \"nom_inspecteur\": \"string\", "
-                    "\"entreprise_client\": \"string\", \"adresse_client\": \"string\", \"usine_client\": \"string\", "
-                    "\"nombre_d_elements\": integer, \"nombre_de_taches\": integer},\n"
-                    "  \"elements\": [{\n"
-                    "    \"numero\": integer,\n"
-                    "    \"page\": integer,\n"
-                    "    \"inspecteur\": \"string\",\n"
-                    "    \"nom\": \"string\",\n"
-                    "    \"numero_identification_interne\": integer,\n"
-                    "    \"usine\": \"string\",\n"
-                    "    \"batiment\": \"string\",\n"
-                    "  }]\n"
+                    "  \"document\": {\n"
+                    "    \"name\": \"string\",\n"
+                    "    \"number\": integer,\n"
+                    "    \"date\": \"YYYY-MM-DD\",\n"
+                    "    \"pages_number\": integer\n"
+                    "  },\n"
+                    "  \"intervention_control\": {\n"
+                    "    \"name\": \"string\",\n"
+                    "    \"start_date\": \"YYYY-MM-DD\",\n"
+                    "    \"end_date\": \"YYYY-MM-DD\",\n"
+                    "    \"inspector_company\": \"string\",\n"
+                    "    \"inspector_agency\": \"string\",\n"
+                    "    \"inspector_name\": \"string\",\n"
+                    "    \"customer_company\": \"string\",\n"
+                    "    \"customer_adress\": \"string\",\n"
+                    "    \"customer_factory\": \"string\",\n"
+                    "    \"elements_number\": integer,\n"
+                    "    \"tasks_number\": integer\n"
+                    "  },\n"
+                    "  \"elements\": [\n"
+                    "    {\n"
+                    "      \"number\": string,\n"
+                    "      \"pages\": [integer],\n"
+                    "      \"inspector\": \"string\",\n"
+                    "      \"name\": \"string\",\n"
+                    "      \"n_internal\": string,\n"
+                    "      \"factory\": \"string\",\n"
+                    "      \"building\": \"string\"\n"
+                    "    }\n"
+                    "  ],\n"
+                    "  \"observations\": [\n"
+                    "    {\n"
+                    "      \"element_number\": integer,\n"
+                    "      \"n_serie\": \"string\",\n"
+                    "      \"element_name\": \"string\",\n"
+                    "      \"verified_point\": \"string\",\n"
+                    "      \"description\": \"string\",\n"
+                    "      \"detailed_description\": \"string\",\n"
+                    "      \"observation_type\": \"string\",\n"
+                    "      \"suggested_priority\": \"string\",\n"
+                    "      \"first_emission_date\": \"string\",\n"
+                    "      \"predicted_criticality\": boolean,\n"
+                    "      \"observation_number\": \"string\"\n"
+                    "    }\n"
+                    "  ]\n"
                     "}\n"
                     "Retourne UNIQUEMENT un objet JSON valide correspondant à cette structure. N'inclue aucun texte supplémentaire."
                 )
@@ -123,6 +154,25 @@ def make_simple_prompt():
 
 
     return prompt_wrap_tags(user_prompt=prompt)
+
+def make_attribute_prompt(n_internal : int):
+
+    if n_internal : 
+        prompt = (
+                        f"""Tu es un expert en analyse de documents techniques. Extrait les attributs spécifiques de l'élément dont le n_internal(ou numero de series) est {n_internal} """
+                    
+                    )
+    else : 
+         prompt = (
+                    "Tu es un expert en analyse de documents techniques. Extrait les informations du document " 
+                    
+                    )
+
+    
+
+
+    return prompt_wrap_tags(user_prompt=prompt)
+
 
 
 

@@ -12,30 +12,35 @@ from helper_function.enrich_report_with_type_element import enrich_report_with_t
 # attribut_model_map
 import time
 
+# class Page:
+#     def __init__(self, markdown):
+#         self.markdown = markdown
+
+# class OCRResponse:
+#     def __init__(self, pages):
+#         self.pages = pages
 
 
-def split_report_extraction(self, messages: List[Dict[str, str]]):
-        """Extraction en plusieurs étapes pour Report"""
-        
-
-        # Étape 2: Extraire les éléments (sans attributs complexes)
-        elements_basic = self._extract_elements_basic(messages)
-
-
-        return elements_basic
-
-
-# Utilisation des différentes stratégies
+# # Utilisation des différentes stratégies
 def main_extraction_strategies():
-    """Exemple d'utilisation des stratégies de division"""
-    start_time = time.time()
 
+    # Start timing
+    start_time = time.time()
+    
     # Stratégie 1
     pdf_processor = PDFProcessor()
+    message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/apave_300.pdf")
     # message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/apave_13.pdf")
-    message = pdf_processor.process_ocr("/Users/adlenemeraga/Documents/GitHub/OCR_mistral/test_PDF/Armand_5_M6nyVyk.pdf")
-
     
+
+    # # Lecture du fichier texte
+    # with open("extracted_text.txt", 'r', encoding='utf-8') as f:
+    #     text_content = f.read()
+    # # Création d'un objet OCRResponse avec le texte lu
+    # message = OCRResponse([Page(text_content)])
+
+    print(f"Waiting 60 seconds before processing the FIRST element...")
+    time.sleep(60)
 
 
     report_data = pdf_processor.analyze_report(message)
@@ -50,9 +55,14 @@ def main_extraction_strategies():
     # Enrich report with element type
     report_data = enrich_report_with_type_element(report_data)
     
+
+    # on va parcourir les elements et on va extraire les pages ou cet element est present pour ajouter les attributs
+    print("\n=== ENRICHISSEMENT DES ATTRIBUTS POUR CHAQUE ELEMENT ===")
     
-    # on va parcourir les elements et on va extraire les pages ou cet element est present
-    for element in report_data["elements"]:
+    print(f"Waiting 60 seconds before processing the FIRST element...")
+    time.sleep(60)
+
+    for i, element in enumerate(report_data["elements"]):
         element_pages = element["pages"]
         # Récupérer le texte des pages concernées
         pages_text = ""
@@ -63,16 +73,19 @@ def main_extraction_strategies():
                 pages_text += f"Page {page_num}:\n{message.pages[page_index].markdown}\n\n"
                 
         
-        result = pdf_processor.analyze_attributes(report_data,pages_text,element["element_type"], element["n_internal"])
+        result = pdf_processor.analyze_attributes(pages_text,element["element_type"], element["n_internal"],element["name"] )
         element["attribut"] = result
 
-        # print("resultat pour l'element ",element["n_internal"],":",result)
+        # # Add 30 second delay between each analyze_attributes call, except for the last element
+        # if i < len(report_data["elements"]) - 1:
+        #     print(f"Waiting 60 seconds before processing next element...")
+        #     time.sleep(60)
 
 
 
     # Calculate execution time
     execution_time = time.time() - start_time
-    report_data["execution_time_seconds"] = round(execution_time, 2)
+    report_data["total_time"] = round(execution_time, 2)
 
     print("\nRésultat final apres ajout des attributs:")
     print(json.dumps(report_data, indent=2, ensure_ascii=False, sort_keys=False))
