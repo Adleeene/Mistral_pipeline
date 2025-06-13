@@ -135,7 +135,10 @@ def make_general_prompt1():
                     "    }\n"
                     "  ]\n"
                     "}\n"
+                    "Fait bien attention, si deux éléments on le même nom, ce n'est pas forcément qu'ils sont identiques, si ils "
+                    "ont un numéro de série différent, ils sont différent et il faut prendre en compte les deux éléments distincts. "  
                     "Retourne UNIQUEMENT un objet JSON valide correspondant à cette structure. N'inclue aucun texte supplémentaire."
+
                 )
     
 
@@ -149,6 +152,8 @@ def make_simple_prompt():
                     "Tu es un expert en analyse de documents techniques. Extrait les informations du document " 
                     "Fait bien attention, si deux éléments on le même nom, ce n'est pas forcément qu'ils sont identiques, si ils "
                     "ont un numéro de série différent, ils sont différent et il faut prendre en compte les deux éléments distincts. "          
+                    "Fait bien attention a bien extraire la (ou les) observation(s) d'un élément si présente(s), des fois les observations sont abstraites donc cherche bien "
+
                                 )
     
 

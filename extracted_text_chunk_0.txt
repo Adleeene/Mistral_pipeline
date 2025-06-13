@@ -1,0 +1,238 @@
+Page 1:
+![img-0.jpeg](img-0.jpeg)
+
+**AGENCE DE Arras**
+ZA du 14 juillet Rue Pierre et Marie Curie
+62052 SAINT LAURENT BLANGY CEDEX
+Tél. : 03-21-60-70-10
+arras@apave.com
+
+**TEREOS FRANCE**
+100 RUE DE VERDUN BP 89
+62193 LILLERS CEDEX
+
+![img-1.jpeg](img-1.jpeg)
+
+# Vérification générale périodique des équipements mécaniques
+
+## RAPPORT ELINGUES
+
+N° de rapport : 2210135-001-1
+Date : 10/02/2023
+
+![img-2.jpeg](img-2.jpeg)
+
+Accréditation n°3-2016
+Liste des sites et portées disponibles sur www.cofrac.fr
+
+Lieu d'intervention :
+**TEREOS FRANCE**
+100 RUE DE VERDUN BP 89
+62193 LILLERS CEDEX
+
+Date(s) d'intervention :
+Du 30/01/2023 au 07/02/2023
+
+Intervenant(s) :
+Mr KOPYLAK JEAN PIERRE
+
+![img-3.jpeg](img-3.jpeg)
+
+Ce rapport comporte 70 pages - Version modèle rapport LearaBIP_5.5.3
+
+Page 2:
+# Rapport de vérification
+
+Appareils manuels / Accessoires / Equipements divers
+
+## Lot : Elingue câble ou textile
+
+Date de la vérification 30/01/2023 Vérificateur Mr KOPYLAK JEAN PIERRE Repères : Client Service Régulation Bâtiment Service Régulation Service Service Régulation N ${ }^{\circ}$ Identification lot Régulation : Elingues
+
+## Contenu et conditions de la vérification
+
+- Mission : Vérification de l'état de conservation et essais de fonctionnement des appareils de levage simples à bras. Vérification de l'état de conservation des accessoires de levage, des EPI contre les risques de chute ${ }^{(1)}$.
+- Les anomalies ou détériorations relevées au cours de l'examen visuel dans la limite de la présente mission, sont mentionnées cidessous pour chaque équipement. (1) Pour les EPI, tenir compte, le cas échéant, de la durée de vie préconisée par le fabricant dans sa notice d'instructions
+
+Les équipements suivis du signe (#) n'ont pas été vérifiés sous couvert de l'accréditation Cofrac Inspection n³-2016
+
+|   |  |  |  | N Ordre 1 : accessoire 1  |
+| --- | --- | --- | --- | --- |
+|   | Elingue câble |  |  |   |
+|   | Repère | ELI0001 | Nombre | 1  |
+|   | Fabricant | Traction levage | $\mathrm{N}^{\circ}$ Série | SANS  |
+|   | Capacité (kg) | 1000 |  |   |
+|   | Caractéristiques | 2 brins diamètre 10 mm avec deux crochets |  |   |
+|   | Avis | Bon état |  |   |
+
+|   |  |  |  | N Ordre 1 : accessoire 2  |
+| --- | --- | --- | --- | --- |
+|   | Elingue textile |  |  |   |
+|   | Repère | ELI0003 | Nombre | 1  |
+|   | Fabricant |  | $\mathrm{N}^{\circ}$ Série | 2526429  |
+|   | Capacité (kg) | 2000 |  |   |
+|   | Caractéristiques | Elingue textile boucle - longueur 1 m |  |   |
+|   | Avis | Bon état |  |   |
+
+Page 3:
+# RAPPORT - EQUIPEMENTS MECANIQUES
+
+## N° DE RAPPORT : 2210135-001-1
+
+## N° Ordre 1 : accessoire 3
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0499 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 20644240102  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile lg 1 m |  |   |
+|  Avis | Bon état |  |   |
+
+## N° Ordre 1 : accessoire 4
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0648 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 00026321051150  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile lg 2 m |  |   |
+|  Avis | Bon état |  |   |
+
+## N° Ordre 1 : accessoire 5
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0650 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 00026321051033  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile lg 2 m |  |   |
+|  Avis | Bon état |  |   |
+
+Page 4:
+# Rapport de vérification
+
+Appareils manuels / Accessoires / Equipements divers
+
+## Lot : Elingue câble ou textile
+
+Date de la vérification 07/02/2023 Vérificateur Mr KOPYLAK JEAN PIERRE Repères : Client Service expédition Bâtiment Service expédition Service Service expédition N ${ }^{\circ}$ Identification lot Service expédition / silos : Elingues
+
+## Contenu et conditions de la vérification
+
+- Mission : Vérification de l'état de conservation et essais de fonctionnement des appareils de levage simples à bras. Vérification de l'état de conservation des accessoires de levage, des EPI contre les risques de chute ${ }^{(1)}$.
+- Les anomalies ou détériorations relevées au cours de l'examen visuel dans la limite de la présente mission, sont mentionnées cidessous pour chaque équipement. (1) Pour les EPI, tenir compte, le cas échéant, de la durée de vie préconisée par le fabricant dans sa notice d'instructions
+
+Les équipements suivis du signe (#) n'ont pas été vérifiés sous couvert de l'accréditation Cofrac Inspection n³-2016
+
+|   |  |  |  | N Ordre 2 : accessoire 1  |
+| --- | --- | --- | --- | --- |
+|   | Elingue textile ( $\#$ ) |  |  |   |
+|   | Repère | ELI0087 | Nombre | 1  |
+|   | Fabricant |  | N ${ }^{\circ}$ Série | 0324000135  |
+|   | Capacité (kg) | 1000 |  |   |
+|   | Caractéristiques | Elingue textile - 2 m |  |   |
+|   | Avis | Bon état |  |   |
+
+|   |  |  |  | N Ordre 2 : accessoire 2  |
+| --- | --- | --- | --- | --- |
+|   | Elingue textile ( $\#$ ) |  |  |   |
+|   | Repère | ELI0088 | Nombre | 1  |
+|   | Fabricant |  | N ${ }^{\circ}$ Série | 0324000137  |
+|   | Capacité (kg) | 1000 |  |   |
+|   | Caractéristiques | Elingue textile - 2 m |  |   |
+|   | Avis | Bon état |  |   |
+
+Page 5:
+# RAPPORT - EQUIPEMENTS MECANIQUES
+
+## N° DE RAPPORT : 2210135-001-1
+
+### N° Ordre 2 : accessoire 3
+
+#### Elingue textile (8)
+
+|  Repère | ELI0089 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 0324000136  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile - 2m |  |   |
+|  Avis | Bon état |  |   |
+
+### N° Ordre 2 : accessoire 4
+
+#### Elingue textile (8)
+
+|  Repère | ELI0090 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 0324000139  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile - 2m |  |   |
+|  Avis | Bon état |  |   |
+
+### N° Ordre 2 : accessoire 5
+
+#### Elingue textile (8)
+
+|  Repère | ELI0091 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 7672309  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile - 2m |  |   |
+|  Avis | Bon état |  |   |
+
+### N° Ordre 2 : accessoire 6
+
+#### Elingue textile (8)
+
+|  Repère | ELI0092 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 0324000134  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile - 2m |  |   |
+|  Avis | Bon état |  |   |
+
+Page 6:
+# RAPPORT - EQUIPEMENTS MECANIQUES
+
+## N° DE RAPPORT : 2210135-001-1
+
+### N° Ordre 2 : accessoire 7
+
+#### Elingue textile (8)
+
+|  Repère | ELI0093 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 6399954  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile - 2m |  |   |
+|  Avis | Bon état |  |   |
+
+### N° Ordre 2 : accessoire 8
+
+#### Elingue textile (8)
+
+|  Repère | ELI0094 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 200349222  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile - 1m 50 |  |   |
+|  Avis | Bon état |  |   |
+
+### N° Ordre 2 : accessoire 9
+
+#### Elingue textile (8)
+
+|  Repère | ELI0290 | Nombre | 1  |
+| --- | --- | --- | --- |
+|  Fabricant |  | N° Série | 20343710272  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile - 2 m |  |   |
+|  Avis | Bon état |  |   |
+

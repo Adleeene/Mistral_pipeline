@@ -1,0 +1,182 @@
+Page 67:
+# Rapport de vérification
+
+Appareils manuels / Accessoires / Equipements divers
+
+## Lot : Elingue textile
+
+Date de la vérification 30/01/2023 Vérificateur Mr KOPYLAK JEAN PIERRE Repères : Client Labo Bâtiment Labo Service Labo $\mathrm{N}^{\circ}$ Identification lot Labo : Elingues
+
+## Contenu et conditions de la vérification
+
+- Mission : Vérification de l'état de conservation et essais de fonctionnement des appareils de levage simples à bras. Vérification de l'état de conservation des accessoires de levage, des EPI contre les risques de chute ${ }^{(1)}$.
+- Les anomalies ou détériorations relevées au cours de l'examen visuel dans la limite de la présente mission, sont mentionnées cidessous pour chaque équipement. (1) Pour les EPI, tenir compte, le cas échéant, de la durée de vie préconisée par le fabricant dans sa notice d'instructions
+
+Les équipements suivis du signe (#) n'ont pas été vérifiés sous couvert de l'accréditation Cofrac Inspection n³-2016 $\mathrm{N}^{\circ}$ Ordre 13 : accessoire 1
+
+|  Elingue textile |  |  |   |
+| --- | --- | --- | --- |
+|  Repère | ELI0457 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | $\mathrm{N}^{\circ}$ Série | 20478720132  |
+|  Capacité (kg) | 2000 |  |   |
+|  Caractéristiques | Elingue textile 1 m . |  |   |
+|  Avis | Bon état |  |   |
+
+$\mathrm{N}^{\circ}$ Ordre 13 : accessoire 2
+
+|  Elingue textile |  |  |   |
+| --- | --- | --- | --- |
+|  Repère | ELI0458 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | $\mathrm{N}^{\circ}$ Série | 20478720134  |
+|  Capacité (kg) | 2000 |  |   |
+|  Caractéristiques | Elingue textile 1 m . |  |   |
+|  Avis | Bon état |  |   |
+
+Page 68:
+# RAPPORT - EQUIPEMENTS MECANIQUES
+
+## N° DE RAPPORT : 2210135-001-1
+
+## N° Ordre 13 : accessoire 3
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0459 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 20478720140  |
+|  Capacité (kg) | 2 000 |  |   |
+|  Caractéristiques | Elingue textile 1m. |  |   |
+|  Avis | Bon état |  |   |
+
+## N° Ordre 13 : accessoire 4
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0501 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 20646050080  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile 2m. |  |   |
+|  Avis | Bon état |  |   |
+
+## N° Ordre 13 : accessoire 5
+
+### Elingue textile
+
+|  **Date** | **Description** | **Nombre** | **Nombre de RAPPORT**  |
+| --- | --- | --- | --- |
+|  Repère | ELI0502 | Nombre | 1  |
+|  Fabricant | CONCEPT FRANCAIS | N° Série | 20646050079  |
+|  Capacité (kg) | 1 000 |  |   |
+|  Caractéristiques | Elingue textile 2m. |  |   |
+|  Avis | Bon état |  |   |
+
+Page 69:
+# VERIFICATIONS REGLEMENTAIRES 
+
+## Prescriptions applicables aux utilisateurs
+
+## EQUIPEMENTS DE TRAVAIL
+
+Tous les équipements de travail doivent être réglés, entretenus et vérifiés régulièrement de manière à préserver la sécurité et la santé des travailleurs dans le cadre de l'obligation générale de sécurité (article L.4321-1 du Code du travail).
+Les vérifications des équipements de travail doivent être effectuées par des personnes compétentes dans le domaine de la prévention des risques présentés par les équipements de travail et connaissant les dispositions réglementaires afférentes (Article R.4323-24 du Code du Travail) et ayant, outre la qualification, l'expérience du métier de vérificateur, en particulier une pratique habituelle de celui-ci.
+
+## APPAREILS ET ACCESSOIRES DE LEVAGE
+
+Les équipements de travail servant au levage de charges, de postes de travail ou au transport en élévation des personnes, utilisés dans les établissements visés à l'article L.4111-1 à L.4111-3 du Code du Travail sont soumis en matière de vérification, aux dispositions de l'arrêté du 01 mars 2004 qui prescrit les vérifications suivantes
+
+- Vérification avant mise ou remise en service
+
+Les appareils et accessoires de levage mus mécaniquement ou par la force humaine et les accessoires de levage doivent faire l'objet de tout ou partie des examens et essais suivants, lors de leur mise 1) ou remise $2^{\circ}$ ) en service :
+
+## EXAMENS ET ESSAIS
+
+- examen de l'adéquation
+- examen de montage et d'installation
+- essais de fonctionnement
+- examen de l'état de conservation
+- épreuves statiques et dynamiques
+
+
+## CIRCONSTANCES IMPOSANT DES EXAMENS OU ESSAIS
+
+1) lors de la mise en service dans l'établissement (neuf, occasion ou location)
+2a) lors d'un changement de site d'exploitation, de configuration ou de conditions d'utilisation sur un même site
+2b) à la suite d'un démontage suivi d'un remontage
+2c) après tout remplacement, réparation ou transformation importante intéressant un organe essentiel
+2d) à la suite de tout accident provoqué par la défaillance d'un organe essentiel
+
+Toutefois, les appareils soumis à des changements de site d'utilisation et ne nécessitant pas l'aménagement de supports particuliers sont dispensés de la vérification prévue au cas 2a) ci-dessus, à condition d'avoir fait l'objet, dans cette configuration, des examens et essais de mise en service du cas 1) ci-dessus et, depuis moins de six mois, de la vérification générale périodique.
+
+Nota : Les épreuves permettent de s'assurer expérimentalement de l'absence d'anomalie préjudiciable à la solidité et/ou à la stabilité. A défaut de présentation des documents prévus par l'arrêté du 01mars 2004, sans avis formalisé du chef d'établissement, les épreuves sont réalisées conformément aux dispositions du contrat, dans les conditions prévues par le fabricant et à défaut dans les conditions définies par les textes de références. Le vérificateur ne peut être tenu pour responsable des dommages provoqués par les épreuves à l'appareil ou à son support. L'examen de montage et d'installation est limité aux éléments assemblés sur le site d'utilisation et réalisé sur la base des informations contenues dans la notice d'instructions du fabricant.
+
+- Vérification générale périodique
+
+Les appareils et les accessoires de levage doivent faire l'objet de vérifications générales à périodicité annuelle. Toutefois, cette périodicité est :
+
+- Semestrielle pour les appareils listés au II et III de l'article 20 de l'arrêté du 01 mars 2004, les appareils mus par une énergie autre que la force humaine et utilisés pour le transport des personnes ou le déplacement en élévation des postes de travail.
+- Trimestrielle pour les appareils mus par la force humaine et utilisés pour le déplacement en élévation des postes de travail.
+
+Ces vérifications comprennent l'examen de l'état de conservation et les essais de fonctionnement.
+
+## MACHINES ET ENGINS DE TERRASSEMENT A CONDUCTEUR PORTE
+
+- Vérification générale périodique
+
+Conformément aux dispositions de l'arrêté du 5 mars 1993 modifié ou de l'arrêté du 24 juin 1993, les machines et engins de terrassement définis par ces textes doivent faire l'objet de vérifications générales à périodicité trimestrielle ou annuelle selon le cas, qui comprennent l'examen de l'état de conservation et les essais de fonctionnement.
+
+## AUTRES EQUIPEMENTS
+
+## ASCENSEURS, MONTE-CHARGES ET ELEVATEURS DE PERSONNES DONT LA VITESSE N'EXCEDE PAS 0,15 m/s
+
+L'article R.134-11 du Code de la Construction et de l'Habitation prescrit un contrôle technique des ascenseurs au moins tous les cinq ans.
+L'arrêté du 29 décembre 2010 prescrit une vérification annuelle des ascenseurs, monte-charges et élévateurs de personnes.
+La vérification, fonctionnement compris, des ascenseurs doit être effectuée par un organisme agréé, tous les cinq ans et après transformation importante, dans les établissements recevant du public (ERP).
+Le fonctionnement des ascenseurs et monte-charges installés dans des immeubles de grande hauteur (IGH) doit être vérifié semestriellement.
+Par ailleurs, indépendamment des examens précités, la norme NF P82-230 stipule que les ascenseurs doivent faire l'objet d'examen et essais à la suite de transformations importantes ou de travaux d'amélioration.
+
+## ESCALIERS MECANIQUES ET TROTTOIRS ROULANTS
+
+Dans les établissements recevant du public, la vérification de ces appareils doit être effectuée par un organisme agréé, tous les ans et après transformation importante.
+
+## DIVERS
+
+Les équipements suivants doivent être vérifiés:
+
+- A la mise ou à la remise en service et périodiquement au moins tous les 3 mois : Échafaudages (arrêté du 21 décembre 2004),
+- Au moins tous les 6 mois : Portes et portails automatiques ou semi-automatiques (arrêté du 21 décembre 1993),
+- Au moins tous les 12 mois : Équipements de protection individuelle contre les chutes de hauteur (arrêté du 19 mars 1993).
+
+
+## Définition et contenu des missions de base
+
+La mission comprend les seules opérations décrites dans le présent rapport, réalisées dans les limites définies ci-dessous. Le contenu et la réglementation appliquée sont mentionnés dans le corps de chaque rapport.
+Pour les équipements de travail, les vérifications périodiques, les vérifications avant mise ou remise en service, sont réalisées dans le respect des contenus, des limites d'investigation et des exclusions de mission définis dans les cahiers des charges de la profession.
+Pour les autres équipements, les examens et essais effectués dans le cadre des missions de base comportent, l'examen visuel de l'état de conservation des parties de l'équipement, visibles et accessibles sans démontage et en sécurité, l'essai de fonctionnement de l'équipement et des dispositifs de protection en place. Pour les ascenseurs, escaliers mécaniques et trottoirs roulants les missions comportent, si le contrat le mentionne, la vérification du respect des prescriptions
+
+Page 70:
+# RAPPORT - EQUIPEMENTS MECANIQUES 
+
+$\mathrm{N}^{\circ}$ DE RAPPORT : 2210135-001-1
+particulières applicables aux établissements recevant du public (ERP) ou aux immeubles de grande hauteur (IGH).
+Les examens et essais effectués dans le cadre des missions de base nécessitent, de la part du donneur d'ordre, la mise à disposition des équipements à examiner, des opérateurs qualifiés à leur conduite, de la documentation nécessaire (notice d'instructions, déclaration de conformité, rapport précédent, données relatives au site...), des moyens d'accès sécurisés et dans le cas des vérifications relatives aux appareils de levage, des charges d'essais et d'épreuves suffisantes.
+
+## Limites:
+
+En absence d'un opérateur qualifié à la conduite et/ou des moyens d'accès sécurisés, la vérification est limitée à l'état de conservation des parties visibles et accessibles de plain-pied, équipement à l'arrêt. Les limites de la vérification sont alors précisées dans le rapport.
+L'examen de montage et d'installation exclut notamment, tout essai, contrôle géométrique ou métrologique, toute vérification des caractéristiques mécaniques des supports, massifs, ancrages, fixations, ainsi que des éléments constitutifs des assemblages et, le cas échéant, de leur couple de serrage.
+La vérification de l'efficacité des dispositifs agissant en cas de dépassement des conditions d'emploi tels que freins de secours et de sécurité, dispositifs hors course, détecteurs de survitesse nécessitant la mise en œuvre de moyens d'essai particuliers ou la neutralisation de certains organes pouvant présenter des risques importants, notamment pour les personnes, ne peut être réalisée qu'en présence et sous la direction d'un représentant qualifié du constructeur ou de l'entreprise de maintenance pour les ascenseurs.
+
+## Exclusions aux missions de base :
+
+La vérification de la mise en œuvre des dispositions relatives aux risques couverts par d'autres réglementations (risques électriques, incendie, explosion, appareils à pression, circulation sur la voie publique,...).
+Les opérations qui relèvent de la responsabilité :
+
+- des fabricants qui, seuls, peuvent garantir leur fourniture (matières premières, composants), leur mise en œuvre et la conformité des équipements aux règles techniques de conception et de construction qui leur sont applicables.
+- des utilisateurs, seuls chargés de s'assurer du respect d'une part des obligations qui leur sont faites lors de la mise ou remise en service des équipements de travail, y compris l'examen d'adéquation des appareils de levage ou l'examen approfondi de certains équipements de travail (cas des grues à tour) et, d'autre part, des mesures d'organisation, des prescriptions techniques d'utilisation applicables aux équipements.
+- des exploitants lorsque ceux-ci sont soumis, notamment pour l'implantation de certains engins de chantier, à des dispositions particulières fixées par des arrêtés préfectoraux ou municipaux.
+- des utilisateurs, seuls chargés la tenue de(s) registre(s) de sécurité et carnet(s) de maintenance.
+- des services de l'établissement chargés d'assurer la surveillance, le nettoyage, le démontage périodique des parties cachées, la réalisation des opérations de maintenance et de maintien de l'état de conformité.
+

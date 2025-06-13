@@ -1,0 +1,935 @@
+Page 279:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements et canalisations
+Protection des pièces nues sous tension
+
+## CHARPENTE
+
+Mât, tourelle, flèche, bras, ciseaux
+
+## ORGANES DE SERVICE
+
+Identification des organes de service
+Retour au point neutre (levage uniquement)
+Mise en marche - arrêt - sélecteur
+Autre arrêt (urgence)
+Protection contre la manoeuvre involontaire
+Poste de sauvetage
+Indicateurs
+Condamnation du poste de commande
+
+## MOUVEMENTS CONCOURANT AU LEVAGE
+
+Frein - arrêt des mouvements
+Limiteur de vitesse
+Limitation de course ou équivalent
+Limitation des sollicitations
+Parachute ou dispositif équivalent
+
+## CHASSIS
+
+Châssis porteur
+
+## NACELLE - PLATE-FORME
+
+Accès
+Plancher
+Garde-corps
+Portillon
+
+## MECANISMES
+
+Mécanismes et organes de transmission
+Circuit hydraulique/pneumatique
+
+## DISPOSITIONS DIVERSES
+
+Inscription de la charge maximale
+Consignes de sécurité
+Identification - repère
+
+Page 280:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 09/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client TEUF NADEGE Bâtiment Bâtiment 201 local slurry Service ST 230 Fabricant STS Capacité max (kg) 350,00 Type DTP04 Hauteur (m) $\mathrm{N}^{\circ}$ Identification 01277 ( ST 230 ) Portée (m) Année (plaque) 2015 Marquage CE Particularités Dispositif de préhension : Pince à fût
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 350
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 281:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Attaches
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 282:
+# Rapport de vérification
+
+## Cric roulant mu à bras
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client TEUF NADEGE Bâtiment CR 300 Service ST 235 / CHAUFFERIE AIR LIQUIDE
+
+|  Fabricant | SIP | Capacité max (kg) | 3000,00  |
+| --- | --- | --- | --- |
+|  Type | Roulant | Hauteur (m) | 0,30  |
+|  N $^{\circ}$ Identification | 03676 ( ST 235) | Portée (m) |   |
+|  Année (plaque) | 2017 | Marquage | CE  |
+
+Particularités Support : platine.
+
+## Contenu et conditions de la vérification
+
+[^0] [^0]: Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 1000
+
+```
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalies ni de défectuosités. Les essais ont été réalisés avec la charge mise à disposition par l'utilisateur. Le chef d'établissement doit définir les mesures organisationnelles et techniques permettant de faire respecter dans tous les cas, les restrictions provisoires d'utilisation correspondant à la charge d'essai mise à disposition.
+```
+
+Page 283:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+
+## MOUVEMENT DE TRANSLATION
+
+Mécanismes et organes de transmission
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 284:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 09/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client TEUF NADEGE Bâtiment CR 300 / N1 Service ST 144 / Z3 ALVEOLE
+
+|  Fabricant | MANUVIT | Capacité max (kg) | 250,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) | 0,20  |
+|  N $^{\circ}$ Identification | 1203091 ( ST 144 ) | Portée (m) |   |
+|  Année (plaque) | 2012 | Marquage | CE  |
+
+Particularités Dispositif de préhension : plateau à rouleaux
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 285:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+Equipement particulier
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+Page 286:
+# Rapport de vérification
+
+## Palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client TEUF NADEGE Bâtiment CR300 Service ST 232 / CHAUFFERIE AIR LIQUIDE
+
+|  Fabricant | YALE | Capacité max (kg) | 250,00  |
+| --- | --- | --- | --- |
+|  Type | VS | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | S21080166 ( ST 232 ) | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage | CE  |
+
+Particularités -Crochets de préhension et suspension
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 287:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Avertisseur sonore ou lumineux
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+Frein de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Identification - Repère appareil
+
+Page 288:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client THUREL/MICHAEL FELIX
+
+Bâtiment CR 300 QUAI NORD Service ST 249 / SALLE BLANCHE
+
+|  Fabricant | GENIE | Capacité max (kg) | 363,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant / SLA 15 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | SLA16-32996 ( ST 249 ) | Portée (m) | 0,46  |
+|  Année (plaque) | 2006 | Marquage | CE  |
+
+Particularités Dispositif de préhension : fourche
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 363
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 289:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+## Ossature
+
+Stabilisateurs
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+## CABINE - POSTE DE CONDUITE
+
+Visibilité (vitrages - essuie glace)
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+Page 290:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client THUREL/MICHAEL FELIX
+
+Bâtiment CR 300 QUAI NORD Service ST 250 / SALLE BLANCHE
+
+|  Fabricant | GENIE | Capacité max (kg) | 363,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant / SLA 15 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | SLA06-32209 ( ST 250 ) | Portée (m) | 0,46  |
+|  Année (plaque) | 2006 | Marquage | CE  |
+|  Particularités | Dispositif de préhension : fourche |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : Absent ou non présenté lors de notre intervention. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Page 291:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client THUREL/MICHAEL FELIX
+
+Bâtiment CR 300 QUAI NORD Service ST 256 / SALLE BLANCHE
+
+|  Fabricant | GENIE | Capacité max (kg) | 363,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant / SLA 15 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | SLA06-32698 ( ST 256 ) | Portée (m) | 0,46  |
+|  Année (plaque) | 2006 | Marquage | CE  |
+
+Particularités Dispositif de préhension : fourche
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 363
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 292:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 293:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client THUREL/MICHAEL FELIX
+
+Bâtiment CR 300 QUAI NORD Service ST 328
+
+|  Fabricant | GENIE | Capacité max (kg) | 363,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant / SLA 15 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 79550 ( ST 328) | Portée (m) | 0,46  |
+|  Année (plaque) | 2021 | Marquage | CE  |
+
+Particularités Dispositif de préhension : fourches
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 363
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 294:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+Page 295:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client THUREL/MICHAEL FELIX
+
+Bâtiment CR 300 QUAI NORD Service ST304
+
+|  Fabricant | GENIE | Capacité max (kg) | 363,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant / SLA 15 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 77101 (ST 304) | Portée (m) | 0,46  |
+|  Année (plaque) | 2020 | Marquage | CE  |
+
+Particularités Dispositif de préhension : fourches
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 363
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 296:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+Page 297:
+# Rapport de vérification
+
+## Chariot de manutention
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment Service
+
+|  Fabricant | HIS | Capacité max (kg) | 545,00  |
+| --- | --- | --- | --- |
+|  Type | H51850 | Hauteur (m) | 1,18  |
+|  N $^{\circ}$ Identification | 2420702 ( ST 438 ) | Portée (m) |   |
+|  Année (plaque) | 2023 | Marquage | CE  |
+
+Particularités Sécurité de manœuvre : 4 sangles à cliquet 2 bras d'interface 2 roues verrouillées 4 roulettes pivotantes pour le déplacement Arrêt d'urgence, lorsqu'il est activé, il arrête immédiatement le chariot à la hauteur actuelle. Pour réinitialiser le système, il faut d'abord réarmer le bouton EMO, puis abaisser complètement le plateau jusqu'au sol.
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice d'instructions / Déclaration de conformité Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 300
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 298:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## CABINE - POSTE DE CONDUITE
+
+Visibilité (vitrage, essuie glace, rétroviseur)
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Vérins et circuits hydrauliques
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+## CHASSIS/ORGANES DE MANUTENTION
+
+Ossature, Contrepoids
+Stabilisateurs - blocage de suspension
+Mât - Tablier - Liaisons
+Appareil de préhension
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - Tourteaux - Axes
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+Retour au point neutre (levage)
+Indicateurs
+Dispositif de condamnation
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / Déclaration de conformité
+Identification - Repère appareil
+
+Page 299:
+# Rapport de vérification
+
+## Timon motorisé
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment Service ST 379
+
+|  Fabricant | ACTIWORK | Capacité max (kg) | 1500,00  |
+| --- | --- | --- | --- |
+|  Type | CL51D100-E | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 34326-01-S (ST 379) | Portée (m) |   |
+|  Année (plaque) | 2020 | Marquage | CE  |
+|  Particularités | Chariot tracteur |  |   |
+
+## Contenu et conditions de la vérification
+
+Référence article L4121-1 du Code du travail (obligations générales de sécurité).Examen de l'état de conservation avec essais de fonctionnement. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, ainsi que l'examen des mesures d'organisation et les règles générales de prévention. Documents présentés : Aucun Modifications portées à notre connaissance depuis la vérification précédente : Aucune Compte rendu provisoire d'intervention : RP A532420324-5 Cet équipement n'a pas été vérifié sous couvert de l'accréditation Cofrac Inspection n³-2016 Commentaire essai : Chariot pour traction de wagons
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 300:
+# Observations 
+
+CHASSIS / ORGANES DE MANUTENTION
+
+Appareil de préhension : Cale HS au niveau de la translation des pinces
+
+Page 301:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Avertisseur
+Indicateurs
+Sécurité de présence conducteur
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Appareil de préhension
+
+## MOUVEMENT DE TRANSLATION
+
+Mécanismes
+Frein de service
+Bandages ou pneumatiques
+Commande de direction
+
+Page 302:
+# Rapport de vérification
+
+## pull lift
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment Bâtiment 201 Quai nord Service ST138
+
+|  Fabricant | TRACTEL | Capacité max (kg) | 250,00  |
+| --- | --- | --- | --- |
+|  Type |  | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | ST 138 | Portée (m) |   |
+|  Année (plaque) | 2011 | Marquage | CE  |
+|  Particularités | $-N^{\circ} 1105933$
+-2 élingues Chaines crochet avec linguet $\quad N^{\circ} 0923$ |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 303:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHAPRENTE DE L'ARRAREIL - SUPPORT DE CHARGE
+
+Structure
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Protection organes mobiles de transmission
+Frein de service
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+Retour au point neutre (levage)
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Moufle - crochet
+Autre dispositif de préhension intégré
+
+Page 304:
+# Rapport de vérification
+
+## Chariot élévateur motorisé (ancien appareil manuel)
+
+Date de la vérification 10/04/2025 Vérificateur Mr TONY CHARRIER Repères : Client ZANGARA FABRICE Bâtiment Bâtiment 201 Quai sud Service ST 068
+
+|  Fabricant | ALCATEL | Capacité max (kg) | 400,00  |
+| --- | --- | --- | --- |
+|  Type | ALT 22 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | $04-29-01$ ( ST 068 ) | Portée (m) |   |
+|  Année (plaque) |  | Marquage |   |
+|  Particularités | Dispositif de préhension : plateau
+Treuil électrique ELECTRIQUEHOIST N1901113 250 KG CMU |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : En attente de mise en service. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Page 305:
+# Rapport de vérification
+
+## G
+
+Gérbeur électrique Date de la vérification 16/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment C300 quai Nord Service ST 358 Fabricant ACTIWORK Capacité max (kg) 130,00 Type NON PRECISE Hauteur (m) $\mathrm{N}^{\circ}$ Identification F4056 ( ST 358 ) Portée (m) Année (plaque) 2021 Marquage CE Particularités -Elévateur mât frontal -Equipement spécifique interchangeable
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 130
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 306:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Appareil de préhension
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Vérins et circuit hydraulique
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 307:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR 300 BST Service ST 114 / Crolle 300 BST
+
+|  Fabricant | EDWARDS | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 126173714 ( ST 114 ) | Portée (m) |   |
+|  Année (plaque) | 2014 | Marquage | CE  |
+|  Particularités | - Dispositif de préhension : plateau
+- équipé d'un treuil de halage . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 500
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 308:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+Page 309:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR 300 BST Service ST 200 / CR300 nord
+
+|  Fabricant | EDWARDS | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 136116242 (ST 200) | Portée (m) |   |
+|  Année (plaque) | 2013 | Marquage | CE  |
+|  Particularités | -Dispositif de préhension : plateau
+-Pompe hydraulique manuelle
+-équipé d'un treuil de halage |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 500
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+

@@ -1,0 +1,760 @@
+Page 310:
+# Observations 
+
+CHASSIS - PORTEUR
+Ossature : Remettre en place le plexiglas
+
+Page 311:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+## Ossature
+
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+## CABINE - POSTE DE CONDUITE
+
+Visibilité (vitrages - essuie glace)
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+Equipement particulier
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+Mise en marche - arrêt sélecteur
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+
+Page 312:
+# Rapport de vérification
+
+Table élévatrice manuelle Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR 300 QUAI NORD Service ST 118
+
+|  Fabricant | INCONNU | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | SAU060612 ( ST 118 ) | Portée (m) | 0,46  |
+|  Année (plaque) |  | Marquage | CE  |
+|  Particularités | Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 300
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 313:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE
+
+PRÉHENSION
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+
+## MOUVEMENT DE TRANSLATION
+
+Mécanismes et organes de transmission
+Frein de stationnement
+
+Page 314:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR 300 QUAI NORD Service ST 165
+
+|  Fabricant | MANUVIT | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) | 0,20  |
+|  N $^{\circ}$ Identification | 1205018 ( ST 165 ) | Portée (m) |   |
+|  Année (plaque) | 2012 | Marquage | CE  |
+|  Particularités | -Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Référence article L4121-1 du Code du travail (obligations générales de sécurité).Examen de l'état de conservation avec essais de fonctionnement. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, ainsi que l'examen des mesures d'organisation et les règles générales de prévention.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Cet équipement n'a pas été vérifié sous couvert de l'accréditation Cofrac Inspection n³-2016 Essais de fonctionnement réalisés avec charge (kg) : 500 Commentaire essai : - 750 kg déclassé à 500 kg ( Demande client )
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 315:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+Page 316:
+# Rapport de vérification
+
+## Grue d'atelier
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR 300 QUAI NORD Service ST 205
+
+|  Fabricant | JHT | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | 880 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 880 / ( ST 205 ) | Portée (m) |   |
+|  Année (plaque) | 2014 | Marquage | CE  |
+
+Particularités Pompe hydraulique mue à bras
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 200
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+## Par ailleurs
+
+Manque le système de préhension
+
+Page 317:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+Retour au point neutre (levage)
+
+## SUSPENTES - BOULIES - DISPOSITIF DE PREHENSION
+
+Attaches
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGÉ
+
+Structure
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Protection organes mobiles de transmission
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 318:
+# Rapport de vérification
+
+## Trépied équipé d'un treuil de levage
+
+Date de la vérification 16/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR1BIS Service CR300
+
+|  Fabricant | JSP | Capacité max (kg) | 135,00  |
+| --- | --- | --- | --- |
+|  Type | FAR1003/11004 | Hauteur (m) | 2,30  |
+|  N $^{\circ}$ Identification | ST 336 | Portée (m) |   |
+|  Année (plaque) | 2023 | Marquage | CE  |
+|  Particularités | Trépied équipé d'un treuil de levage manuel.
+CMU du trépied 500 kg déclassé à la CMU du treuil : 135 kg . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice d'instructions Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 135
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 319:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHAPRENTE DE L'ARRAREIL - SUPPORT DE CHARGE
+
+Structure
+Organes de roulement et de guidage
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Moufle - crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Protection organes mobiles de transmission
+Frein de service
+Limitation de la vitesse
+Frein de secours
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Epreuves / essais avant mise ou remise en service
+Identification - repère appareil
+Equipement particulier
+
+Page 320:
+# Rapport de vérification
+
+## Trépied équipé d'un treuil de levage
+
+Date de la vérification 16/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR300 Service ST 335
+
+|  Fabricant | JSP | Capacité max (kg) | 135,00  |
+| --- | --- | --- | --- |
+|  Type | FAR1003/11004 | Hauteur (m) | 2,30  |
+|  N $^{\circ}$ Identification | ST 335 | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage | CE  |
+|  Particularités | Trépied équipé d'un treuil de levage manuel.
+CMU du trépied 500 kg déclassé à la CMU du treuil : 135 kg . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice d'instructions Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 135
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 321:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHARGENTE DE L'ARRAREIL - SUPPORT DE CHARGE
+
+Structure
+Organes de roulement et de guidage
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Moufle - crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Protection organes mobiles de transmission
+Frein de service
+Limitation de la vitesse
+Frein de secours
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Epreuves / essais avant mise ou remise en service
+Identification - repère appareil
+Equipement particulier
+
+Page 322:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 16/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CR300 Service ST 410
+
+|  Fabricant | ACTIWORK | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Chariot | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 16479-01 (ST 410) | Portée (m) |   |
+|  Année (plaque) | 2023 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension :Plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 300
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 323:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## CABINE - POSTE DE CONDUITE
+
+Visibilité (vitrages, essuie glace, rétroviseur)
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Appareil de préhension
+Attaches
+Poulies - tourteaux - axes
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+Page 324:
+# Rapport de vérification
+
+## Table élévatrice
+
+Date de la vérification 10/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment CROLLE 300 Service ST 119 / QUAI NORD Fabricant BISHAMON Capacité max (kg) 500,00 Type Accompagnant / Table Hauteur (m) $\mathrm{N}^{\circ}$ Identification 99022973 ( ST 119 ) Portée (m) Année (plaque) 1999 Marquage CE Particularités -Dispositif de préhension : plateau -Ciseau
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 500 Commentaire essai : - 750 Déclassé à 500 KG ( demande client )
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 325:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+Page 326:
+# Rapport de vérification
+
+## Etévateur de personnes
+
+Date de la vérification 22/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment QUAI Nord Service
+
+|  Fabricant | ACTIWORK | Capacité max (kg) | 180,00  |
+| --- | --- | --- | --- |
+|   |  | Nombre de personnes | 1  |
+|  Type |  | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 100929 ( ST 327 ) | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage | CE  |
+
+Particularités -Charpente : flèche télescopique -Energie : électrique Limitation des sollicitations ( charge )pour le type 1A pouvant se déclencher à 150\% ( projection verticale du centre de gravité )
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 90
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 327:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements et canalisations
+Protection des pièces nues sous tension
+
+## CHARPENTE
+
+Mât, tourelle, flèche, bras, ciseaux
+Ancrages des mâts (ptdm)
+Butoirs - amortisseurs (ptdm)
+Contrepoids - lest
+
+## ORGANES DE SERVICE
+
+Identification des organes de service
+Retour au point neutre (levage uniquement)
+Mise en marche - arrêt - sélecteur
+Autre arrêt (urgence)
+Protection contre la manoeuvre involontaire
+Poste de sauvetage
+Poste de dépannage
+Avertisseur sonore ou lumineux
+Condamnation du poste de commande
+
+## MOUVEMENTS CONCOURANT AU LEVAGE
+
+Frein - arrêt des mouvements
+Limiteur de vitesse
+Limitation de course ou équivalent
+Hors course
+Limitation des sollicitations
+Attaches
+Poulies - axes - tourteaux
+
+## CHASSIS
+
+Châssis porteur
+Indicateur de niveau
+
+## NACELLE - PLATE-FORME
+
+Accès
+Plancher
+Garde-corps
+Portillon
+
+## MECANISMES
+
+Mécanismes et organes de transmission
+Circuit hydraulique/pneumatique
+Protection des organes en mouvement
+
+## DISPOSITIONS DIVERSES
+
+Inscription de la charge maximale
+Consignes de sécurité
+Consignes particulières
+Notice d'instructions / déclaration de conformité
+Identification - repère
+
+Page 328:
+# Rapport de vérification
+
+## Etévateur de personnes
+
+Date de la vérification 17/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ZANGARA FABRICE Bâtiment QUAI Nord Service ST 338
+
+|  Fabricant | ACTIWORK | Capacité max (kg) | 180,00  |
+| --- | --- | --- | --- |
+|   |  | Nombre de personnes | 1  |
+|  Type |  | Hauteur (m) | 2,50  |
+|  N $^{\circ}$ Identification | 100936 ( ST 338 ) | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage | CE  |
+|  Particularités | -Charpente : Mât télescopique
+-Energie : électrique |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 180
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 329:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements et canalisations
+Protection des pièces nues sous tension
+
+## CHARPENTE
+
+Mât, tourelle, flèche, bras, ciseaux
+Ancrages des mâts (ptdm)
+Butoirs - amortisseurs (ptdm)
+Contrepoids - lest
+
+## ORGANES DE SERVICE
+
+Identification des organes de service
+Retour au point neutre (levage uniquement)
+Mise en marche - arrêt - sélecteur
+Autre arrêt (urgence)
+Protection contre la manoeuvre involontaire
+Poste de sauvetage
+Poste de dépannage
+Avertisseur sonore ou lumineux
+
+## MOUVEMENTS CONCOURANT AU LEVAGE
+
+Frein - arrêt des mouvements
+Limiteur de vitesse
+Limitation de course ou équivalent
+Hors course
+Limitation des sollicitations
+Attaches
+Poulies - axes - tourteaux
+
+## CHASSIS
+
+Châssis porteur
+Indicateur de niveau
+
+## NACELLE - PLATE-FORME
+
+Accès
+Plancher
+Garde-corps
+Portillon
+
+## MECANISMES
+
+Mécanismes et organes de transmission
+Circuit hydraulique/pneumatique
+
+## DISPOSITIONS DIVERSES
+
+Inscription de la charge maximale
+Consignes de sécurité
+Consignes particulières
+Notice d'instructions / déclaration de conformité
+Identification - repère
+
+Page 330:
+# VERIFICATIONS REGLEMENTAIRES 
+
+## Prescriptions applicables aux utilisateurs
+
+## EQUIPEMENTS DE TRAVAIL
+
+Tous les équipements de travail doivent être réglés, entretenus et vérifiés régulièrement de manière à préserver la sécurité et la santé des travailleurs dans le cadre de l'obligation générale de sécurité (article L.4321-1 du Code du travail).
+Les vérifications des équipements de travail doivent être effectuées par des personnes compétentes dans le domaine de la prévention des risques présentés par les équipements de travail et connaissant les dispositions réglementaires afférentes (Article R.4323-24 du Code du Travail) et ayant, outre la qualification, l'expérience du métier de vérificateur, en particulier une pratique habituelle de celui-ci.
+
+## APPAREILS ET ACCESSOIRES DE LEVAGE
+
+Les équipements de travail servant au levage de charges, de postes de travail ou au transport en élévation des personnes, utilisés dans les établissements visés à l'article L.4111-1 à L.4111-3 du Code du Travail sont soumis en matière de vérification, aux dispositions de l'arrêté du 01 mars 2004 qui prescrit les vérifications suivantes
+
+- Vérification avant mise ou remise en service
+
+Les appareils et accessoires de levage mus mécaniquement ou par la force humaine et les accessoires de levage doivent faire l'objet de tout ou partie des examens et essais suivants, lors de leur mise 1) ou remise $2^{\circ}$ ) en service :
+
+## EXAMENS ET ESSAIS
+
+- examen de l'adéquation
+- examen de montage et d'installation
+- essais de fonctionnement
+- examen de l'état de conservation
+- épreuves statiques et dynamiques
+
+
+## CIRCONSTANCES IMPOSANT DES EXAMENS OU ESSAIS
+
+1) lors de la mise en service dans l'établissement (neuf, occasion ou location)
+2a) lors d'un changement de site d'exploitation, de configuration ou de conditions d'utilisation sur un même site
+2b) à la suite d'un démontage suivi d'un remontage
+2c) après tout remplacement, réparation ou transformation importante intéressant un organe essentiel
+2d) à la suite de tout accident provoqué par la défaillance d'un organe essentiel
+
+Toutefois, les appareils soumis à des changements de site d'utilisation et ne nécessitant pas l'aménagement de supports particuliers sont dispensés de la vérification prévue au cas 2a) ci-dessus, à condition d'avoir fait l'objet, dans cette configuration, des examens et essais de mise en service du cas 1) ci-dessus et, depuis moins de six mois, de la vérification générale périodique.
+
+Nota : Les épreuves permettent de s'assurer expérimentalement de l'absence d'anomalie préjudiciable à la solidité et/ou à la stabilité. A défaut de présentation des documents prévus par l'arrêté du 01mars 2004, sans avis formalisé du chef d'établissement, les épreuves sont réalisées conformément aux dispositions du contrat, dans les conditions prévues par le fabricant et à défaut dans les conditions définies par les textes de références. Le vérificateur ne peut être tenu pour responsable des dommages provoqués par les épreuves à l'appareil ou à son support. L'examen de montage et d'installation est limité aux éléments assemblés sur le site d'utilisation et réalisé sur la base des informations contenues dans la notice d'instructions du fabricant.
+
+- Vérification générale périodique
+
+Les appareils et les accessoires de levage doivent faire l'objet de vérifications générales à périodicité annuelle. Toutefois, cette périodicité est :
+
+- Semestrielle pour les appareils listés au II et III de l'article 20 de l'arrêté du 01 mars 2004, les appareils mus par une énergie autre que la force humaine et utilisés pour le transport des personnes ou le déplacement en élévation des postes de travail.
+- Trimestrielle pour les appareils mus par la force humaine et utilisés pour le déplacement en élévation des postes de travail.
+
+Ces vérifications comprennent l'examen de l'état de conservation et les essais de fonctionnement.
+
+## MACHINES ET ENGINS DE TERRASSEMENT A CONDUCTEUR PORTE
+
+- Vérification générale périodique
+
+Conformément aux dispositions de l'arrêté du 5 mars 1993 modifié ou de l'arrêté du 24 juin 1993, les machines et engins de terrassement définis par ces textes doivent faire l'objet de vérifications générales à périodicité trimestrielle ou annuelle selon le cas, qui comprennent l'examen de l'état de conservation et les essais de fonctionnement.
+
+## AUTRES EQUIPEMENTS
+
+## ASCENSEURS, MONTE-CHARGES ET ELEVATEURS DE PERSONNES DONT LA VITESSE N'EXCEDE PAS 0,15 m/s
+
+L'article R.134-11 du Code de la Construction et de l'Habitation prescrit un contrôle technique des ascenseurs au moins tous les cinq ans.
+L'arrêté du 29 décembre 2010 prescrit une vérification annuelle des ascenseurs, monte-charges et élévateurs de personnes.
+La vérification, fonctionnement compris, des ascenseurs doit être effectuée par un organisme agréé, tous les cinq ans et après transformation importante, dans les établissements recevant du public (ERP).
+Le fonctionnement des ascenseurs et monte-charges installés dans des immeubles de grande hauteur (IGH) doit être vérifié semestriellement.
+Par ailleurs, indépendamment des examens précités, la norme NF P82-230 stipule que les ascenseurs doivent faire l'objet d'examen et essais à la suite de transformations importantes ou de travaux d'amélioration.
+
+## ESCALIERS MECANIQUES ET TROTTOIRS ROULANTS
+
+Dans les établissements recevant du public, la vérification de ces appareils doit être effectuée par un organisme agréé, tous les ans et après transformation importante.
+
+## DIVERS
+
+Les équipements suivants doivent être vérifiés:
+
+- A la mise ou à la remise en service et périodiquement au moins tous les 3 mois : Échafaudages (arrêté du 21 décembre 2004),
+- Au moins tous les 6 mois : Portes et portails automatiques ou semi-automatiques (arrêté du 21 décembre 1993),
+- Au moins tous les 12 mois : Équipements de protection individuelle contre les chutes de hauteur (arrêté du 19 mars 1993).
+
+
+## Définition et contenu des missions de base
+
+La mission comprend les seules opérations décrites dans le présent rapport, réalisées dans les limites définies ci-dessous. Le contenu et la réglementation appliquée sont mentionnés dans le corps de chaque rapport.
+Pour les équipements de travail, les vérifications périodiques, les vérifications avant mise ou remise en service, sont réalisées dans le respect des contenus, des limites d'investigation et des exclusions de mission définis dans les cahiers des charges de la profession.
+Pour les autres équipements, les examens et essais effectués dans le cadre des missions de base comportent, l'examen visuel de l'état de conservation des parties de l'équipement, visibles et accessibles sans démontage et en sécurité, l'essai de fonctionnement de l'équipement et des dispositifs de protection en place. Pour les ascenseurs, escaliers mécaniques et trottoirs roulants les missions comportent, si le contrat le mentionne, la vérification du respect des prescriptions
+
+Page 331:
+# RAPPORT - EQUIPEMENTS MECANIQUES 
+
+## N DE RAPPORT : 10314048-008-1
+
+particulières applicables aux établissements recevant du public (ERP) ou aux immeubles de grande hauteur (IGH).
+Les examens et essais effectués dans le cadre des missions de base nécessitent, de la part du donneur d'ordre, la mise à disposition des équipements à examiner, des opérateurs qualifiés à leur conduite, de la documentation nécessaire (notice d'instructions, déclaration de conformité, rapport précédent, données relatives au site...), des moyens d'accès sécurisés et dans le cas des vérifications relatives aux appareils de levage, des charges d'essais et d'épreuves suffisantes.
+
+## Limites:
+
+En absence d'un opérateur qualifié à la conduite et/ou des moyens d'accès sécurisés, la vérification est limitée à l'état de conservation des parties visibles et accessibles de plain-pied, équipement à l'arrêt. Les limites de la vérification sont alors précisées dans le rapport.
+L'examen de montage et d'installation exclut notamment, tout essai, contrôle géométrique ou métrologique, toute vérification des caractéristiques mécaniques des supports, massifs, ancrages, fixations, ainsi que des éléments constitutifs des assemblages et, le cas échéant, de leur couple de serrage.
+La vérification de l'efficacité des dispositifs agissant en cas de dépassement des conditions d'emploi tels que freins de secours et de sécurité, dispositifs hors course, détecteurs de survitesse nécessitant la mise en œuvre de moyens d'essai particuliers ou la neutralisation de certains organes pouvant présenter des risques importants, notamment pour les personnes, ne peut être réalisée qu'en présence et sous la direction d'un représentant qualifié du constructeur ou de l'entreprise de maintenance pour les ascenseurs.
+
+## Exclusions aux missions de base :
+
+La vérification de la mise en œuvre des dispositions relatives aux risques couverts par d'autres réglementations (risques électriques, incendie, explosion, appareils à pression, circulation sur la voie publique,...).
+Les opérations qui relèvent de la responsabilité :
+
+- des fabricants qui, seuls, peuvent garantir leur fourniture (matières premières, composants), leur mise en œuvre et la conformité des équipements aux règles techniques de conception et de construction qui leur sont applicables.
+- des utilisateurs, seuls chargés de s'assurer du respect d'une part des obligations qui leur sont faites lors de la mise ou remise en service des équipements de travail, y compris l'examen d'adéquation des appareils de levage ou l'examen approfondi de certains équipements de travail (cas des grues à tour) et, d'autre part, des mesures d'organisation, des prescriptions techniques d'utilisation applicables aux équipements.
+- des exploitants lorsque ceux-ci sont soumis, notamment pour l'implantation de certains engins de chantier, à des dispositions particulières fixées par des arrêtés préfectoraux ou municipaux.
+- des utilisateurs, seuls chargés la tenue de(s) registre(s) de sécurité et carnet(s) de maintenance.
+- des services de l'établissement chargés d'assurer la surveillance, le nettoyage, le démontage périodique des parties cachées, la réalisation des opérations de maintenance et de maintien de l'état de conformité.
+

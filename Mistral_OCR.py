@@ -10,14 +10,16 @@ from ollama import chat
 from pydantic import BaseModel, Field
 from typing import Dict, Any, List, Optional, Union, Literal
 from classes.element_json_models import * 
-
+import time
 
 
 class PDFProcessor:
     def __init__(self, api_key: Optional[str] = None):
         """Initialize the PDF processor with Mistral API key."""
-        self.api_key = api_key or os.getenv("MISTRAL_API_KEY") or "UUo7mEuSJ2K0gQKEy2BMR5Z75gQb9wK5"
+        self.api_key = api_key or os.getenv("MISTRAL_API_KEY") or "IyS5IVuh0VFgLwnKWcrzoGrOvo8CSOcy"
+        # IyS5IVuh0VFgLwnKWcrzoGrOvo8CSOcy
         # UxylX7NLFr9qynmYMWBpDbDmzcFvDSj6
+        # UUo7mEuSJ2K0gQKEy2BMR5Z75gQb9wK5
         self.client = Mistral(api_key=self.api_key)
     
     def encode_pdf(self, pdf_path: str) -> str:
@@ -70,83 +72,106 @@ class PDFProcessor:
         for i, page in enumerate(ocr_response.pages):
             full_text += f"Page {i+1}:\n{page.markdown}\n\n"
 
+        # Split text if necessary
+        text_chunks = self.split_text_by_verification_report(full_text, ocr_response.pages)
         
-        #Gestion du text
-        print(full_text)
-        # Save to file
-        output_file = "extracted_text.txt"
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write(full_text)
-        print(f"✓ Results saved to {output_file}")
-    
-        # # Limit text size
-        # max_chars = 15000
-        # print(f"Full text length: {len(full_text)} characters") 
-        # if len(full_text) > max_chars:
-        #     full_text = full_text[:max_chars]
-        #     print(f"Document truncated to {max_chars} characters")
-
-
-        #--------------------------------SYSTEM PROMPT--------------------------------
-        
-        # system_prompt = make_simple_prompt()
-        system_prompt = make_general_prompt1()
-        
-
-
-        #--------------------------------MISTRAL LARGE API--------------------------------
-        
-        #Define messages for Mistral API
-        messages = [
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": full_text
-            }
-        ]
-        
-        try:
-            print("Sending analysis request to Mistral API...")
-            chat_response = self.client.chat.parse(
-                model="mistral-large-latest",
-                messages=messages,
-                #response_format={"type": "json_object"},
-                response_format=Report,
-                #je crois que schema dynamique  n'est pas supporté par l'api , faut que j'essaye avec les fonctions tools 
-
-                temperature=0,
-                max_tokens=4096
-            )
-            print("Analysis request completed")
+        # Process each chunk and combine results
+        combined_results = []
+        i=0
+        for chunk in text_chunks:
+            i+= 1
             
-            # Extract JSON from response
-            response_content = chat_response.choices[0].message.content
+            # Save to file for debugging
+            output_file = f"extracted_text_chunk_{len(combined_results)}.txt"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(chunk)
+            print(f"✓ Chunk saved to {output_file}")
 
-            # print("type(response_content) : ",type(response_content))
+            #Gestion du text
+            print(chunk)
+            # Save to file
+            output_file = "extracted_text.txt"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(chunk)
+            print(f"✓ Results saved to {output_file}")
+        
+            # # Limit text size
+            # max_chars = 15000
+            # print(f"Full text length: {len(full_text)} characters") 
+            # if len(full_text) > max_chars:
+            #     full_text = full_text[:max_chars]
+            #     print(f"Document truncated to {max_chars} characters")
 
-            json_data = json.loads(response_content)
 
-        #--------------------------------OLLAMA MISTRAL SMALL 24B--------------------------------
+            #--------------------------------SYSTEM PROMPT--------------------------------
+            
+            system_prompt = make_simple_prompt()
+            # system_prompt = make_general_prompt1()
+            
 
-        # try : 
-        #     response = chat(
-        #     messages=[
-        #         {
-        #             'role': 'system',
-        #             'content': system_prompt,
-        #         },
-        #         {
-        #             'role': 'user',
-        #             'content': full_text,
-        #         }
-        #         ],
-        #         model='mistral-small:24b',
-        #         format=Report.model_json_schema(),
-        #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
-        #     )
+
+            #--------------------------------MISTRAL LARGE API--------------------------------
+            
+            #Define messages for Mistral API
+            messages = [
+                {
+                    "role": "system",
+                    "content": system_prompt
+                },
+                {
+                    "role": "user",
+                    "content": chunk
+                }
+            ]
+            
+            try:
+                print("Sending analysis request to Mistral API...")
+                chat_response = self.client.chat.parse(
+                    # model="mistral-large-latest",
+                    model="mistral-large-2402",
+                    
+
+                    messages=messages,
+                    #response_format={"type": "json_object"},
+                    response_format=Report,
+                    #je crois que schema dynamique  n'est pas supporté par l'api , faut que j'essaye avec les fonctions tools 
+
+                    temperature=0,
+                    max_tokens=4096
+                )
+                print("Analysis request completed")
+
+                # print("sleep for 60 s")
+                # time.sleep(60)
+                
+                # Extract JSON from response
+                response_content = chat_response.choices[0].message.content
+
+                # print("type(response_content) : ",type(response_content))
+
+                json_data = json.loads(response_content)
+                print("====================JSON de chunk",i," ====================")
+                print(json_data)
+                combined_results.append(json_data)
+
+            #--------------------------------OLLAMA MISTRAL SMALL 24B--------------------------------
+
+            # try : 
+            #     response = chat(
+            #     messages=[
+            #         {
+            #             'role': 'system',
+            #             'content': system_prompt,
+            #         },
+            #         {
+            #             'role': 'user',
+            #             'content': full_text,
+            #         }
+            #         ],
+            #         model='mistral-small:24b',
+            #         format=Report.model_json_schema(),
+            #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
+            #     )
 
         #     Rapport = Report.model_validate_json(response.message.content)
         #     json_data = Rapport.model_dump_json()
@@ -155,31 +180,78 @@ class PDFProcessor:
         #     json_data = json.loads(json_data)
 
 
-        #----------------------------POST PROCESSING----------------------------------------------
-            
-            # print("-----------------json_data-----------------")
-            # print(json_data)
-            # print("-----------------json_data-----------------")
+                # Convert to dictionary
+                # return report.model_dump()
+            except json.JSONDecodeError as e:
+                print(f"JSON parsing error: {str(e)}")
+                raise RuntimeError(f"Failed to parse JSON response: {str(e)}")
+            except Exception as e:
+                print(f"Analysis error: {str(e)}")
+                raise RuntimeError(f"Report analysis failed: {str(e)}")
 
-            # Validate with Pydantic
-            #report = Report.model_validate(json_data)
+        # Combine results from all chunks
+        if combined_results:
+            final_result = self.combine_chunk_results(combined_results)
+            return final_result
+        else:
+            raise RuntimeError("No chunks were successfully processed")
 
+    def split_text_by_verification_report(self, full_text: str, pages: List[Any]) -> List[str]:
+        """Split text into chunks based on page count and 'Rapport de vérification' occurrences."""
+        # if len(pages) <= 50:
+        #     return [full_text]
 
-            # Convert to dictionary
-           # return report.model_dump()
-            return json_data
-        except json.JSONDecodeError as e:
-            print(f"JSON parsing error: {str(e)}")
-            raise RuntimeError(f"Failed to parse JSON response: {str(e)}")
-        except Exception as e:
-            print(f"Analysis error: {str(e)}")
-            raise RuntimeError(f"Report analysis failed: {str(e)}")
-        
+        chunks = []
+        current_chunk = ""
+        current_page_count = 0
+        last_split_page = 0
 
+        for i, page in enumerate(pages):
+            # Check if next page contains "Rapport de vérification"
+            next_page_has_report = False
+            if i + 1 < len(pages):
+                next_page_has_report = "Rapport de vérification" in pages[i + 1].markdown
 
-        
-    def analyze_attributes(self, pages_text_specific_element: str,element_type: str,n_internal: int , name) -> Dict[str, Any]:
+            page_text = f"Page {i+1}:\n{page.markdown}\n\n"
+            current_chunk += page_text
+            current_page_count += 1
+
+            # Split if we have enough pages and next page is a new report
+            if current_page_count >= 5 and next_page_has_report:
+                chunks.append(current_chunk)
+                current_chunk = ""
+                current_page_count = 0
+                last_split_page = i + 1
+
+        # Add remaining text if any
+        if current_chunk:
+            chunks.append(current_chunk)
+
+        return chunks
+
+    def combine_chunk_results(self, chunk_results: List[Dict[str, Any]]) -> Dict[str, Any]:
+        """Combine results from multiple chunks into a single report."""
+        if not chunk_results:
+            return {}
+
+        # Start with the first chunk's result
+        combined = chunk_results[0].copy()
+
+        # Combine elements from all chunks
+        for chunk in chunk_results[1:]:
+            if "elements" in chunk:
+                combined["elements"].extend(chunk["elements"])
+
+        return combined
+    
+    def analyze_attributes(self, pages_text_specific_element: str,element_type: str,n_internal: int , name,number) -> Dict[str, Any]:
         """Analyze the attributes of each element by an adequate response format"""
+
+
+        #chnage n_internal par numero de serie car obligatoire
+        #changer aussi les index et number dans élément 
+        # gerer le probleme des observations 
+
 
         if not n_internal : 
             print("\n=== ENRICHISSEMENT DES ATTRIBUTS de l'element  ===")
@@ -316,75 +388,64 @@ class PDFProcessor:
 
         #--------------------------------SYSTEM PROMPT--------------------------------
         
-        system_prompt = make_attribute_prompt(n_internal)
+        # system_prompt = make_attribute_prompt(n_internal)
+        system_prompt = make_attribute_prompt(number)
 
         #--------------------------------MISTRAL LARGE API--------------------------------
         
-        # #Define messages for Mistral API
-        # messages = [
-        #     {
-        #         "role": "system",
-        #         "content": system_prompt
-        #     },
-        #     {
-        #         "role": "user",
-        #         "content": pages_text_specific_element
-        #     }
-        # ]
+        #Define messages for Mistral API
+        messages = [
+            {
+                "role": "system",
+                "content": system_prompt
+            },
+            {
+                "role": "user",
+                "content": pages_text_specific_element
+            }
+        ]
         
-        # try:
-        #     print("Sending analysis request to Mistral API...")
-        #     chat_response = self.client.chat.parse(
-        #         model="mistral-large-latest",
-        #         messages=messages,
-        #         response_format=attributes_class,
-        #         temperature=0,
-        #         max_tokens=3000
-        #     )
-        #     print("Analysis request completed")
+        try:
+            print("Sending analysis request to Mistral API...")
+            chat_response = self.client.chat.parse(
+                model="mistral-large-latest",
+                messages=messages,
+                response_format=attributes_class,
+                temperature=0,
+                max_tokens=3000
+            )
+            print("Analysis request completed")
             
-        #     # Extract JSON from response
-        #     response_content = chat_response.choices[0].message.content
-        #     json_data = json.loads(response_content)
-        #     return json_data
+            # Extract JSON from response
+            response_content = chat_response.choices[0].message.content
+            json_data = json.loads(response_content)
+            return json_data
 
         #---------------------------- LOCAL ----------------------------------------------
 
-        try : 
-            response = chat(
-            messages=[
-                {
-                    'role': 'system',
-                    'content': system_prompt,
-                },
-                {
-                    'role': 'user',
-                    'content': pages_text_specific_element,
-                }
-                ],
-                model='mistral-small:24b',
-                format=attributes_class.model_json_schema(),
-                options={'temperature': 0},  # Set temperature to 0 for more deterministic output
-            )
+        # try : 
+        #     response = chat(
+        #     messages=[
+        #         {
+        #             'role': 'system',
+        #             'content': system_prompt,
+        #         },
+        #         {
+        #             'role': 'user',
+        #             'content': pages_text_specific_element,
+        #         }
+        #         ],
+        #         model='mistral-small:24b',
+        #         format=attributes_class.model_json_schema(),
+        #         options={'temperature': 0},  # Set temperature to 0 for more deterministic output
+        #     )
 
-            Rapport = attributes_class.model_validate_json(response.message.content)
-            json_data = Rapport.model_dump_json()
+        #     Rapport = attributes_class.model_validate_json(response.message.content)
+        #     json_data = Rapport.model_dump_json()
             
-            # Convertir la chaîne JSON en dictionnaire Python
-            json_data = json.loads(json_data)
-            return json_data
-
-
-
-        #----------------------------POST PROCESSING----------------------------------------------
-            
-            # print("-----------------json_data-----------------")
-            # print(json_data)
-            # print("-----------------json_data-----------------")
-
-            # Validate with Pydantic
-            #report = Report.model_validate(json_data)
-
+        #     # Convertir la chaîne JSON en dictionnaire Python
+        #     json_data = json.loads(json_data)
+        #     return json_data
 
             
         except json.JSONDecodeError as e:

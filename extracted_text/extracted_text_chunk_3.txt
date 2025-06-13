@@ -1,0 +1,785 @@
+Page 92:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGÉ
+
+Structure
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+Page 93:
+# Rapport de vérification
+
+## Treuil sur potence démontable
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment Bâtiment 114 BAAR Service ST 303 Fabricant Capacité max (kg) 45,00 Type Hauteur (m) $\mathrm{N}^{\circ}$ Identification B1303260120 ( ST 303 ) Portée (m) Année (plaque) 2013 Marquage Particularités -CMU apposée
+
+## Contenu et conditions de la vérification
+
+Référence article L4121-1 du Code du travail (obligations générales de sécurité).Examen de l'état de conservation avec essais de fonctionnement. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, ainsi que l'examen des mesures d'organisation et les règles générales de prévention. Compte rendu provisoire d'intervention : RP A532420324-5 Cet équipement n'a pas été vérifié sous couvert de l'accréditation Cofrac Inspection n³-2016 Commentaire essai : Contrôle visuel
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 94:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+Retour au point neutre (levage)
+Mise en marche - Arrêt normal
+
+## SUSPENTES - ROULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+
+## CHARPENTE DE L'APPAREIL
+
+Chariots - Assemblages
+Galets, guidages, axes
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+Protection organes mobiles de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / Déclaration de conformité
+Identification - Repère appareil
+
+Page 95:
+# Rapport de vérification
+
+## Cric roulant mu à bras
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment Bâtiment 114 BAAR Service ST 424
+
+|  Fabricant | BIG RED | Capacité max (kg) | 1500,00  |
+| --- | --- | --- | --- |
+|  Type | Roulant | Hauteur (m) | 0,30  |
+|  N $^{\circ}$ Identification | ST 424 | Portée (m) |   |
+|  Année (plaque) |  | Marquage |   |
+|  Particularités | Support : platine. |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 1500
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 96:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGÉ
+
+Structure
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+Page 97:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment Bâtiment 201 Quai sud Service ST 157
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 30,00  |
+| --- | --- | --- | --- |
+|  Type | Chariot | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | ST 157 | Portée (m) |   |
+|  Année (plaque) |  | Marquage |   |
+|  Particularités | - Mouvement de translation Manuel |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 30
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 98:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 99:
+# Rapport de vérification
+
+## Support intermédiaire de levage avec pull lift
+
+|  Date de la vérification | 14/04/2025 | Vérificateur | Mr CHARRIER TONY  |
+| --- | --- | --- | --- |
+|  Repères : |  |  |   |
+|  Client | BENTALEB | Toufik | Bâtiment CR 300  |
+|  Fabricant |  | AXCELIS | Capacité max (kg) 250,00  |
+|  Type |  | Mobile | Hauteur (m)  |
+|  N $^{\circ}$ Identification |  | 10002410 ( ST 240 ) | Portée (m)  |
+|  Année (plaque) |  | 2010 | Marquage  |
+|  Particularités |  | Equipé d'un palan à bras ( pull lift ) Harrington 250 kg N 198527. |   |
+|   |  | sangle de levage $\mathrm{N}^{\circ} 3308-2$ |   |
+|   |  | $\mathrm{N}^{\circ} 427008-4$ |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 100:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## MOUVEMENT DE LEVAGE
+
+Frein de service
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+Page 101:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment CR 300 / BASE ARRIERE Service ST 174
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 400,00  |
+| --- | --- | --- | --- |
+|  Type | WP 400 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 102267 ( ST 174 ) | Portée (m) |   |
+|  Année (plaque) | 2013 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : En panne ou hors service lors de notre vérification. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Compte rendu provisoire d'intervention : RP A532420324-5
+
+Page 102:
+# Rapport de vérification
+
+## Table élévatrice
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment CR 300 BASE ARRIERE Service ST 036
+
+|  Fabricant | DAYTON | Capacité max (kg) | 180,00  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 6W803G ( ST 036 ) | Portée (m) |   |
+|  Année (plaque) | 2004 | Marquage |   |
+|  Particularités | Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 180
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 103:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Attaches
+Poulies - axes - tambours - pignons
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 104:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment CR 300 SALLE BLANCHE Service ST 041 BASE ARRIERE
+
+|  Fabricant | ALMA | Capacité max (kg) | 150,00  |
+| --- | --- | --- | --- |
+|  Type | Chariot | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 3775 (ST 041 ) | Portée (m) |   |
+|  Année (plaque) | 2007 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 150
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 105:
+# Observations
+
+|  CHASSIS / ORGANES DE
+MANUTENTION | Ossature, contrepoids : Remettre en état de fonctionnement le frein de
+stationnement de la roue arrière gauche  |
+| --- | --- |
+|  ORGANES DE SERVICE ET DE
+MANOEUVRE | Indicateurs : Refixer correctement l'indicateur de charge  |
+
+Page 106:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Appareil de préhension
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Vérins et circuit hydraulique
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 107:
+# Rapport de vérification
+
+## - cric bouteille.
+
+Date de la vérification 14/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client BENTALEB Toufik Bâtiment CR 300 SB QUAI 025 Service ST 136
+
+|  Fabricant | HI FORCE | Capacité max (kg) | 3000,00  |
+| --- | --- | --- | --- |
+|  Type | Posé au sol | Hauteur (m) | 0,30  |
+|  N $^{\circ}$ Identification | AJ0390 (ST 136) | Portée (m) |   |
+|  Année (plaque) |  | Marquage | CE  |
+|  Particularités | Support : Tête de vérin. |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 100
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalies ni de défectuosités. Les essais ont été réalisés avec la charge mise à disposition par l'utilisateur. Le chef d'établissement doit définir les mesures organisationnelles et techniques permettant de faire respecter dans tous les cas, les restrictions provisoires d'utilisation correspondant à la charge d'essai mise à disposition.
+
+## Par ailleurs
+
+tête de cric trop petite, barre de manœuvre absente la charge n'est pas adaptée pour un essai à CMU
+
+Page 108:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHARGENTE DE L'ARRAREIL - SUPPORT DE CHARGE
+
+Structure
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 109:
+# Rapport de vérification
+
+## Palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment BATEX DALKIA Service
+
+|  Fabricant | YALE | Capacité max (kg) | 1000,00  |
+| --- | --- | --- | --- |
+|  Type | VS3 | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | S220010496X ( ST 373 ) | Portée (m) |   |
+|  Année (plaque) | 2022 | Marquage |   |
+|  Particularités | palan mobile de chantier |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : Absent ou non présenté lors de notre intervention. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Compte rendu provisoire d'intervention : RP A532420324-5
+
+Page 110:
+# Rapport de vérification
+
+## palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR 300 Service BATEX DALKIA
+
+|  Fabricant | YALE | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | VS | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | S21112274X ( ST 374 ) | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage |   |
+|  Particularités | - palan de chantier |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice d'instructions / Déclaration de conformité Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 500
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 111:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+Autres dispositifs de préhension intégré
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+Protection organes mobiles de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - Repère appareil
+
+Page 112:
+# Rapport de vérification
+
+## pull fit
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR300 Service
+
+|  Fabricant | YALE | Capacité max (kg) | 250,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N ${ }^{\circ}$ Identification | AR5992 (ST 425) | Portée (m) |   |
+|  Année (plaque) | 2023 | Marquage |   |
+|  Particularités | -Pull lift de chantier . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 113:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Avertisseur sonore ou lumineux
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Identification - Repère appareil
+
+Page 114:
+# Rapport de vérification
+
+## pull fit
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR300 Service
+
+|  Fabricant | YALE | Capacité max (kg) | 750,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N ${ }^{\circ}$ Identification | G23050977 (ST 426) | Portée (m) |   |
+|  Année (plaque) | 2023 | Marquage |   |
+|  Particularités | -Pull lift de chantier . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 750
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 115:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Avertisseur sonore ou lumineux
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Identification - Repère appareil
+
+Page 116:
+# Rapport de vérification
+
+## pull fit
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR300 Service BATEX DALKIA
+
+|  Fabricant | YALE | Capacité max (kg) | 250,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | AB8818 ( ST 375 ) | Portée (m) |   |
+|  Année (plaque) | 2020 | Marquage |   |
+|  Particularités | -Pull lift de chantier . |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 250
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 117:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Avertisseur sonore ou lumineux
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - Axes -Tambour - Noix
+Moufle - Crochet
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Identification - Repère appareil
+
+Page 118:
+# Rapport de vérification
+
+## Palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR300 Service batex dalkia
+
+|  Fabricant | TRALIFT | Capacité max (kg) | 1000,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | T604900 (ST 427) | Portée (m) |   |
+|  Année (plaque) | 2006 | Marquage |   |
+|  Particularités | -Palan de chantier. |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : Absent ou non présenté lors de notre intervention. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Page 119:
+# Rapport de vérification
+
+## Palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr TONY CHARRIER Repères : Client CHIREUX MAXIME / RODRIGUES JULIEN Bâtiment CR300 Service batex dalkia
+
+|  Fabricant | TRALIFT | Capacité max (kg) | 1000,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | T720326 (ST 428) | Portée (m) |   |
+|  Année (plaque) | 2007 | Marquage |   |
+|  Particularités | -Palan de chantier. |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : Absent ou non présenté lors de notre intervention. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Page 120:
+# Rapport de vérification
+
+## Partique mobile
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX Maxime Bâtiment BATEX DALKIA Service ST 018 / Dalkia RODRIGUES Julien
+
+|  Fabricant | LABARTELIER | Capacité max (kg) | 1500,00  |
+| --- | --- | --- | --- |
+|  Type | Manuel | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 0094 ( ST 018 ) | Portée (m) | 3,30  |
+|  Année (plaque) | 2002 | Marquage | CE  |
+|  Particularités | Télescopique hauteur: 2,6 à 3.3 m
+Chariot porte palan : VICTORY
+Simple levée |  |   |
+
+## Contenu et conditions de la vérification
+
+Référence article L4121-1 du Code du travail (obligations générales de sécurité).Examen de l'état de conservation avec essais de fonctionnement. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, ainsi que l'examen des mesures d'organisation et les règles générales de prévention.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Cet équipement n'a pas été vérifié sous couvert de l'accréditation Cofrac Inspection n³-2016
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 121:
+# Observations 
+
+## CHARPENTE DE L'APPAREIL SUPPORT DE CHARGE
+
+Structure : Remettre en place les goupilles manquantes avant utilisation
+
+Page 122:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil Identification - repère appareil
+
+## CHARPENTE DE L'APPAREIL - SUPPORT DE CHARGÉ
+
+Structure
+Organes de roulement et de guidage
+
+Page 123:
+# Rapport de vérification
+
+## Palan à bras
+
+Date de la vérification 01/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client CHIREUX Maxime Bâtiment BATEX DALKIA Service ST 195
+
+|  Fabricant | TRACTEL | Capacité max (kg) | 500,00  |
+| --- | --- | --- | --- |
+|  Type | Sans support | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | T528067 ( ST 195 ) | Portée (m) |   |
+|  Année (plaque) | 2005 | Marquage |   |
+|  Particularités | -palan de chantier. |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 500
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+

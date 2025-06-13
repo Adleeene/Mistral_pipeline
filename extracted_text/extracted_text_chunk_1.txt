@@ -1,0 +1,797 @@
+Page 31:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 32:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai nord Service ST 156/ IMPLANT SB
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 155,00  |
+| --- | --- | --- | --- |
+|  Type | Chariot | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 0002263062010001 ( ST 156 ) | Portée (m) |   |
+|  Année (plaque) | 2012 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 155
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 33:
+# Observations 
+
+CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids : Poignée de manipulation cassée
+
+Page 34:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 35:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai nord Service ST 262
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 155,00  |
+| --- | --- | --- | --- |
+|  Type | WP 155 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 131014 ( ST 262 ) | Portée (m) |   |
+|  Année (plaque) | 2018 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 155
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 36:
+# Observations 
+
+CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids : Resserrer le plateau
+
+Page 37:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 38:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai nord Service ST 263
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 155,00  |
+| --- | --- | --- | --- |
+|  Type | WP 155 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 131013 ( ST 263 ) | Portée (m) |   |
+|  Année (plaque) | 2018 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 155
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 39:
+# Observations 
+
+CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids : Plateau à resserrer
+
+Page 40:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 41:
+# Rapport de vérification
+
+## Chariot élévateur manuel
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai nord Service ST 297 / implant SB / Quai Sud
+
+|  Fabricant | PRESTO | Capacité max (kg) | 63,50  |
+| --- | --- | --- | --- |
+|  Type | Accompagnant | Hauteur (m) | 1,00  |
+|  N $^{\circ}$ Identification | E12113650/(ST 297 ) | Portée (m) |   |
+|  Année (plaque) | 2016 | Marquage | Absent  |
+|  Particularités | -Dispositif de préhension : plateau et accessoire.
+-Plateau élévateur sur vis/écrous |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 64
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 42:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Attaches
+Poulies - axes - tambours - pignons
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 43:
+# Rapport de vérification
+
+Table élévatrice amovible Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai nord Service ST 319
+
+|  Fabricant | WESCO | Capacité max (kg) | 454,00  |
+| --- | --- | --- | --- |
+|  Type | LIFT | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | E18323030 ( ST 319 ) | Portée (m) | 0,20  |
+|  Année (plaque) | 2020 | Marquage | CE  |
+
+Particularités Table élévatrice amovible équipé d'un support spécifique à la maintenance d'une machine
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 454
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 44:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements canalisations
+Protection pièces nues sous tension
+Mise à la terre
+
+## CHARPENTE DE L'APPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Protection organes mobiles de transmission
+Frein de service
+
+## CHASSIS - PORTEUR
+
+Ossature
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 45:
+# Rapport de vérification
+
+## Chariot tracteur à conducteur porté ou accompagnant
+
+Date de la vérification 08/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai sud Service ST 074 / CR 300: IMPLANT
+
+|  Fabricant | MOBILEV | Capacité max (kg) | 150,00  |
+| --- | --- | --- | --- |
+|  Type | 20 HBV inox | Hauteur (m) |   |
+|  N $^{\circ}$ Identification | 00616001 ( ST 074 ) | Portée (m) | 3,90  |
+|  Année (plaque) | 2005 | Marquage | CE  |
+
+Particularités - 450 kg à 100 kg de CMU en fonction de la portée .
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 150
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 46:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification et état des organes de service
+Retour au point neutre (levage)
+Indicateurs
+Timon et sécurité de timon
+Dispositif de condamnation
+
+## MOUVEMENT DE TRANSLATION
+
+Mécanismes
+Frein de service
+Frein de stationnement
+Bandages ou pneumatiques
+Commande de direction
+
+## CHASSIS/ORGANES DE MANUTENTION
+
+Ossature, Contrepoids
+Stabilisateurs - blocage de suspension
+Mât - Tablier - Liaisons
+Appareil de préhension
+Attaches
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Vérins et circuits hydrauliques
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+Limiteur de charge / moment
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - Repère appareil
+
+Page 47:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment Bâtiment 201 Quai sud Service ST 314
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 155,00  |
+| --- | --- | --- | --- |
+|  Type | WP 155 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 211017 C 15 ( ST 314 ) | Portée (m) |   |
+|  Année (plaque) | 2021 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 155
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 48:
+# Observations 
+
+SOURCE D'ENERGIE
+Protection pièces nues sous tension : Refixer correctement le coffre de protection .
+
+Page 49:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 50:
+# Rapport de vérification
+
+## Chariot
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment CR 300 QUAI NORD Service ST 320 Fabricant PRESIO Capacité max (kg) 454,00 Type LIFT Hauteur (m) $\mathrm{N}^{\circ}$ Identification E11723880 ( ST 320 ) Portée (m) Année (plaque) 2020 Marquage CE Particularités Dispositif de préhension : potence 200 LBS $\mathrm{N}^{\circ}$ E18298860 $\mathrm{N}^{\circ} 112$ CMU 90 KG Accessoire avec anneaux de levage $\mathrm{N}^{\circ} 126$ CMU 80 KG
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés.
+
+Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 90 Commentaire essai : Chariot équipé d'une potence le jour du contrôle de CMU 90 KG
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 51:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## CHASSIS - PORTEUR
+
+Ossature
+Organes de roulement (pneumatiques, chenilles, galets, ...)
+
+ORGANES DE SERVICE ET DE MANOEUVRE
+Identification et état des organes de service
+
+## SUSPENTES - POULIES - DISPOSITIF DE PREHENSION
+
+Suspente (câble ou chaîne)
+Attaches
+Poulies - axes - tambours - pignons
+Autre dispositif de préhension intégré
+
+## CHARPENTE DE L'ARPAREIL - SUPPORT DE CHARGE
+
+Structure
+Equipage mobile, support de charge
+Organes de roulement et de guidage
+
+## MOUVEMENT DE LEVAGE
+
+Mécanismes et organes de transmission
+Frein de service
+Limitation de la vitesse
+Limiteur de course haut ou équivalent
+Limitation de course bas
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+Page 52:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment CR 300 QUAI NORD Service ST 360
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 130,00  |
+| --- | --- | --- | --- |
+|  Type | WP 130 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 155185 ( ST 360 ) | Portée (m) |   |
+|  Année (plaque) | 2022 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Notice d'instructions / Déclaration de conformité Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 130
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 53:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Notice d'instructions / déclaration de conformité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Fourche
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 54:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment CR 300 QUAI SUD Service ST 071 /ALUM03 /implants salle blanche
+
+|  Fabricant | ALUMALIFT | Capacité max (kg) | 47,00  |
+| --- | --- | --- | --- |
+|  Type | 130813356A/C | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 130813356A/C ( ST 071-1 ) | Portée (m) |   |
+|  Année (plaque) | 2002 | Marquage | CE  |
+|  Particularités | - Mouvement de translation Manuel
+- Dispositif de préhension : potence articulée spécifique |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 47
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités, mentionnées ci-après, auxquelles il convient de remédier.
+
+Page 55:
+# Observations 
+
+SOURCE D'ENERGIE
+Equipements, canalisations, enrouleur : Reprendre la fixation de la prise électrique sur le châssis
+
+Page 56:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 57:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 16/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALLIOUI ELMAHDI Bâtiment CR 300 QUAI SUD Service ST 071 /ALUM03 /implants salle blanche
+
+|  Fabricant | ALUMALIFT | Capacité max (kg) | 60,00  |
+| --- | --- | --- | --- |
+|  Type | 130813356A/C | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 130813356A/C ( ST 071-2) | Portée (m) |   |
+|  Année (plaque) | 2002 | Marquage | CE  |
+|  Particularités | - Mouvement de translation Manuel
+- Dispositif de préhension : potence articulée spécifique |  |   |
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5 Essais de fonctionnement réalisés avec charge (kg) : 60
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission n'ont pas fait apparaître d'anomalie ni de défectuosité.
+
+Page 58:
+# Liste des points vérifiés sur l'équipement 
+
+Points vérifiés suivant les conditions d'intervention énoncées ci avant.
+
+## SOURCE D'ENERGIE
+
+Séparation générale verrouillable
+Equipements, canalisations, enrouleur
+Protection pièces nues sous tension
+
+## ORGANES DE SERVICE ET DE MANOEUVRE
+
+Identification des organes de service
+Retour au point neutre (levage)
+Dispositif de condamnation
+Indicateurs
+
+## DISPOSITIONS DIVERSES
+
+Affichage des charges sur l'appareil
+Consignes de sécurité
+Identification - repère appareil
+
+## CHASSIS / ORGANES DE MANUTENTION
+
+Ossature, contrepoids
+Mât - tablier - liaisons
+Suspentes (câble ou chaîne)
+Attaches
+Poulies - tourteaux - axes
+
+## MOUVEMENT CONCOURANT AU LEVAGE
+
+Protection organes mobiles de transmission
+Arrêt de la charge
+Limitation de la vitesse
+Limitation de la course
+
+Page 59:
+# Rapport de vérification
+
+## Chariot élévateur à conducteur accompagnant
+
+Date de la vérification 15/04/2025 Vérificateur Mr TONY CHARRIER Repères : Client ALLIOUI ELMAHDI Bâtiment CR 300 QUAI SUD Service ST 362
+
+|  Fabricant | EDMOLIFT | Capacité max (kg) | 130,00  |
+| --- | --- | --- | --- |
+|  Type | WP 130 | Hauteur (m) | 1,50  |
+|  N $^{\circ}$ Identification | 155186 (ST 362 ) | Portée (m) |   |
+|  Année (plaque) | 2022 | Marquage | CE  |
+|  Particularités | Mouvement de translation Manuel
+Dispositif de préhension : plateau |  |   |
+
+## Contenu et conditions de la vérification
+
+Equipement non vérifié : Absent ou non présenté lors de notre intervention. Il vous sera nécessaire de demander une intervention complémentaire pour la vérification de cet équipement.
+
+Page 60:
+# Rapport de vérification
+
+## Grue d'atelier, table élévatrice manuelle
+
+Date de la vérification 09/04/2025 Vérificateur Mr CHARRIER TONY Repères : Client ALTIERI JEROME Bâtiment CR 300 Service ST 342 Fabricant SHOP CRANE Capacité max (kg) 1000,00 Type Hauteur (m) $\mathrm{N}^{\circ}$ Identification 21J5053 ( ST 342 ) Portée (m) Année (plaque) 2021 Marquage -abaque de charge $\operatorname{pos} \mathrm{N}^{\circ} 11000 \mathrm{KG}$ $\mathrm{N}^{\circ} 2900 \mathrm{KG}$ $\mathrm{N}^{\circ} 3800 \mathrm{KG}$ $\mathrm{N}^{\circ} 4700 \mathrm{KG}$
+
+## Contenu et conditions de la vérification
+
+Levage - Examen de l'état de conservation avec essais de fonctionnement. Référentiel : Arrêté du 01 mars 2004. Modifications apportées à notre connaissance : Aucune. La mission ne comprend pas l'examen de l'état de conformité aux règles de conception, l'examen des mesures d'organisation pour l'utilisation de l'équipement, l'analyse du contenu des documents présentés. Documents présentés : Aucun Compte rendu provisoire d'intervention : RP A532420324-5
+
+## Résultat de la vérification
+
+Les examens et les essais réalisés dans les limites de la présente mission ont fait apparaître des anomalies ou des défectuosités ne permettant pas l'utilisation de l'équipement.
+
